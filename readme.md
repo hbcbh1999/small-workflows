@@ -37,7 +37,7 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 
 # dictionary search
 - search through dictionary from Alfred
-	- however I stopped using in favour of opening Dictionary itself and then making the search
+	- I stopped using in favour of opening Dictionary itself and then making the search
 	- I also only use Dictionary to read and explore wiki
 
 ### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dictionary.alfredworkflow?raw=true)
@@ -54,7 +54,7 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 ### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/find%20files.alfredworkflow?raw=true)
 
 # search for content
-- two actions two search through the inside PDF and MindNode documents
+- two actions to search through the inside PDF and MindNode documents
 
 ### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20for%20content.alfredworkflow?raw=true)
 
