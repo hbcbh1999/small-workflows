@@ -20,12 +20,12 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 # keyboard turn / off
 - allows you to turn your keboard on and off frow few commands
 
-### 💎 download 
+### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/keyboard%20turn%20on%20:%20off.alfredworkflow?raw=true) 
 
 # focus
 - allows you to start [Focus](https://heyfocus.com) blocking for some time that you specify
 
-### download
+### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/focus.alfredworkflow?raw=true)
 
 # contact actions
 - only has one [contact action](https://www.alfredapp.com/help/workflows/triggers/contact-action/) there, facetime
@@ -33,32 +33,37 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 
 <p align="center"><img src="https://i.imgur.com/nBV3rPS.png" width="600" alt="img"></p>
 
-### download	
+### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/contact%20actions.alfredworkflow?raw=true)	
 
 # dictionary search
 - search through dictionary from Alfred
 	- however I stopped using in favour of opening Dictionary itself and then making the search
 	- I also only use Dictionary to read and explore wiki
 
-### download
+### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dictionary.alfredworkflow?raw=true)
 
 # useful utilities 
 - only has one utility so far and that is to open Alfred prompt with whatever I have selected passed in
 	- I may add more in the future
 	
-### download
+### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/useful%20utilities.alfredworkflow?raw=true)
 
 # find files
 - a lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use
 
-### download
+### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/find%20files.alfredworkflow?raw=true)
 
 # search for content
 - two actions two search through the inside PDF and MindNode documents
 
-### download
+### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20for%20content.alfredworkflow?raw=true)
 
+# abbreviations
+- I sometimes forget what ymmv abbreviation means so I made this list filter to quickly remind me
+- I stopped using it in favour of searching [abbreivations](http://www.abbreviations.com) website instead
+- but you can take this idea to make your own simple list filters
 
+### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/abbreviations.alfredworkflow?raw=true)
 
 <h1 align="center"> Thanks 🍀</h1>
 
