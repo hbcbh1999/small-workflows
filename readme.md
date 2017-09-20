@@ -20,7 +20,7 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 # keyboard turn / off
 - allows you to turn your keboard on and off frow few commands
 
-### download
+### 💎 download 
 
 # focus
 - allows you to start [Focus](https://heyfocus.com) blocking for some time that you specify
