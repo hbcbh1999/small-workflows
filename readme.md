@@ -17,6 +17,13 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 
 <h1 align="center"> Workflows 🎩</h1>
 
+# objects library
+
+- currently contains only [vitor's](https://github.com/vitorgalvao) [OneUpdater](https://github.com/vitorgalvao/alfred-workflows/tree/master/OneUpdater) 
+- I use this workflow to quickly copy useful premade objects to my workflows
+
+### [download](https://github.com/nikitavoloboev/small-workflows/raw/master/workflows/objects%20library.alfredworkflow)
+
 # keyboard turn / off
 - allows you to turn your keboard on and off frow few commands
 
