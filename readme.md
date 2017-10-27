@@ -133,7 +133,7 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 - For quickly editing README's of folders I use this [workflow](https://github.com/nikitavoloboev/alfred-folder-search) that searches through all folders and with a modifier key press will open the README in the markdown editor you set up. 
 - There is also alternative action that will commit only the README file inside the folder with a predefined commit message. Again all the commit messages can be customised to what you prefer.
 
-#### 
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/commit%20folders.alfredworkflow?raw=true)
 
 ### Dash Profile Switcher
 - [Dash](http://kapeli.com/dash) is a wonderful documentation tool for macOS. It allows you to create profiles to scope your global searches.
