@@ -88,7 +88,11 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 - little list filter I use to filter my file system
 - currently use it to clean all items from Desktop and removing all alfred workflows from ~/Downloads
 
-####
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/clean%20folders.alfredworkflow?raw=true)
+
+### Folder Search
+- search folders from Alfred and open them in Finder / iTerm / Editor
+
 
 ## Thanks 🍀
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. Thank you. 💚
