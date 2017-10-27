@@ -66,6 +66,13 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 
 #### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/show%20month%20numbers.alfredworkflow?raw=true)
 
+### check wifi connection / restart wifi / toggle it on/off
+- it can :
+	1. **check wifi** : it pings Google.com and if there is no response, you are offline and you get notification on the top
+	2. **restart wifi** : turns the wifi on and off
+	3. **toggle wifi on/off** : if on, will turn it off, if off will turn it on
+
+
 ## Thanks 🍀
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. Thank you. 💚
 
