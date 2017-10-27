@@ -113,6 +113,12 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 - You can customise the hotkeys to ones you like. To make things easier for myself, I call the hotkeys from Karabiner with my custom modifier keys which you can take a look [here](https://github.com/nikitavoloboev/dotfiles) for.
 - I also heavily use [Web Searches workflow](https://github.com/nikitavoloboev/alfred-web-searches) to search selected text on a wider array of websites
 
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20web%20with%20selection.alfredworkflow?raw=true)
+
+### Go to Reddit Subreddit from Alfred
+- simple workflow that will let you go to a subreddit you specify
+- If you want to search for available subreddits with autosuggestions, you can try [this workflow](https://github.com/deanishe/alfred-reddit)
+
 #### 
 
 ### Dash Profile Switcher
