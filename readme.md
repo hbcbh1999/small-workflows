@@ -72,6 +72,7 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 	2. **restart wifi** : turns the wifi on and off
 	3. **toggle wifi on/off** : if on, will turn it off, if off will turn it on
 
+#### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/wifi.alfredworkflow?raw=true)
 
 ## Thanks 🍀
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. Thank you. 💚
