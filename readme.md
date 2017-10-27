@@ -124,6 +124,15 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 ### Go Play - code -> playground
 - This is a simple workflow that will take the code you select and let you create either [Official Go playground](https://play.golang.org/) or [Go play Space playground](https://goplay.space) that you can then share on IRC, Slack or with other gophers around you
 
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/go%20play.alfredworkflow?raw=true)
+
+### Alfred Commit Folders
+- Simple workflow that lets you search folders and then write a commit message. It would then `git add` and `git commit` all files in the folder with the message you provide. And finally it would `git push` the changes.
+- This workflow assumes that the folder you select is already initialised with git as it is a file filter that searches through all the folders. It will however warn you if the folder you chose is not under git.
+- You can of course modify the scope of the search or even make it that it only searches through git initialised folders but for my use case, I use this workflow when I make a change to some README file in some folder and want to quickly commit it without going to my terminal.
+- For quickly editing README's of folders I use this [workflow](https://github.com/nikitavoloboev/alfred-folder-search) that searches through all folders and with a modifier key press will open the README in the markdown editor you set up. 
+- There is also alternative action that will commit only the README file inside the folder with a predefined commit message. Again all the commit messages can be customised to what you prefer.
+
 #### 
 
 ### Dash Profile Switcher
