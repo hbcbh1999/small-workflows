@@ -93,6 +93,12 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 ### Folder Search
 - search folders from Alfred and open them in Finder / iTerm / Editor
 
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/folder%20search.alfredworkflow?raw=true)
+
+### Static Searches
+- In case there is no Alfred workflow dedicated to some website search that provides autosuggestions like [Searchio](https://github.com/deanishe/alfred-searchio), I use my [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) workflow, wwhich contains a large array of websites I can make searches on moderated by the community
+- However certain searches I do so often that I create a separate objects for them in Alfred and attach a hotkey on them. Things like searching on GitHub or Reddit. I also have the power to modify the search with modifer keys so ⌃ + return on GitHub search will scope my query to bring me only the most recent stuff.
+
 
 ## Thanks 🍀
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. Thank you. 💚
