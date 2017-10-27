@@ -82,7 +82,13 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 ### Reload Karabiner XML
 - I use it all the time to quickly iterate on Karabiner. Only works on old [Karabiner](https://github.com/tekezo/Karabiner)
 
-#### 
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/karabiner.alfredworkflow?raw=true)
+
+### Clean Folders
+- little list filter I use to filter my file system
+- currently use it to clean all items from Desktop and removing all alfred workflows from ~/Downloads
+
+####
 
 ## Thanks 🍀
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. Thank you. 💚
