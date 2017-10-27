@@ -99,6 +99,23 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 - In case there is no Alfred workflow dedicated to some website search that provides autosuggestions like [Searchio](https://github.com/deanishe/alfred-searchio), I use my [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) workflow, wwhich contains a large array of websites I can make searches on moderated by the community
 - However certain searches I do so often that I create a separate objects for them in Alfred and attach a hotkey on them. Things like searching on GitHub or Reddit. I also have the power to modify the search with modifer keys so ⌃ + return on GitHub search will scope my query to bring me only the most recent stuff.
 
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/static%20searches.alfredworkflow?raw=true)
+
+### Dash Profile Switcher
+- [Dash](http://kapeli.com/dash) is a wonderful documentation tool for macOS. It allows you to create profiles to scope your global searches.
+	- It also provides you to set custom URLs to switch between these profiles.
+- So I made a workflow to switch between different profiles. Here is how it looks :
+
+<img src="https://i.imgur.com/thKekTj.png" width="400" alt="img">
+
+- You can customise the Dash profile keyword triggers in profile settings here :
+
+<img src="https://i.imgur.com/yGvrOwE.png" width="400" alt="img">
+
+- And then you can call these triggers using this URL scheme : `dash://go:`
+	- Where you can change `go` to the trigger you set. This workflow simply lets you search through the profiles you have and will call this URL scheme for you. Adapt it to how you like it.
+
+#### 
 
 ## Thanks 🍀
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. Thank you. 💚
