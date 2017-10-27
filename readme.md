@@ -74,6 +74,11 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 
 #### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/wifi.alfredworkflow?raw=true)
 
+### Imgur album -> Desktop
+- will take an active url from your browser that is an imgur album and download it to your desktop
+
+#### 
+
 ## Thanks 🍀
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. Thank you. 💚
 
