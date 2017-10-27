@@ -60,6 +60,12 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 
 #### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/abbreviations.alfredworkflow?raw=true)
 
+### months numbers
+- a simple workflow that will let you search for a month from the 12 months in a year and copy the month number to your clipboard
+- because I always found it too hard to remember these numbers
+
+#### [download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/show%20month%20numbers.alfredworkflow?raw=true)
+
 ## Thanks 🍀
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. Thank you. 💚
 
