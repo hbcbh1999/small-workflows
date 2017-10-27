@@ -106,6 +106,13 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 	1. opening folder/file in Visual Studio Code (change for editor you like)
 	2. copying files to Desktop
 
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/useful%20file%20actions.alfredworkflow?raw=true)
+
+### Search Selected Text on the Web
+- Simple workflow I use to search highlighted text on various websites
+- You can customise the hotkeys to ones you like. To make things easier for myself, I call the hotkeys from Karabiner with my custom modifier keys which you can take a look [here](https://github.com/nikitavoloboev/dotfiles) for.
+- I also heavily use [Web Searches workflow](https://github.com/nikitavoloboev/alfred-web-searches) to search selected text on a wider array of websites
+
 #### 
 
 ### Dash Profile Switcher
