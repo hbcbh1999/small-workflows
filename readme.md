@@ -119,6 +119,11 @@ Each workflow lives in its own folder and a download link to each workflow is pr
 - simple workflow that will let you go to a subreddit you specify
 - If you want to search for available subreddits with autosuggestions, you can try [this workflow](https://github.com/deanishe/alfred-reddit)
 
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/go%20to%20subreddit.alfredworkflow?raw=true)
+
+### Go Play - code -> playground
+- This is a simple workflow that will take the code you select and let you create either [Official Go playground](https://play.golang.org/) or [Go play Space playground](https://goplay.space) that you can then share on IRC, Slack or with other gophers around you
+
 #### 
 
 ### Dash Profile Switcher
