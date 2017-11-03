@@ -139,9 +139,6 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - [Dash](http://kapeli.com/dash) is a wonderful documentation tool for macOS. It allows you to create profiles to scope your global searches.
 	- It also provides you to set custom URLs to switch between these profiles.
 - So I made a workflow to switch between different profiles. Here is how it looks :
-
-<img src="https://i.imgur.com/thKekTj.png" width="400" alt="img">
-
 - You can customise the Dash profile keyword triggers in profile settings here :
 
 <img src="https://i.imgur.com/yGvrOwE.png" width="400" alt="img">
