@@ -32,7 +32,7 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 
 ### Dictionary search
 - search through dictionary from Alfred
-	- I stopped using in favour of opening Dictionary itself and then making the search
+	- I stopped using it in favour of opening Dictionary itself and then making the search
 	- I also only use Dictionary to read and explore wiki
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dictionary.alfredworkflow?raw=true)
