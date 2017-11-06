@@ -1,11 +1,11 @@
-# Small Alfred Workflows I use 🎩 [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
+# Small Alfred Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-green.svg)](https://github.com/learn-anything/alfred-workflows) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
+> Small [Alfred](https://www.alfredforum.com/) workflows I use
 
-## Description 📕
 This is a collection of Alfred Workflows that do some small things and don't really warrant a GitHub repository of their own.
 
 Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-workflows/tree/master/workflows) and download link with description of each workflow is provided.
 
-## Workflows 🎩
+## Workflows 
 ### Objects library
 - currently contains only [vitor's](https://github.com/vitorgalvao) [OneUpdater](https://github.com/vitorgalvao/alfred-workflows/tree/master/OneUpdater) 
 - I use this workflow to quickly copy useful premade objects to my workflows
@@ -148,6 +148,5 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dash%20profile%20switch.alfredworkflow?raw=true)
 
-## Thanks 🍀
-You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. Thank you. 💚
-
+## Thank you 💜
+You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
