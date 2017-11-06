@@ -1,4 +1,4 @@
-# Small Alfred Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-green.svg)](https://github.com/learn-anything/alfred-workflows) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
+# Small Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-green.svg)](https://github.com/learn-anything/alfred-workflows) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
 > Small [Alfred](https://www.alfredforum.com/) workflows I use
 
 This is a collection of Alfred Workflows that do some small things and don't really warrant a GitHub repository of their own.
