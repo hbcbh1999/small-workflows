@@ -53,13 +53,6 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20for%20content.alfredworkflow?raw=true)
 
-### Abbreviations
-- I sometimes forget what ymmv abbreviation means so I made this list filter to quickly remind me
-- I stopped using it in favour of searching [abbreivations](http://www.abbreviations.com) website instead
-- but you can take this idea to make your own simple list filters
-
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/abbreviations.alfredworkflow?raw=true)
-
 ### Copy months numbers
 - a simple workflow that will let you search for a month from the 12 months in a year and copy the month number to your clipboard
 - because I always found it too hard to remember these numbers
