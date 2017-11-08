@@ -148,5 +148,10 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dash%20profile%20switch.alfredworkflow?raw=true)
 
+### Dash Search (with custom hotkeys)
+- An extenstion of [official Dash workflow](https://github.com/Kapeli/Dash-Alfred-Workflow) that I extended with many custom hotkeys
+
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Dash.alfredworkflow?raw=true)
+
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
