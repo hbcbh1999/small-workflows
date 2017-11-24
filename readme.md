@@ -3,7 +3,7 @@
 
 This is a collection of Alfred Workflows that do some small things and don't really warrant a GitHub repository of their own.
 
-Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-workflows/tree/master/workflows) and download link with description of each workflow is provided.
+Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-workflows/tree/master/workflows) and download link with description of each workflow is provided below.
 
 ## Workflows 
 ### Objects library
@@ -148,3 +148,6 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
+
+## License
+MIT © [Nikita Voloboev](https://www.nikitavoloboev.xyz)
