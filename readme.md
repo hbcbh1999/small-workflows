@@ -124,7 +124,7 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - [Dash](http://kapeli.com/dash) is a wonderful documentation tool for macOS. It allows you to create profiles to scope your global searches.
 	- It also provides you to set custom URLs to switch between these profiles.
 - So I made a workflow to switch between different profiles. Here is how it looks :
-- You can customise the Dash profile keyword triggers in profile settings here :
+- You can customise the Dash profile keyword triggers in profile settings here:
 
 <img src="https://i.imgur.com/yGvrOwE.png" width="400" alt="img">
 
@@ -137,6 +137,12 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - An extenstion of [official Dash workflow](https://github.com/Kapeli/Dash-Alfred-Workflow) that I extended with many custom hotkeys
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Dash.alfredworkflow?raw=true)
+
+### Contacts search
+- Made by [Vero](https://www.alfredforum.com/profile/1-vero/) but she has not uploaded it anywhere and I think it is super useful
+- It is a file filter for contacts where you can not only search for names of contacts but also for notes attached to these contacts
+
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Contacts%20filter.alfredworkflow?raw=true)
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
