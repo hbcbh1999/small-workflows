@@ -13,25 +13,17 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 #### [Download](https://github.com/nikitavoloboev/small-workflows/raw/master/workflows/objects%20library.alfredworkflow)
 
 ### Keyboard turn / off
-- allows you to turn your keboard on and off frow few commands
+- Allows you to turn your keboard on and off frow few commands
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/keyboard%20turn%20on%20:%20off.alfredworkflow?raw=true) 
+#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Keyboard%20turn%20on:off.alfredworkflow?raw=true) 
 
 ### Focus
-- allows you to start [Focus](https://heyfocus.com) blocking for some time that you specify
+- Allows you to start [Focus](https://heyfocus.com) blocking for some time that you specify
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/focus.alfredworkflow?raw=true)
 
-### Contact actions
-- only has one [contact action](https://www.alfredapp.com/help/workflows/triggers/contact-action/) there, facetime
-	- I then set phone number to trigger facetime call here 
-
-<img src="https://i.imgur.com/nBV3rPS.png" width="400" alt="img">
-
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/contact%20actions.alfredworkflow?raw=true)	
-
 ### Dictionary search
-- search through dictionary from Alfred
+- Search through dictionary from Alfred
 	- I stopped using it in favour of opening Dictionary itself and then making the search
 	- I also only use Dictionary to read and explore wiki
 
