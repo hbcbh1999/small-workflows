@@ -13,57 +13,39 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 ### Keyboard turn / off - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Keyboard%20turn%20on:off.alfredworkflow?raw=true) 
 - Allows you to turn your keboard on and off frow few commands
 
-### Focus
+### Focus - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/focus.alfredworkflow?raw=true)
 - Allows you to start [Focus](https://heyfocus.com) blocking for some time that you specify
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/focus.alfredworkflow?raw=true)
-
-### Dictionary search
+### Dictionary search - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dictionary.alfredworkflow?raw=true)
 - Search through dictionary from Alfred
 	- I stopped using it in favour of opening Dictionary itself and then making the search
 	- I also only use Dictionary to read and explore wiki
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dictionary.alfredworkflow?raw=true)
-
-### Useful utilities 
+### Useful utilities - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/useful%20utilities.alfredworkflow?raw=true)
 - Only has one utility so far and that is to open Alfred prompt with whatever I have selected passed in
 	- I may add more in the future
-	
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/useful%20utilities.alfredworkflow?raw=true)
 
-### Find files
+### Find files - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/find%20files.alfredworkflow?raw=true)
 - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/find%20files.alfredworkflow?raw=true)
-
-### Search for content
+### Search for content - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20for%20content.alfredworkflow?raw=true)
 - Two actions to search through the inside PDF and MindNode documents
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20for%20content.alfredworkflow?raw=true)
-
-### Copy months numbers
+### Copy months numbers - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/show%20month%20numbers.alfredworkflow?raw=true)
 - A simple workflow that will let you search for a month from the 12 months in a year and copy the month number to your clipboard
 - Because I always found it too hard to remember these numbers
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/show%20month%20numbers.alfredworkflow?raw=true)
-
-### Check wifi connection / restart wifi / toggle it on/off
+### Check wifi connection / Restart wifi / Toggle it on/off - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/wifi.alfredworkflow?raw=true)
 - It can:
 	1. **Check wifi** : it pings Google.com and if there is no response, you are offline and you get notification on the top
 	2. **Restart wifi** : turns the wifi on and off
 	3. **Toggle wifi on/off** : if on, will turn it off, if off will turn it on
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/wifi.alfredworkflow?raw=true)
-
-### Imgur album -> Desktop
+### Imgur album -> Desktop - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/imgur%20album%20downloader.alfredworkflow?raw=true)
 - Will take an active url from your browser that is an imgur album and download it to your desktop
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/imgur%20album%20downloader.alfredworkflow?raw=true)
-
-### Reload Karabiner XML
+### Reload Karabiner XML - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/karabiner.alfredworkflow?raw=true)
 - I use it all the time to quickly iterate on Karabiner. Only works on old [Karabiner](https://github.com/tekezo/Karabiner)
-
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/karabiner.alfredworkflow?raw=true)
 
 ### Clean Folders
 - Little list filter I use to filter my file system
