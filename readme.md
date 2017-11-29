@@ -7,7 +7,7 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 
 ## Workflows 
 ### Objects library
-- currently contains only [vitor's](https://github.com/vitorgalvao) [OneUpdater](https://github.com/vitorgalvao/alfred-workflows/tree/master/OneUpdater) 
+- Currently contains only [vitor's](https://github.com/vitorgalvao) [OneUpdater](https://github.com/vitorgalvao/alfred-workflows/tree/master/OneUpdater) 
 - I use this workflow to quickly copy useful premade objects to my workflows
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/raw/master/workflows/objects%20library.alfredworkflow)
@@ -30,37 +30,37 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dictionary.alfredworkflow?raw=true)
 
 ### Useful utilities 
-- only has one utility so far and that is to open Alfred prompt with whatever I have selected passed in
+- Only has one utility so far and that is to open Alfred prompt with whatever I have selected passed in
 	- I may add more in the future
 	
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/useful%20utilities.alfredworkflow?raw=true)
 
 ### Find files
-- a lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use
+- A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/find%20files.alfredworkflow?raw=true)
 
 ### Search for content
-- two actions to search through the inside PDF and MindNode documents
+- Two actions to search through the inside PDF and MindNode documents
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20for%20content.alfredworkflow?raw=true)
 
 ### Copy months numbers
-- a simple workflow that will let you search for a month from the 12 months in a year and copy the month number to your clipboard
-- because I always found it too hard to remember these numbers
+- A simple workflow that will let you search for a month from the 12 months in a year and copy the month number to your clipboard
+- Because I always found it too hard to remember these numbers
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/show%20month%20numbers.alfredworkflow?raw=true)
 
 ### Check wifi connection / restart wifi / toggle it on/off
-- it can :
-	1. **check wifi** : it pings Google.com and if there is no response, you are offline and you get notification on the top
-	2. **restart wifi** : turns the wifi on and off
-	3. **toggle wifi on/off** : if on, will turn it off, if off will turn it on
+- It can:
+	1. **Check wifi** : it pings Google.com and if there is no response, you are offline and you get notification on the top
+	2. **Restart wifi** : turns the wifi on and off
+	3. **Toggle wifi on/off** : if on, will turn it off, if off will turn it on
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/wifi.alfredworkflow?raw=true)
 
 ### Imgur album -> Desktop
-- will take an active url from your browser that is an imgur album and download it to your desktop
+- Will take an active url from your browser that is an imgur album and download it to your desktop
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/imgur%20album%20downloader.alfredworkflow?raw=true)
 
@@ -70,13 +70,13 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/karabiner.alfredworkflow?raw=true)
 
 ### Clean Folders
-- little list filter I use to filter my file system
-- currently use it to clean all items from Desktop and removing all alfred workflows from ~/Downloads
+- Little list filter I use to filter my file system
+- Currently use it to clean all items from Desktop and removing all alfred workflows from ~/Downloads
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/clean%20folders.alfredworkflow?raw=true)
 
 ### Folder Search
-- search folders from Alfred and open them in Finder / iTerm / Editor
+- Search folders from Alfred and open them in Finder / iTerm / Editor
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/folder%20search.alfredworkflow?raw=true)
 
@@ -101,7 +101,7 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20web%20with%20selection.alfredworkflow?raw=true)
 
 ### Go to Reddit Subreddit from Alfred
-- simple workflow that will let you go to a subreddit you specify
+- Simple workflow that will let you go to a subreddit you specify
 - If you want to search for available subreddits with autosuggestions, you can try [this workflow](https://github.com/deanishe/alfred-reddit)
 
 #### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/go%20to%20subreddit.alfredworkflow?raw=true)
