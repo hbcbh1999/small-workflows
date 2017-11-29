@@ -47,58 +47,42 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 ### Reload Karabiner XML - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/karabiner.alfredworkflow?raw=true)
 - I use it all the time to quickly iterate on Karabiner. Only works on old [Karabiner](https://github.com/tekezo/Karabiner)
 
-### Clean Folders
+### Clean Folders - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/clean%20folders.alfredworkflow?raw=true)
 - Little list filter I use to filter my file system
 - Currently use it to clean all items from Desktop and removing all alfred workflows from ~/Downloads
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/clean%20folders.alfredworkflow?raw=true)
-
-### Folder Search
+### Folder Search - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/folder%20search.alfredworkflow?raw=true)
 - Search folders from Alfred and open them in Finder / iTerm / Editor
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/folder%20search.alfredworkflow?raw=true)
-
-### Static Searches
+### Static Searches - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/static%20searches.alfredworkflow?raw=true)
 - In case there is no Alfred workflow dedicated to some website search that provides autosuggestions like [Searchio](https://github.com/deanishe/alfred-searchio), I use my [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) workflow, wwhich contains a large array of websites I can make searches on moderated by the community
 - However certain searches I do so often that I create a separate objects for them in Alfred and attach a hotkey on them. Things like searching on GitHub or Reddit. I also have the power to modify the search with modifer keys so ⌃ + return on GitHub search will scope my query to bring me only the most recent stuff.
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/static%20searches.alfredworkflow?raw=true)
-
-### Useful File Actions
+### Useful File Actions - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/useful%20file%20actions.alfredworkflow?raw=true)
 - Here are a bunch of small file actions I use to operate on files
-	1. opening folder/file in Visual Studio Code (change for editor you like)
-	2. copying files to Desktop
+	1. Opening folder/file in Visual Studio Code (change for editor you like)
+	2. Copying files to Desktop
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/useful%20file%20actions.alfredworkflow?raw=true)
-
-### Search Selected Text on the Web
+### Search Selected Text on the Web - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20web%20with%20selection.alfredworkflow?raw=true)
 - Simple workflow I use to search highlighted text on various websites
 - You can customise the hotkeys to ones you like. To make things easier for myself, I call the hotkeys from Karabiner with my custom modifier keys which you can take a look [here](https://github.com/nikitavoloboev/dotfiles) for.
 - I also heavily use [Web Searches workflow](https://github.com/nikitavoloboev/alfred-web-searches) to search selected text on a wider array of websites
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20web%20with%20selection.alfredworkflow?raw=true)
-
-### Go to Reddit Subreddit from Alfred
+### Go to Reddit Subreddit from Alfred - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/go%20to%20subreddit.alfredworkflow?raw=true)
 - Simple workflow that will let you go to a subreddit you specify
 - If you want to search for available subreddits with autosuggestions, you can try [this workflow](https://github.com/deanishe/alfred-reddit)
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/go%20to%20subreddit.alfredworkflow?raw=true)
-
-### Go Play - code -> playground
+### Go Play - code -> playground - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/go%20play.alfredworkflow?raw=true)
 - This is a simple workflow that will take the code you select and let you create either [Official Go playground](https://play.golang.org/) or [Go play Space playground](https://goplay.space) that you can then share on IRC, Slack or with other gophers around you
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/go%20play.alfredworkflow?raw=true)
-
-### Alfred Commit Folders
+### Alfred Commit Folders - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/commit%20folders.alfredworkflow?raw=true)
 - Simple workflow that lets you search folders and then write a commit message. It would then `git add` and `git commit` all files in the folder with the message you provide. And finally it would `git push` the changes.
 - This workflow assumes that the folder you select is already initialised with git as it is a file filter that searches through all the folders. It will however warn you if the folder you chose is not under git.
 - You can of course modify the scope of the search or even make it that it only searches through git initialised folders but for my use case, I use this workflow when I make a change to some README file in some folder and want to quickly commit it without going to my terminal.
 - For quickly editing README's of folders I use this [workflow](https://github.com/nikitavoloboev/alfred-folder-search) that searches through all folders and with a modifier key press will open the README in the markdown editor you set up. 
 - There is also alternative action that will commit only the README file inside the folder with a predefined commit message. Again all the commit messages can be customised to what you prefer.
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/commit%20folders.alfredworkflow?raw=true)
-
-### Dash Profile Switcher
+### Dash Profile Switcher - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dash%20profile%20switch.alfredworkflow?raw=true)
 - [Dash](http://kapeli.com/dash) is a wonderful documentation tool for macOS. It allows you to create profiles to scope your global searches.
 	- It also provides you to set custom URLs to switch between these profiles.
 - So I made a workflow to switch between different profiles. Here is how it looks :
@@ -109,18 +93,12 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - And then you can call these triggers using this URL scheme : `dash://go:`
 	- Where you can change `go` to the trigger you set. This workflow simply lets you search through the profiles you have and will call this URL scheme for you. Adapt it to how you like it.
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dash%20profile%20switch.alfredworkflow?raw=true)
-
-### Dash Search (with custom hotkeys)
+### Dash Search (with custom hotkeys) - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Dash.alfredworkflow?raw=true)
 - An extenstion of [official Dash workflow](https://github.com/Kapeli/Dash-Alfred-Workflow) that I extended with many custom hotkeys
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Dash.alfredworkflow?raw=true)
-
-### Contacts search
+### Contacts search - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Contacts%20filter.alfredworkflow?raw=true)
 - Made by [Vero](https://www.alfredforum.com/profile/1-vero/) but she has not uploaded it anywhere and I think it is super useful
 - It is a file filter for contacts where you can not only search for names of contacts but also for notes attached to these contacts
-
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Contacts%20filter.alfredworkflow?raw=true)
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
