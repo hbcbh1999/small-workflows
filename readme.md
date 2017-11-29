@@ -6,16 +6,12 @@ This is a collection of Alfred Workflows that do some small things and don't rea
 Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-workflows/tree/master/workflows) and download link with description of each workflow is provided below.
 
 ## Workflows 
-### Objects library
+### Objects library - [Download](https://github.com/nikitavoloboev/small-workflows/raw/master/workflows/objects%20library.alfredworkflow)
 - Currently contains only [vitor's](https://github.com/vitorgalvao) [OneUpdater](https://github.com/vitorgalvao/alfred-workflows/tree/master/OneUpdater) 
 - I use this workflow to quickly copy useful premade objects to my workflows
 
-#### [Download](https://github.com/nikitavoloboev/small-workflows/raw/master/workflows/objects%20library.alfredworkflow)
-
-### Keyboard turn / off
+### Keyboard turn / off - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Keyboard%20turn%20on:off.alfredworkflow?raw=true) 
 - Allows you to turn your keboard on and off frow few commands
-
-#### [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Keyboard%20turn%20on:off.alfredworkflow?raw=true) 
 
 ### Focus
 - Allows you to start [Focus](https://heyfocus.com) blocking for some time that you specify
