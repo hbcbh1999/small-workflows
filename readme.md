@@ -15,6 +15,18 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - [Check wifi connection / Restart wifi / Toggle it on/off](#check-wifi-connection--restart-wifi--toggle-it-onoff---download)
 - [Imgur album -> Desktop](#imgur-album---desktop---download)
 - [Reload Karabiner XML](#reload-karabiner-xml---download)
+- [Clean Folders](#clean-folders---download)
+- [Folder Search](#folder-search---download)
+- [Static Searches](#static-searches---download)
+- [Useful File Actions](#useful-file-actions---download)
+- [Search Selected Text on the Web](#search-selected-text-on-the-web---download)
+- [Go to Reddit Subreddit from Alfred](#go-to-reddit-subreddit-from-alfred---download)
+- [Go Play - code -> playground](#go-play---code---playground---download)
+- [Alfred Commit Folders](#alfred-commit-folders---download)
+- [Dash Profile Switcher](#dash-profile-switcher---download)
+- [Dash Search (with custom hotkeys)](#dash-search-(with-custom-hotkeys)---download)
+- [Contacts search](#contacts-search---download)
+- [GitHub Jump](#github-jump---download)
 
 ## Workflows 
 ### Objects library - [Download](https://github.com/nikitavoloboev/small-workflows/raw/master/workflows/objects%20library.alfredworkflow)
