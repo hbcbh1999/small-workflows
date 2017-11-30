@@ -1,7 +1,7 @@
 # Small Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
 > Small [Alfred](https://www.alfredforum.com/) workflows I use that don't warrant a GitHub repository of their own.
 
-Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-workflows/tree/master/workflows) and download link with description of each workflow is provided below.
+Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-workflows/tree/master/workflows) and download link with description of each workflow is provided.
 
 ## Contents
 - [Objects library](#objects-library---download)
