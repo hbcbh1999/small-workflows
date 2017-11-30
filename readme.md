@@ -4,8 +4,9 @@
 Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-workflows/tree/master/workflows) and download link with description of each workflow is provided below.
 
 ## Contents
-- [Objects library(#objects-library---download)
+- [Objects library](#objects-library---download)
 - [Keyboard turn / off](#keyboard-turn-/-off---download)
+- [Focus](#focus---download)
 
 
 ## Workflows 
