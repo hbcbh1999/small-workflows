@@ -3,7 +3,7 @@
 
 ## Contents
 - [Objects library](#objects-library---download)
-- [Keyboard turn / off](#keyboard-turn-/-off---download)
+- [Keyboard turn on / off](#keyboard-turn-on-/-off---download)
 - [Focus](#focus---download)
 - [Dictionary search](#dictionary-search---download)
 - [Useful utilities](#useful-utilities---download)
@@ -31,7 +31,7 @@
 - Currently contains only [vitor's](https://github.com/vitorgalvao) [OneUpdater](https://github.com/vitorgalvao/alfred-workflows/tree/master/OneUpdater) 
 - I use this workflow to quickly copy useful premade objects to my workflows
 
-### Keyboard turn / off - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Keyboard%20turn%20on:off.alfredworkflow?raw=true) 
+### Keyboard turn on / off - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Keyboard%20turn%20on:off.alfredworkflow?raw=true) 
 - Allows you to turn your keboard on and off frow few commands
 
 ### Focus - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/focus.alfredworkflow?raw=true)
