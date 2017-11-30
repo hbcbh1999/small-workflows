@@ -4,7 +4,9 @@
 Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-workflows/tree/master/workflows) and download link with description of each workflow is provided below.
 
 ## Contents
-- [Objects library - [Download](https://github.com/nikitavoloboev/small-workflows/raw/master/workflows/objects%20library.alfredworkflow)](#objects-library---[download](https://github.com/nikitavoloboev/small-workflows/raw/master/workflows/objects%20library.alfredworkflow))
+- [Objects library(#objects-library---download)
+- [Keyboard turn / off](#keyboard-turn-/-off---download)
+
 
 ## Workflows 
 ### Objects library - [Download](https://github.com/nikitavoloboev/small-workflows/raw/master/workflows/objects%20library.alfredworkflow)
