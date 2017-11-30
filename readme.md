@@ -1,12 +1,10 @@
 # Small Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
 > Small [Alfred](https://www.alfredforum.com/) workflows I use that don't warrant a GitHub repository of their own
 
-## Worklows 
-- [Search Files](/search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/search-files/Search%20files.alfredworkflow?raw=true)
-
+- [Search Files](/search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
+- [Objects library](/objects-library) - Useful premade objects for workflows.
 
 ## Contents
-- [Objects library](#objects-library---download)
 - [Keyboard turn on / off](#keyboard-turn-on--off---download)
 - [Focus](#focus---download)
 - [Dictionary search](#dictionary-search---download)
