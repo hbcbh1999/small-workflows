@@ -4,40 +4,8 @@
 ## Contents
 - [Search Files](/search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
 - [Objects library](/objects-library) - Useful premade objects for workflows.
-
-
-
-## Contents
-- [Keyboard turn on / off](#keyboard-turn-on--off---download)
-- [Focus](#focus---download)
-- [Dictionary search](#dictionary-search---download)
-- [Useful utilities](#useful-utilities---download)
-- [Search files](#search-files---download)
-- [Search for content](#search-for-content---download)
-- [Copy months numbers](#copy-months-numbers---download)
-- [Check wifi connection / Restart wifi / Toggle it on/off](#check-wifi-connection--restart-wifi--toggle-it-onoff---download)
-- [Imgur album -> Desktop](#imgur-album---desktop---download)
-- [Reload Karabiner XML](#reload-karabiner-xml---download)
-- [Clean Folders](#clean-folders---download)
-- [Folder Search](#folder-search---download)
-- [Static Searches](#static-searches---download)
-- [Useful File Actions](#useful-file-actions---download)
-- [Search Selected Text on the Web](#search-selected-text-on-the-web---download)
-- [Go to Reddit Subreddit from Alfred](#go-to-reddit-subreddit-from-alfred---download)
-- [Go Play - code -> playground](#go-play---code---playground---download)
-- [Alfred Commit Folders](#alfred-commit-folders---download)
-- [Dash Profile Switcher](#dash-profile-switcher---download)
-- [Dash Search (with custom hotkeys)](#dash-search-with-custom-hotkeys---download)
-- [Contacts search](#contacts-search---download)
-- [GitHub Jump](#github-jump---download)
-
-## Workflows 
-### Objects library - [Download](https://github.com/nikitavoloboev/small-workflows/raw/master/workflows/objects%20library.alfredworkflow)
-- Currently contains only [vitor's](https://github.com/vitorgalvao) [OneUpdater](https://github.com/vitorgalvao/alfred-workflows/tree/master/OneUpdater) 
-- I use this workflow to quickly copy useful premade objects to my workflows
-
-### Keyboard turn on / off - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Keyboard%20turn%20on:off.alfredworkflow?raw=true) 
-- Allows you to turn your keboard on and off frow few commands
+- [Keyboard turn on / off](/keyboard-on-off) - Turn your keboard on and off.
+- [Focus](/focus) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 
 ### Focus - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/focus.alfredworkflow?raw=true)
 - Allows you to start [Focus](https://heyfocus.com) blocking for some time that you specify
