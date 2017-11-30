@@ -8,25 +8,15 @@
 - [Focus](./focus) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 - [Dictionary search](./dictionary-search) - Search through dictionary.
 - [Useful utilities](./utilities) - Only has one utilty, to search selected text in Alfred.
-- [Search for Content](./search-for-content) - Two actions to search through the inside PDF and MindNode documents.
+- [Search for Content](./search-for-content) - Two actions to search through the insides of PDF and MindNode documents.
 - [Months numbers](./months-numbers) - Search for a month and copy the month number to your clipboard.
 - [WiFi Tools](/wifi) - Check wifi connection / Restart wifi / Toggle it on/off.
 - [Imgur album Download](./imgur-download) - Download Imgur Album currently open in your browser to location you specify.
-- [Reload Karabiner XML](./karabiner-reload) - Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
-
-### Reload Karabiner XML - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/karabiner.alfredworkflow?raw=true)
-- I use it all the time to quickly iterate on Karabiner. Only works on old [Karabiner](https://github.com/tekezo/Karabiner)
-
-### Clean Folders - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/clean%20folders.alfredworkflow?raw=true)
-- Little list filter I use to filter my file system
-- Currently use it to clean all items from Desktop and removing all alfred workflows from ~/Downloads
-
-### Folder Search - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/folder%20search.alfredworkflow?raw=true)
-- Search folders from Alfred and open them in Finder / iTerm / Editor
-
-### Static Searches - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/static%20searches.alfredworkflow?raw=true)
-- In case there is no Alfred workflow dedicated to some website search that provides autosuggestions like [Searchio](https://github.com/deanishe/alfred-searchio), I use my [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) workflow, wwhich contains a large array of websites I can make searches on moderated by the community
-- However certain searches I do so often that I create a separate objects for them in Alfred and attach a hotkey on them. Things like searching on GitHub or Reddit. I also have the power to modify the search with modifer keys so ⌃ + return on GitHub search will scope my query to bring me only the most recent stuff.
+- [Karabiner XML Reload](./karabiner-reload) - Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
+- [Clean Folders](./clean-folders) - Trash items from Desktop and clean certain folders like removing .alfredworkflows from ~/Downloads.
+- [Folder Search](./folder-search) - Search folders from Alfred and open them in Finder/iTerm/Editor.
+- [Static Searches](./static-searches) - Make searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
+- [Useful File Actions](./file-actions) - 
 
 ### Useful File Actions - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/useful%20file%20actions.alfredworkflow?raw=true)
 - Here are a bunch of small file actions I use to operate on files
