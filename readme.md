@@ -2,7 +2,7 @@
 > Small [Alfred](https://www.alfredforum.com/) workflows I use that don't warrant a GitHub repository of their own
 
 ## Worklows 
-- [Search Files](/search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use
+- [Search Files](/search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/search-files/Search%20files.alfredworkflow?raw=true)
 
 
 ## Contents
