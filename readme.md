@@ -12,8 +12,8 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - [Find files](#find-files---download)
 - [Search for content](#search-for-content---download)
 - [Copy months numbers](#copy-months-numbers---download)
-- [Check wifi connection / Restart wifi / Toggle it on/off](#check-wifi-connection-/-restart-wifi-/-toggle-it-on/off---download)
-- [Imgur album -> Desktop](#imgur-album-->-desktop---download)
+- [Check wifi connection / Restart wifi / Toggle it on/off](#check-wifi-connection--restart-wifi--toggle-it-onoff---download)
+- [Imgur album -> Desktop](#imgur-album---desktop---download)
 - [Reload Karabiner XML](#reload-karabiner-xml---download)
 
 ## Workflows 
