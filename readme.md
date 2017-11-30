@@ -46,9 +46,6 @@
 - Only has one utility so far and that is to open Alfred prompt with whatever I have selected passed in
 	- I may add more in the future
 
-### Search files - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/find%20files.alfredworkflow?raw=true)
-- A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use
-
 ### Search for content - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20for%20content.alfredworkflow?raw=true)
 - Two actions to search through the inside PDF and MindNode documents
 

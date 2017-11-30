@@ -8,6 +8,19 @@
 	<string>mine</string>
 	<key>connections</key>
 	<dict>
+		<key>00EED526-7970-45F1-841A-C8B8AC69E876</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9BCF53A1-B4BD-45BA-9F0C-80F2871DC37B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>04B7255A-49E1-423B-AE98-319E3B944069</key>
 		<array>
 			<dict>
@@ -157,6 +170,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>50BBD5F7-F75D-4A8A-BEE7-9175CF0A9277</key>
+		<array/>
 		<key>58DA759B-1826-4109-B169-4717692DDF3C</key>
 		<array>
 			<dict>
@@ -369,6 +384,29 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Create new sheet</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9BCF53A1-B4BD-45BA-9F0C-80F2871DC37B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>11056781-A496-4C13-9D5B-3CB45EA3CAE4</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Trash file</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>50BBD5F7-F75D-4A8A-BEE7-9175CF0A9277</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -690,19 +728,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>all files</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>BC013A9E-26DB-451C-B0FC-41584C1A7F4E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
@@ -877,12 +902,12 @@
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>xcode</string>
+				<string>all files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>23C8A6D2-143E-4B7B-B16C-9EEFFC9F0521</string>
+			<string>BC013A9E-26DB-451C-B0FC-41584C1A7F4E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -951,6 +976,47 @@
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
 			<string>C4094CBD-1E63-41BC-970A-23D37CD13D6E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>xcode</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>23C8A6D2-143E-4B7B-B16C-9EEFFC9F0521</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>DA795FD7-609F-42D7-A8C1-B48F8DAA4D5E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>playgrounds</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>E5A08EF1-CBCE-46A5-9712-4CB6DC33292E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1033,34 +1099,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>playgrounds</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>E5A08EF1-CBCE-46A5-9712-4CB6DC33292E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>DA795FD7-609F-42D7-A8C1-B48F8DAA4D5E</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>anchorfields</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -1139,19 +1177,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>sketch</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>1902B045-C808-430E-B42A-CC81CE14CAE7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
@@ -1163,6 +1188,19 @@
 			<string>90D62A51-3FD3-4169-9372-5CE82BA0DEFE</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>sketch</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>1902B045-C808-430E-B42A-CC81CE14CAE7</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1302,6 +1340,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>paw</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>879DE37A-69B1-442F-844D-124999D995D3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
@@ -1387,19 +1438,6 @@
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
 			<string>EB40CB64-2242-4938-A9C6-575912C20B8C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>paw</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>879DE37A-69B1-442F-844D-124999D995D3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1525,19 +1563,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>PDF</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>F9A22CBF-54F6-4C09-8C49-BB1866BD79DB</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>anchorfields</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -1615,6 +1640,19 @@
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
+				<string>PDF</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>F9A22CBF-54F6-4C09-8C49-BB1866BD79DB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
 				<string>pages</string>
 			</dict>
 			<key>type</key>
@@ -1623,21 +1661,6 @@
 			<string>5A1A7DA4-7C17-4E7B-BBAB-371FAC981640</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>135124AA-95D5-4A10-9638-067E23028E0D</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1714,6 +1737,21 @@
 			<string>EBC5894C-6E68-4AAB-8947-18E929325FE4</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>135124AA-95D5-4A10-9638-067E23028E0D</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1824,6 +1862,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string>/Applications/Ulysses.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>F652ECF0-D147-45D4-B048-C666637BB84E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>triggerid</key>
 				<string>ulysses groups</string>
 			</dict>
@@ -1911,21 +1964,6 @@
 			<string>78024F5D-3C7F-4A7A-B9D7-1FA3D15BB40C</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string>/Applications/Ulysses.app</string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>F652ECF0-D147-45D4-B048-C666637BB84E</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2036,19 +2074,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>epub</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>DD7511BF-53AD-4FD6-866D-6FBA21806009</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>anchorfields</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -2140,6 +2165,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>epub</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>DD7511BF-53AD-4FD6-866D-6FBA21806009</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>anchorfields</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -2214,19 +2252,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>soulver</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>7EEADC78-474A-481F-BC60-38357DC441B3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
@@ -2242,17 +2267,109 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>soulver</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>7EEADC78-474A-481F-BC60-38357DC441B3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>openwith</key>
-				<string>/Applications/Ulysses.app</string>
+				<string>/Applications/Pixelmator.app</string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>F2FC4602-7565-408F-8B7D-3700E6A76BC2</string>
+			<string>50BBD5F7-F75D-4A8A-BEE7-9175CF0A9277</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>pix</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>00EED526-7970-45F1-841A-C8B8AC69E876</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>pix</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Open file in pixelmator</string>
+				<key>types</key>
+				<array>
+					<string>public.jpeg</string>
+					<string>public.png</string>
+					<string>public.tiff</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>9BCF53A1-B4BD-45BA-9F0C-80F2871DC37B</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2272,6 +2389,21 @@
 			<string>6370D5BD-C1C2-4A63-8E93-B2AC32C8CAC9</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Ulysses.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>F2FC4602-7565-408F-8B7D-3700E6A76BC2</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2396,25 +2528,6 @@
 				<key>count</key>
 				<integer>1</integer>
 				<key>keychar</key>
-				<string>↩</string>
-				<key>keycode</key>
-				<integer>36</integer>
-				<key>keymod</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
-			<key>uid</key>
-			<string>578F47E3-40CB-4791-9418-3B89374780B6</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
 				<string>6</string>
 				<key>keycode</key>
 				<integer>-1</integer>
@@ -2425,6 +2538,25 @@
 			<string>alfred.workflow.output.dispatchkeycombo</string>
 			<key>uid</key>
 			<string>A610F5EB-3851-4AB9-A34A-B9BDAF64F64B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>↩</string>
+				<key>keycode</key>
+				<integer>36</integer>
+				<key>keymod</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>578F47E3-40CB-4791-9418-3B89374780B6</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2493,6 +2625,13 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>00EED526-7970-45F1-841A-C8B8AC69E876</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>1880</integer>
+		</dict>
 		<key>04B7255A-49E1-423B-AE98-319E3B944069</key>
 		<dict>
 			<key>xpos</key>
@@ -2549,14 +2688,14 @@
 			<key>xpos</key>
 			<integer>570</integer>
 			<key>ypos</key>
-			<integer>1920</integer>
+			<integer>2040</integer>
 		</dict>
 		<key>17360B10-3B59-4E14-A43D-D426631B0E0D</key>
 		<dict>
 			<key>xpos</key>
 			<integer>400</integer>
 			<key>ypos</key>
-			<integer>2140</integer>
+			<integer>2260</integer>
 		</dict>
 		<key>1902B045-C808-430E-B42A-CC81CE14CAE7</key>
 		<dict>
@@ -2600,19 +2739,26 @@
 			<key>ypos</key>
 			<integer>1340</integer>
 		</dict>
+		<key>50BBD5F7-F75D-4A8A-BEE7-9175CF0A9277</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>1880</integer>
+		</dict>
 		<key>578F47E3-40CB-4791-9418-3B89374780B6</key>
 		<dict>
 			<key>xpos</key>
 			<integer>790</integer>
 			<key>ypos</key>
-			<integer>2020</integer>
+			<integer>2140</integer>
 		</dict>
 		<key>58DA759B-1826-4109-B169-4717692DDF3C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1910</integer>
+			<integer>2030</integer>
 		</dict>
 		<key>5A1A7DA4-7C17-4E7B-BBAB-371FAC981640</key>
 		<dict>
@@ -2626,7 +2772,7 @@
 			<key>xpos</key>
 			<integer>640</integer>
 			<key>ypos</key>
-			<integer>1890</integer>
+			<integer>2010</integer>
 		</dict>
 		<key>697F0623-BE00-4FB1-B872-61A20D4B6F53</key>
 		<dict>
@@ -2675,14 +2821,14 @@
 			<key>xpos</key>
 			<integer>400</integer>
 			<key>ypos</key>
-			<integer>2010</integer>
+			<integer>2130</integer>
 		</dict>
 		<key>80B25E87-2DBA-485B-8C3D-CE6DE1F570FA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>630</integer>
 			<key>ypos</key>
-			<integer>2140</integer>
+			<integer>2260</integer>
 		</dict>
 		<key>879DE37A-69B1-442F-844D-124999D995D3</key>
 		<dict>
@@ -2724,7 +2870,14 @@
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
-			<integer>1910</integer>
+			<integer>2030</integer>
+		</dict>
+		<key>9BCF53A1-B4BD-45BA-9F0C-80F2871DC37B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>1880</integer>
 		</dict>
 		<key>9E40EEE0-7F7E-48EE-87BE-4701F8B28DA4</key>
 		<dict>
@@ -2738,14 +2891,14 @@
 			<key>xpos</key>
 			<integer>630</integer>
 			<key>ypos</key>
-			<integer>2020</integer>
+			<integer>2140</integer>
 		</dict>
 		<key>B11AE420-B0F6-495A-AA99-870889A03206</key>
 		<dict>
 			<key>xpos</key>
 			<integer>550</integer>
 			<key>ypos</key>
-			<integer>2170</integer>
+			<integer>2290</integer>
 		</dict>
 		<key>B964994F-932B-476E-A943-CB2EC8B05062</key>
 		<dict>
@@ -2780,7 +2933,7 @@
 			<key>xpos</key>
 			<integer>550</integer>
 			<key>ypos</key>
-			<integer>2040</integer>
+			<integer>2160</integer>
 		</dict>
 		<key>DA795FD7-609F-42D7-A8C1-B48F8DAA4D5E</key>
 		<dict>
@@ -2850,7 +3003,7 @@
 			<key>xpos</key>
 			<integer>410</integer>
 			<key>ypos</key>
-			<integer>1890</integer>
+			<integer>2010</integer>
 		</dict>
 		<key>F37F9D1D-B30E-42B4-A576-E3EA5B9F742E</key>
 		<dict>
