@@ -24,7 +24,7 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - [Go Play - code -> playground](#go-play---code---playground---download)
 - [Alfred Commit Folders](#alfred-commit-folders---download)
 - [Dash Profile Switcher](#dash-profile-switcher---download)
-- [Dash Search (with custom hotkeys)](#dash-search-(with-custom-hotkeys)---download)
+- [Dash Search (with custom hotkeys)](#dash-search-with-custom-hotkeys---download)
 - [Contacts search](#contacts-search---download)
 - [GitHub Jump](#github-jump---download)
 
