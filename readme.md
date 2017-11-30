@@ -100,6 +100,11 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - Made by [Vero](https://www.alfredforum.com/profile/1-vero/) but she has not uploaded it anywhere and I think it is super useful
 - It is a file filter for contacts where you can not only search for names of contacts but also for notes attached to these contacts
 
+### GitHub Jump - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/GitHub%20jump.alfredworkflow?raw=true)
+- Not my workflow so all credit goes to [Lachlan Donald](https://github.com/lox) who made the [original workflow](https://github.com/lox/alfred-github-jump)
+- This is just my augmentation of it to make an amazing workflow even better
+	- you can use modifiers to do different things such as go directly to issues of the workflow, pull requests of it or even clone the repo to a specified directory
+
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
 
