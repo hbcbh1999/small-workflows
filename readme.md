@@ -4,26 +4,15 @@
 ## Contents
 - [Search Files](./search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
 - [Objects library](./objects-library) - Useful premade objects for workflows.
-- [Keyboard turn on / off](./keyboard-on-off) - Turn your keboard on and off.
+- [Keyboard turn on/off](./keyboard-on-off) - Turn your keboard on and off.
 - [Focus](./focus) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 - [Dictionary search](./dictionary-search) - Search through dictionary.
 - [Useful utilities](./utilities) - Only has one utilty, to search selected text in Alfred.
-
-### Search for content - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20for%20content.alfredworkflow?raw=true)
-- Two actions to search through the inside PDF and MindNode documents
-
-### Copy months numbers - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/show%20month%20numbers.alfredworkflow?raw=true)
-- A simple workflow that will let you search for a month from the 12 months in a year and copy the month number to your clipboard
-- Because I always found it too hard to remember these numbers
-
-### Check wifi connection / Restart wifi / Toggle it on/off - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/wifi.alfredworkflow?raw=true)
-- It can:
-	1. **Check wifi** : it pings Google.com and if there is no response, you are offline and you get notification on the top
-	2. **Restart wifi** : turns the wifi on and off
-	3. **Toggle wifi on/off** : if on, will turn it off, if off will turn it on
-
-### Imgur album -> Desktop - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/imgur%20album%20downloader.alfredworkflow?raw=true)
-- Will take an active url from your browser that is an imgur album and download it to your desktop
+- [Search for Content](./search-for-content) - Two actions to search through the inside PDF and MindNode documents.
+- [Months numbers](./months-numbers) - Search for a month and copy the month number to your clipboard.
+- [WiFi Tools](/wifi) - Check wifi connection / Restart wifi / Toggle it on/off.
+- [Imgur album Download](./imgur-download) - Download Imgur Album currently open in your browser to location you specify.
+- [Reload Karabiner XML](./karabiner-reload) - Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
 
 ### Reload Karabiner XML - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/karabiner.alfredworkflow?raw=true)
 - I use it all the time to quickly iterate on Karabiner. Only works on old [Karabiner](https://github.com/tekezo/Karabiner)
@@ -86,7 +75,7 @@
 - This is just my augmentation of it to make an amazing workflow even better
 	- you can use modifiers to do different things such as go directly to issues of the workflow, pull requests of it or even clone the repo to a specified directory
 
-## Contributing
+## Contribute
 If you use or used any of the workflows above and think there is something awesome that can be added to them. I would love to [hear it](https://github.com/nikitavoloboev/small-workflows/issues/new).
 
 ## Thank you 💜
