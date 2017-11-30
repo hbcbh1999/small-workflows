@@ -105,6 +105,9 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - This is just my augmentation of it to make an amazing workflow even better
 	- you can use modifiers to do different things such as go directly to issues of the workflow, pull requests of it or even clone the repo to a specified directory
 
+## Contributing
+If you use or used any of the workflows above and think there is something awesome that can be added to them. I would love to [hear it](https://github.com/nikitavoloboev/small-workflows/issues/new).
+
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look [into other repositories](https://my.mindnode.com/ZKGETDkUaQUsL3q8q9z788CxG84oEHgDiT79GuzX#-143.5,-902.6,0) I shared. 
 
