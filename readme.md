@@ -2,9 +2,14 @@
 > Small [Alfred](https://www.alfredforum.com/) workflows I use that don't warrant a GitHub repository of their own
 
 ## Contents
-- [Search Files](./search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
-- [Objects library](./objects-library) - Useful premade objects for workflows.
-- [Keyboard turn on/off](./keyboard-on-off) - Turn your keboard on and off.
+### [Search Files](./search-files) 
+- A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
+
+### [Objects library](./objects-library) 
+- Useful premade objects for workflows.
+
+### [Keyboard turn on/off](./keyboard-on-off) 
+- Turn your keboard on and off.
 - [Focus](./focus) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 - [Dictionary search](./dictionary-search) - Search through dictionary.
 - [Useful utilities](./utilities) - Only has one utilty, to search selected text in Alfred.
