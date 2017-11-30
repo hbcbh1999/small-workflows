@@ -1,7 +1,5 @@
 # Small Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
-> Small [Alfred](https://www.alfredforum.com/) workflows I use that don't warrant a GitHub repository of their own.
-
-Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-workflows/tree/master/workflows) and download link with description of each workflow is provided.
+> Small [Alfred](https://www.alfredforum.com/) workflows I use that don't warrant a GitHub repository of their own
 
 ## Contents
 - [Objects library](#objects-library---download)
@@ -9,7 +7,7 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - [Focus](#focus---download)
 - [Dictionary search](#dictionary-search---download)
 - [Useful utilities](#useful-utilities---download)
-- [Find files](#find-files---download)
+- [Search files](#search-files---download)
 - [Search for content](#search-for-content---download)
 - [Copy months numbers](#copy-months-numbers---download)
 - [Check wifi connection / Restart wifi / Toggle it on/off](#check-wifi-connection--restart-wifi--toggle-it-onoff---download)
@@ -48,7 +46,7 @@ Every workflow lives in [one folder](https://github.com/nikitavoloboev/small-wor
 - Only has one utility so far and that is to open Alfred prompt with whatever I have selected passed in
 	- I may add more in the future
 
-### Find files - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/find%20files.alfredworkflow?raw=true)
+### Search files - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/find%20files.alfredworkflow?raw=true)
 - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use
 
 ### Search for content - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20for%20content.alfredworkflow?raw=true)
