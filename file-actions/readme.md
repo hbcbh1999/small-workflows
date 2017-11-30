@@ -1,0 +1,2 @@
+# Useful File Actions - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/file-actions/Useful%20file%20actions.alfredworkflow?raw=true)
+> Various file actions I made to operate on files and folders.

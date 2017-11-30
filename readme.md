@@ -16,12 +16,7 @@
 - [Clean Folders](./clean-folders) - Trash items from Desktop and clean certain folders like removing .alfredworkflows from ~/Downloads.
 - [Folder Search](./folder-search) - Search folders from Alfred and open them in Finder/iTerm/Editor.
 - [Static Searches](./static-searches) - Make searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
-- [Useful File Actions](./file-actions) - 
-
-### Useful File Actions - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/useful%20file%20actions.alfredworkflow?raw=true)
-- Here are a bunch of small file actions I use to operate on files
-	1. Opening folder/file in Visual Studio Code (change for editor you like)
-	2. Copying files to Desktop
+- [Useful File Actions](./file-actions) - Various file actions I made to operate on files and folders.
 
 ### Search Selected Text on the Web - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20web%20with%20selection.alfredworkflow?raw=true)
 - Simple workflow I use to search highlighted text on various websites
