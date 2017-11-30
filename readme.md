@@ -3,7 +3,7 @@
 
 ## Contents
 - [Objects library](#objects-library---download)
-- [Keyboard turn on / off](#keyboard-turn-on-/-off---download)
+- [Keyboard turn on / off](#keyboard-turn-on--off---download)
 - [Focus](#focus---download)
 - [Dictionary search](#dictionary-search---download)
 - [Useful utilities](#useful-utilities---download)
