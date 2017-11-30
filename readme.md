@@ -19,9 +19,9 @@
 - [Useful File Actions](./file-actions) - Various file actions I made to operate on files and folders.
 - [Search Selected Text on the Web](./search-selection) - Search selected text on various websites with hotkeys.
 - [Go to Reddit Subreddit](./reddit-subs) - Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
-- [Go code -> Go Playground](./go-play) - Create [Go Playground](https://play.golang.org) from selected Go code for sharing. Can also share to [Go Play Space](https://goplay.space/).
+- [Go code -> Go Playground](./go-play) - Create [Go Playground](https://play.golang.org) from selected Go code for sharing. 
+- [Commit Folders](./commit-folders) - 
 
-### Alfred Commit Folders - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/commit%20folders.alfredworkflow?raw=true)
 - Simple workflow that lets you search folders and then write a commit message. It would then `git add` and `git commit` all files in the folder with the message you provide. And finally it would `git push` the changes.
 - This workflow assumes that the folder you select is already initialised with git as it is a file filter that searches through all the folders. It will however warn you if the folder you chose is not under git.
 - You can of course modify the scope of the search or even make it that it only searches through git initialised folders but for my use case, I use this workflow when I make a change to some README file in some folder and want to quickly commit it without going to my terminal.
