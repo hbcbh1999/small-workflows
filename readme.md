@@ -17,18 +17,9 @@
 - [Folder Search](./folder-search) - Search folders from Alfred and open them in Finder/iTerm/Editor.
 - [Static Searches](./static-searches) - Make searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
 - [Useful File Actions](./file-actions) - Various file actions I made to operate on files and folders.
-
-### Search Selected Text on the Web - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20web%20with%20selection.alfredworkflow?raw=true)
-- Simple workflow I use to search highlighted text on various websites
-- You can customise the hotkeys to ones you like. To make things easier for myself, I call the hotkeys from Karabiner with my custom modifier keys which you can take a look [here](https://github.com/nikitavoloboev/dotfiles) for.
-- I also heavily use [Web Searches workflow](https://github.com/nikitavoloboev/alfred-web-searches) to search selected text on a wider array of websites
-
-### Go to Reddit Subreddit from Alfred - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/go%20to%20subreddit.alfredworkflow?raw=true)
-- Simple workflow that will let you go to a subreddit you specify
-- If you want to search for available subreddits with autosuggestions, you can try [this workflow](https://github.com/deanishe/alfred-reddit)
-
-### Go Play - code -> playground - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/go%20play.alfredworkflow?raw=true)
-- This is a simple workflow that will take the code you select and let you create either [Official Go playground](https://play.golang.org/) or [Go play Space playground](https://goplay.space) that you can then share on IRC, Slack or with other gophers around you
+- [Search Selected Text on the Web](./search-selection) - Search selected text on various websites with hotkeys.
+- [Go to Reddit Subreddit](./reddit-subs) - Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
+- [Go code -> Go Playground](./go-play) - Create [Go Playground](https://play.golang.org) from selected Go code for sharing. Can also share to [Go Play Space](https://goplay.space/).
 
 ### Alfred Commit Folders - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/commit%20folders.alfredworkflow?raw=true)
 - Simple workflow that lets you search folders and then write a commit message. It would then `git add` and `git commit` all files in the folder with the message you provide. And finally it would `git push` the changes.

@@ -48,23 +48,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>3FD0DA9D-7238-4BCF-B96B-518BF96BC747</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>triggerid</key>
 				<string>months</string>
 			</dict>
@@ -104,6 +87,23 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>3FD0DA9D-7238-4BCF-B96B-518BF96BC747</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -134,6 +134,6 @@
 	<key>version</key>
 	<string>1.0.2</string>
 	<key>webaddress</key>
-	<string>https://github.com/nikitavoloboev/alfred-month-numbers</string>
+	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
 </plist>

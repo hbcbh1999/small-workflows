@@ -460,6 +460,6 @@ networksetup -setairportpower $INTERFACE on</string>
 	<key>version</key>
 	<string>1.0.1</string>
 	<key>webaddress</key>
-	<string>https://github.com/nikitavoloboev/alfred-wifi</string>
+	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
 </plist>
