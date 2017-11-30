@@ -48,6 +48,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>search</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>5F5C6A87-B882-40D9-9D56-BD9AE04E8847</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -82,19 +95,6 @@
 			<string>alfred.workflow.input.dictionaryfilter</string>
 			<key>uid</key>
 			<string>AC2D5677-23D7-4D96-9C5C-91A64046E399</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>search</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>5F5C6A87-B882-40D9-9D56-BD9AE04E8847</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
