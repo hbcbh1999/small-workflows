@@ -1,14 +1,12 @@
 # Small Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
-> Small [Alfred](https://www.alfredforum.com/) workflows I use that don't warrant a GitHub repository of their own.
+> Small [Alfred](https://www.alfredforum.com/) workflows I use that don't warrant a GitHub repository of their own
 
 ## Contents
-- [Search Files](/search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
-- [Objects library](/objects-library) - Useful premade objects for workflows.
-- [Keyboard turn on / off](/keyboard-on-off) - Turn your keboard on and off.
-- [Focus](/focus) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
-
-### Focus - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/focus.alfredworkflow?raw=true)
-- Allows you to start [Focus](https://heyfocus.com) blocking for some time that you specify
+- [Search Files](./search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
+- [Objects library](./objects-library) - Useful premade objects for workflows.
+- [Keyboard turn on / off](./keyboard-on-off) - Turn your keboard on and off.
+- [Focus](./focus) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
+- [Dictionary search](./dictionary-search) - Search through dictionary.
 
 ### Dictionary search - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dictionary.alfredworkflow?raw=true)
 - Search through dictionary from Alfred
