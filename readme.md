@@ -1,5 +1,5 @@
 # Small Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
-> Small [Alfred](https://www.alfredforum.com/) workflows I use that don't warrant a GitHub repository of their own
+> Small [Alfred](https://www.alfredforum.com/) workflows I use that don't warrant a GitHub repository of their own.
 
 ## Contents
 - [Search Files](/search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
