@@ -7,15 +7,7 @@
 - [Keyboard turn on / off](./keyboard-on-off) - Turn your keboard on and off.
 - [Focus](./focus) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 - [Dictionary search](./dictionary-search) - Search through dictionary.
-
-### Dictionary search - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dictionary.alfredworkflow?raw=true)
-- Search through dictionary from Alfred
-	- I stopped using it in favour of opening Dictionary itself and then making the search
-	- I also only use Dictionary to read and explore wiki
-
-### Useful utilities - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/useful%20utilities.alfredworkflow?raw=true)
-- Only has one utility so far and that is to open Alfred prompt with whatever I have selected passed in
-	- I may add more in the future
+- [Useful utilities](./utilities) - Only has one utilty, to search selected text in Alfred.
 
 ### Search for content - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/search%20for%20content.alfredworkflow?raw=true)
 - Two actions to search through the inside PDF and MindNode documents
