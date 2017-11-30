@@ -12,6 +12,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>0EC960E3-BDFD-4C79-B76E-512F06470E85</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>81E69D82-0504-4F92-A607-C88110E69C64</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -64,8 +74,8 @@
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-files/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/$search-files/search-files.alfredworkflow"
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/go-play/source/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/$go-play/go-play.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 
