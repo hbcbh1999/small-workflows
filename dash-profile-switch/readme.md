@@ -6,6 +6,6 @@
 It also allows you to set custom Keyword triggers to switch between these profiles.
 
 You can customise the Dash profile keyword triggers in profile settings here:
-<img src="https://i.imgur.com/yGvrOwE.png" width="500" alt="img">
+<img src="https://i.imgur.com/tc50FJq.png" width="500" alt="img">
 
 
