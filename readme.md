@@ -65,21 +65,15 @@
 ### Dash Search (with custom hotkeys) - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/Dash.alfredworkflow?raw=true)
 - An extenstion of [official Dash workflow](https://github.com/Kapeli/Dash-Alfred-Workflow) that I extended with many custom hotkeys
 
-
 ## Workflow Augmentations 
-> Workflows that were not made by me, I just augmented them in my own way to make them 'better'. Credit lies in the authors of these awesome workflows.
+> Workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me). Credit goes to the authors of these awesome workflows.
 
-### Contacts search (Originall)
-> 
-- Orignally Made by [Vero](https://www.alfredforum.com/profile/1-vero/) but she has not uploaded it anywhere and I think it is super useful
-- It is a file filter for contacts where you can not only search for names of contacts but also for notes attached to these contacts
+### [GitHub Jump](https://github.com/lox/alfred-github-jump)
+- All credit goes to [Lachlan Donald](https://github.com/lox) who made the [original GitHub Jump workflow](https://github.com/lox/alfred-github-jump).
+- I just added many modifiers to do different things such as go directly to issues of the workflow, pull requests of it or even clone the repo to a specified directory.
+- I use this workflow many many times a day and it saved me a lot of time.
 
-### GitHub Jump - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/GitHub%20jump.alfredworkflow?raw=true)
-- Not my workflow so all credit goes to [Lachlan Donald](https://github.com/lox) who made the [original workflow](https://github.com/lox/alfred-github-jump)
-- This is just my augmentation of it to make an amazing workflow even better
-	- you can use modifiers to do different things such as go directly to issues of the workflow, pull requests of it or even clone the repo to a specified directory
-
-## Contribute
+## Contributing
 If you use or used any of the workflows above and think there is something awesome that can be added to them. I would love to [hear it](https://github.com/nikitavoloboev/small-workflows/issues/new).
 
 ## Thank you 💜
