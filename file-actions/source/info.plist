@@ -290,9 +290,9 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>cp -r "$1" ~/Desktop</string>
+				<string>cp -r {query} ~/Desktop</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -373,9 +373,9 @@ done</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv "$1" /Users/nikivi/Music/iTunes/Automatically\ Add\ to\ iTunes.localized</string>
+				<string>mv {query} /Users/nikivi/Music/iTunes/Automatically\ Add\ to\ iTunes.localized</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -445,9 +445,9 @@ done</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv "$1" /Applications</string>
+				<string>mv {query} /Applications</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -701,9 +701,9 @@ tell application "System Events"	if frontmost of process "iTerm2" is false then
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv "$1" ~/Desktop</string>
+				<string>mv {query} ~/Desktop</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
