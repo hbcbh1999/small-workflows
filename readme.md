@@ -9,55 +9,55 @@
 > Useful premade objects for workflows.
 
 ### [Keyboard turn on/off](./keyboard-on-off) 
-- Turn your keboard on and off.
+> Turn your keboard on and off.
 
 ### [Focus](./focus)
-- Start [Focus](https://heyfocus.com) blocking for some time that you specify.
+> Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 
 ### [Dictionary search](./dictionary-search) 
-- Search through dictionary.
+> Search through dictionary.
 
 ### [Useful utilities](./utilities) 
-- Only has one utilty, to search selected text in Alfred.
+> Only has one utilty, to search selected text in Alfred.
 
 ### [Search for Content](./search-for-content)
-- Two actions to search through the insides of PDF and MindNode documents.
+> Two actions to search through the insides of PDF and MindNode documents.
 
 ###[Months numbers](./months-numbers) 
-- Search for a month and copy the month number to your clipboard.
+> Search for a month and copy the month number to your clipboard.
 
 ### [WiFi Tools](/wifi)
-- Check wifi connection / Restart wifi / Toggle it on/off.
+> Check wifi connection / Restart wifi / Toggle it on/off.
 
 ### [Imgur album Download](./imgur-download) 
-- Download Imgur Album currently open in your browser to location you specify.
+> Download Imgur Album currently open in your browser to location you specify.
 
 ### [Karabiner XML Reload](./karabiner-reload) 
-- Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
+> Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
 
 ### [Clean Folders](./clean-folders) 
-- Trash items from Desktop and clean certain folders like removing .alfredworkflows from ~/Downloads.
+> Trash items from Desktop and clean certain folders like removing .alfredworkflows from ~/Downloads.
 
 ### [Folder Search](./folder-search) 
-- Search folders from Alfred and open them in Finder/iTerm/Editor.
+> Search folders from Alfred and open them in Finder/iTerm/Editor.
 
 ### [Static Searches](./static-searches) 
-- Make searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
+> Make searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
 
 ### [Useful File Actions](./file-actions) 
-- Various file actions I made to operate on files and folders.
+> Various file actions I made to operate on files and folders.
 
 ### [Search Selected Text on the Web](./search-selection) 
-- Search selected text on various websites with hotkeys.
+> Search selected text on various websites with hotkeys.
 
 ### [Go to Reddit Subreddit](./reddit-subs)
-- Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
+> Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
 
 ### [Go code -> Go Playground](./go-play) 
-- Create [Go Playground](https://play.golang.org) from selected Go code for sharing. 
+> Create [Go Playground](https://play.golang.org) from selected Go code for sharing. 
 
 ### [Commit Folders](./commit-folders) 
-- Search folders and commit changes inside the folders with commit message you like. 
+> Search folders and commit changes inside the folders with commit message you like. 
 
 ### Dash Profile Switcher - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/workflows/dash%20profile%20switch.alfredworkflow?raw=true)
 - [Dash](http://kapeli.com/dash) is a wonderful documentation tool for macOS. It allows you to create profiles to scope your global searches.
