@@ -2328,6 +2328,8 @@ fi</string>
 				</array>
 				<key>includesystem</key>
 				<false/>
+				<key>keyword</key>
+				<string>search soulver</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -2335,7 +2337,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Search Soulver files</string>
 				<key>types</key>
 				<array>
 					<string>com.acqualia.soulver.document</string>
@@ -2571,6 +2573,8 @@ fi</string>
 				</array>
 				<key>includesystem</key>
 				<false/>
+				<key>keyword</key>
+				<string>search ulysses sheets</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -2580,7 +2584,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Search Ulysses sheets</string>
 				<key>types</key>
 				<array>
 					<string>com.soulmen.ulysses3.sheet</string>
@@ -2736,7 +2740,7 @@ fi</string>
 		<key>04B7255A-49E1-423B-AE98-319E3B944069</key>
 		<dict>
 			<key>xpos</key>
-			<integer>180</integer>
+			<integer>170</integer>
 			<key>ypos</key>
 			<integer>1600</integer>
 		</dict>
@@ -3106,7 +3110,7 @@ fi</string>
 		<key>EFE95ECE-64EC-4B1C-B8F1-F52208AC733B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>180</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
