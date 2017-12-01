@@ -23,7 +23,7 @@
 ### [Search for Content](./search-for-content)
 > Two actions to search through the insides of PDF and MindNode documents.
 
-###[Months numbers](./months-numbers) 
+### [Months numbers](./months-numbers) 
 > Search for a month and copy the month number to your clipboard.
 
 ### [WiFi Tools](/wifi)
@@ -68,6 +68,7 @@
 
 ## Workflow Augmentations 
 > Workflows that were not made by me, I just augmented them in my own way to make them 'better'. Credit lies in the authors of these awesome workflows.
+
 ### Contacts search (Originall)
 > 
 - Orignally Made by [Vero](https://www.alfredforum.com/profile/1-vero/) but she has not uploaded it anywhere and I think it is super useful
