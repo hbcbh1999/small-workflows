@@ -73,7 +73,12 @@
 - I use this workflow many many times a day and it saved me a lot of time.
 
 ### [Dash Search with custom hotkeys](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Dash.alfredworkflow?raw=true)
-- My augmenation of [Official Dash Workflow](https://github.com/Kapeli/Dash-Alfred-Workflow) that I extended with many custom hotkeys to super quickly search a specific docset in [Dash](https://kapeli.com/dash).
+- All credit goes to [Bogdan Popescu](https://github.com/Kapeli) for making the [Official Dash Workflow](https://github.com/Kapeli/Dash-Alfred-Workflow).
+- I extended with many custom hotkeys to super quickly search a specific docset in [Dash](https://kapeli.com/dash).
+
+### [Alfred Workflow Directory](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Workflow%20directory-0.4.alfredworkflow?raw=true)
+- All credit goes to [Jeef](https://github.com/jeeftor) for making the [original workflow](https://github.com/jeeftor/AlfredWorkflowDirectory).
+- I changed it so that by default it will cd to the workflow in my current iTerm tab but also it can export workflow to `~/Desktop` (you can change location) or it will open the workflow with my editor (VS Code in my case).
 
 ## Contributing
 If you use or used any of the workflows above and think there is something awesome that can be added to them. I would love to [hear it](https://github.com/nikitavoloboev/small-workflows/issues/new).
