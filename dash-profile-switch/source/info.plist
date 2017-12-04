@@ -48,13 +48,29 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>switch</string>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Go","arg":"dash:\/\/go:"},{"title":"Web","arg":"dash:\/\/web:"},{"title":"Python","arg":"dash:\/\/python:"},{"title":"All","arg":"dash:\/\/all:"},{"title":"Haskell","arg":"dash:\/\/haskell:"},{"title":"React","arg":"dash:\/\/react:"},{"title":"Alfred","arg":"dash:\/\/alfred:"},{"title":"Java","arg":"dash:\/\/java:"},{"title":"Go CLI","arg":"dash:\/\/gocli:"},{"title":"Node.js","arg":"dash:\/\/nodejs:"}]</string>
+				<key>keyword</key>
+				<string>switch dash</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Switch dash profile</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
+			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
-			<string>868EAE91-22E4-4969-B78E-9BE4F13FB88B</string>
+			<string>6ADBFE54-0F5D-4D4D-BA01-424EDE75EC3B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -80,29 +96,13 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"Go","arg":"dash:\/\/go:"},{"title":"Web","arg":"dash:\/\/web:"},{"title":"Python","arg":"dash:\/\/python:"},{"title":"All","arg":"dash:\/\/all:"},{"title":"Haskell","arg":"dash:\/\/haskell:"},{"title":"React","arg":"dash:\/\/react:"},{"title":"Alfred","arg":"dash:\/\/alfred:"},{"title":"Java","arg":"dash:\/\/java:"},{"title":"Go CLI","arg":"dash:\/\/gocli:"}]</string>
-				<key>keyword</key>
-				<string>switch dash</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Switch dash profile</string>
-				<key>withspace</key>
-				<true/>
+				<key>triggerid</key>
+				<string>switch</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
+			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>6ADBFE54-0F5D-4D4D-BA01-424EDE75EC3B</string>
+			<string>868EAE91-22E4-4969-B78E-9BE4F13FB88B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>

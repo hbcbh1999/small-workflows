@@ -777,7 +777,7 @@ git push</string>
 				<key>text</key>
 				<string></string>
 				<key>title</key>
-				<string>commited with ✨</string>
+				<string>Commited with ✨</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
