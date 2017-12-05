@@ -77,9 +77,13 @@
 - I extended it with many custom hotkeys to super quickly search a specific docset in [Dash](https://kapeli.com/dash).
 
 ### [Alfred Workflow Directory](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Workflow%20directory.alfredworkflow?raw=true) (Credit to [Jeef](https://github.com/jeeftor)) ([Original](https://github.com/jeeftor/AlfredWorkflowDirectory))
+> Quckly open any Alfred Workflow directory in your Terminal, Finder.
+
 - I changed it so that by default it will cd to the workflow in my current iTerm tab but also it can export workflow to `~/Desktop` (you can change location) or it will open the workflow with an editor (VS Code or Sublime in my case).
 
 ### [Directory watches](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Directory%20watches.alfredworkflow?raw=true) (Credit to [Vítor Galvão](https://github.com/vitorgalvao))
+> Search insides of directories and action on things.
+
 - I modified a script he once shared to quickly see insides of various directories and action on items of them to do various things opening the path in iTerm or moving the file somewhere.
 - Be careful though as it contains some actions that you must certainly not want but I kept them there in case you find it interesting and adapt it to your own needs.
 
