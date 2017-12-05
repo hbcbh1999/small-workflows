@@ -5,61 +5,61 @@
 ### [Search Files](search-files) 
 > A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
 
-### [Objects library](./objects-library) 
+### [Objects library](objects-library) 
 > Useful premade objects for workflows.
 
-### [Keyboard turn on/off](./keyboard-on-off) 
+### [Keyboard turn on/off](keyboard-on-off) 
 > Turn your keboard on and off.
 
-### [Focus](./focus)
+### [Focus](focus)
 > Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 
-### [Dictionary search](./dictionary-search) 
+### [Dictionary search](dictionary-search) 
 > Search through dictionary.
 
-### [Useful utilities](./utilities) 
+### [Useful utilities](utilities) 
 > Only has one utilty, to search selected text in Alfred.
 
-### [Search for Content](./search-for-content)
+### [Search for Content](search-for-content)
 > Two actions to search through the insides of PDF and MindNode documents.
 
-### [Months numbers](./months-numbers) 
+### [Months numbers](months-numbers) 
 > Search for a month and copy the month number to your clipboard.
 
 ### [WiFi Tools](/wifi)
 > Check wifi connection / Restart wifi / Toggle it on/off.
 
-### [Imgur album Download](./imgur-download) 
+### [Imgur album Download](imgur-download) 
 > Download Imgur Album currently open in your browser to location you specify.
 
-### [Karabiner XML Reload](./karabiner-reload) 
+### [Karabiner XML Reload](karabiner-reload) 
 > Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
 
-### [Clean Folders](./clean-folders) 
+### [Clean Folders](clean-folders) 
 > Trash items from Desktop and clean certain folders like removing .alfredworkflows from ~/Downloads.
 
-### [Folder Search](./folder-search) 
+### [Folder Search](folder-search) 
 > Search folders from Alfred and open them in Finder/iTerm/Editor.
 
-### [Static Searches](./static-searches) 
+### [Static Searches](static-searches) 
 > Make searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
 
-### [Useful File Actions](./file-actions) 
+### [Useful File Actions](file-actions) 
 > Various file actions I made to operate on files and folders.
 
-### [Search Selected Text on the Web](./search-selection) 
+### [Search Selected Text on the Web](search-selection) 
 > Search selected text on various websites with hotkeys.
 
-### [Go to Reddit Subreddit](./reddit-subs)
+### [Go to Reddit Subreddit](reddit-subs)
 > Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
 
-### [Go code -> Go Playground](./go-play) 
+### [Go code -> Go Playground](go-play) 
 > Create [Go Playground](https://play.golang.org) from selected Go code for sharing. 
 
-### [Commit Folders](./commit-folders) 
+### [Commit Folders](commit-folders) 
 > Search folders and commit changes inside the folders with commit message you like. 
 
-### [Dash Profile Switcher](./dash-profile-switch)
+### [Dash Profile Switcher](dash-profile-switch)
 > Search through your custom [Dash](https://kapeli.com/dash) profiles.
 
 ## Workflow Augmentations 
