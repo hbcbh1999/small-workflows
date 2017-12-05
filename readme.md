@@ -65,18 +65,18 @@
 ## Workflow Augmentations 
 > Workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me). Credit goes to the authors of these awesome workflows.
 
-### [GitHub Jump](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/GitHub%20jump.alfredworkflow?raw=true)
-> Quickly jump to a github repository page.
+### [GitHub Jump](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/GitHub%20jump.alfredworkflow?raw=true) (Credit to [Lachlan Donald](https://github.com/lox)) ([Original](https://github.com/lox/alfred-github-jump))
+> Quickly jump to a GitHub repository page.
 
-- All credit goes to [Lachlan Donald](https://github.com/lox) who made the [original GitHub Jump workflow](https://github.com/lox/alfred-github-jump).
-- I just added many modifiers to do different things such as go directly to issues of the workflow, pull requests of it or even clone the repo to a specified directory.
+- I added many modifiers to do different things such as go directly to issues of the workflow, pull requests of it or even clone the repo to a specified directory.
 - I use this workflow many many times a day and it saved me a lot of time.
 
-### [Dash Search with custom hotkeys](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Dash.alfredworkflow?raw=true) (Credit to [Bogdan Popescu](https://github.com/Kapeli)) [Original](https://github.com/Kapeli/Dash-Alfred-Workflow)
-- I extended with many custom hotkeys to super quickly search a specific docset in [Dash](https://kapeli.com/dash).
+### [Dash Search with custom hotkeys](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Dash.alfredworkflow?raw=true) (Credit to [Bogdan Popescu](https://github.com/Kapeli)) ([Original](https://github.com/Kapeli/Dash-Alfred-Workflow))
+> Search Dash docs.
 
-### [Alfred Workflow Directory](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Workflow%20directory.alfredworkflow?raw=true)
-- All credit goes to [Jeef](https://github.com/jeeftor) for making the [original workflow](https://github.com/jeeftor/AlfredWorkflowDirectory).
+- I extended it with many custom hotkeys to super quickly search a specific docset in [Dash](https://kapeli.com/dash).
+
+### [Alfred Workflow Directory](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Workflow%20directory.alfredworkflow?raw=true) (Credit to [Jeef](https://github.com/jeeftor)) ([Original](https://github.com/jeeftor/AlfredWorkflowDirectory))
 - I changed it so that by default it will cd to the workflow in my current iTerm tab but also it can export workflow to `~/Desktop` (you can change location) or it will open the workflow with an editor (VS Code or Sublime in my case).
 
 ### [Directory watches](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Directory%20watches.alfredworkflow?raw=true) (Credit to )
