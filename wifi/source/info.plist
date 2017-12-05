@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.wifi.workflow</string>
 	<key>category</key>
-	<string>mine</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>244C9EFF-C0F9-4FA7-BE86-AB0B62D02317</key>

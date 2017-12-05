@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.clean.folders</string>
 	<key>category</key>
-	<string>mine</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>155ED3E5-4396-4B1B-BE88-90F3D55FC861</key>

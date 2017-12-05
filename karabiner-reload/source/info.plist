@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>com.nikivi.karabiner</string>
 	<key>category</key>
-	<string>mine</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>4177C31C-F83C-4C5B-BCDF-30386E599615</key>

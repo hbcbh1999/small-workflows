@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.block.websites</string>
 	<key>category</key>
-	<string>mine</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>2337DCB5-D355-4387-B1A7-97FF5C2EF512</key>

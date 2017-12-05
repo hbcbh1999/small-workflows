@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.dictionary.lookup</string>
 	<key>category</key>
-	<string>mine</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>5F5C6A87-B882-40D9-9D56-BD9AE04E8847</key>

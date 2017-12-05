@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.search.web.selection</string>
 	<key>category</key>
-	<string>mine</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>0C668E75-334F-4BAE-BF72-7D132F1F5EE1</key>

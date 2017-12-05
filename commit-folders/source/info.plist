@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.commit.folders</string>
 	<key>category</key>
-	<string>mine</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>07A5D086-E0C7-4E5C-92C4-BE2526CE3B33</key>

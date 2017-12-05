@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.keyboard.control</string>
 	<key>category</key>
-	<string>mine</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>7687AC5C-DE35-4C78-9E41-5FF75184D786</key>

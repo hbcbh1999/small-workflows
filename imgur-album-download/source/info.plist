@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.imgur.album.download</string>
 	<key>category</key>
-	<string>mine</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>95446AB9-64FB-4BCF-8818-917C5120DCF0</key>
