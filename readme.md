@@ -79,8 +79,9 @@
 ### [Alfred Workflow Directory](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Workflow%20directory.alfredworkflow?raw=true) (Credit to [Jeef](https://github.com/jeeftor)) ([Original](https://github.com/jeeftor/AlfredWorkflowDirectory))
 - I changed it so that by default it will cd to the workflow in my current iTerm tab but also it can export workflow to `~/Desktop` (you can change location) or it will open the workflow with an editor (VS Code or Sublime in my case).
 
-### [Directory watches](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Directory%20watches.alfredworkflow?raw=true) (Credit to )
-- 
+### [Directory watches](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Directory%20watches.alfredworkflow?raw=true) (Credit to [Vítor Galvão](https://github.com/vitorgalvao))
+- I modified a script he once shared to quickly see insides of various directories and action on items of them to do various things opening the path in iTerm or moving the file somewhere.
+- Be careful though as it contains some actions that you must certainly not want but I kept them there in case you find it interesting and adapt it to your own needs.
 
 ## Contributing
 If you use or used any of the workflows above and think there is something awesome that can be added to them. I would love to [hear it](https://github.com/nikitavoloboev/small-workflows/issues/new).
