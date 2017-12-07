@@ -87,6 +87,11 @@
 - I modified a script he once shared to quickly see insides of various directories and action on items of them to do various things opening the path in iTerm or moving the file somewhere.
 - Be careful though as it contains some actions that you must certainly not want but I kept them there in case you find it interesting and adapt it to your own needs.
 
+### [Similar image search](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Google%20similar%20images.alfredworkflow?raw=true) (Credit to [Dean Jackson](https://github.com/deanishe)) ([Original](https://github.com/deanishe/alfred-similar-image-search))
+> Google Image searches based on local files.
+
+- I modified it so you can take a screenshot and immediately search that screenshot on Google
+
 ## Contributing
 If you use or used any of the workflows above and think there is something awesome that can be added to them. I would love to [hear it](https://github.com/nikitavoloboev/small-workflows/issues/new).
 
