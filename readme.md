@@ -23,7 +23,7 @@
 - [Static Searches](static-searches) - ake searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.se [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
 - [Useful File Actions](file-actions) - Various file actions I made to operate on files and folders.
 - [Search Selected Text on the Web](search-selection) - Search selected text on various websites with hotkeys.
-- [Go to Reddit Subreddit](reddit-subs) - Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
+- [Go to Reddit Subreddit](goto-subreddit) - Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
 - [Go code -> Go Playground](go-play) - Create [Go Playground](https://play.golang.org) from selected Go code for sharing.
 - [Commit Folders](commit-folders) - Search folders and commit changes inside the folders with commit message you like.
 - [Dash Profile Switcher](dash-profile-switch) - Search through your custom [Dash](https://kapeli.com/dash) profiles.
