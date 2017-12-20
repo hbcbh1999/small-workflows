@@ -1217,7 +1217,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://twitter.com/search?f=users&amp;vertical=default&amp;q=tester&amp;src=typd</string>
+				<string>https://twitter.com/search?f=users&amp;vertical=default&amp;q={query}&amp;src=typd</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
