@@ -193,6 +193,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4F4F99EB-EF81-4FDF-ABD1-4BCEC99DCB31</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D3542945-1E90-4C4E-AEA6-0C193B43D208</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>50BBD5F7-F75D-4A8A-BEE7-9175CF0A9277</key>
 		<array/>
 		<key>58DA759B-1826-4109-B169-4717692DDF3C</key>
@@ -587,6 +600,19 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Trash file</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D3542945-1E90-4C4E-AEA6-0C193B43D208</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B0807B90-5769-485D-9BBA-01649E13BCC9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -2297,19 +2323,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>ulysses groups</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>4B48B259-81B0-43BF-A520-5CEE3B2236DE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>count</key>
 				<integer>1</integer>
 				<key>keychar</key>
@@ -2323,6 +2336,19 @@ fi</string>
 			<string>alfred.workflow.output.dispatchkeycombo</string>
 			<key>uid</key>
 			<string>6430D177-9AAF-44FC-A844-D264D2D7ED0A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>ulysses groups</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>4B48B259-81B0-43BF-A520-5CEE3B2236DE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2452,6 +2478,25 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>⇥</string>
+				<key>keycode</key>
+				<integer>48</integer>
+				<key>keymod</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>B0807B90-5769-485D-9BBA-01649E13BCC9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>openwith</key>
 				<string>/Applications/Ulysses.app</string>
 				<key>sourcefile</key>
@@ -2463,6 +2508,19 @@ fi</string>
 			<string>9713D5D3-F2B6-4B3D-BE5C-2A9C97984F2C</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>0.3</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>D3542945-1E90-4C4E-AEA6-0C193B43D208</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3072,6 +3130,13 @@ fi</string>
 			<key>ypos</key>
 			<integer>1940</integer>
 		</dict>
+		<key>B0807B90-5769-485D-9BBA-01649E13BCC9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>860</integer>
+			<key>ypos</key>
+			<integer>1910</integer>
+		</dict>
 		<key>B11AE420-B0F6-495A-AA99-870889A03206</key>
 		<dict>
 			<key>xpos</key>
@@ -3099,6 +3164,13 @@ fi</string>
 			<integer>180</integer>
 			<key>ypos</key>
 			<integer>40</integer>
+		</dict>
+		<key>D3542945-1E90-4C4E-AEA6-0C193B43D208</key>
+		<dict>
+			<key>xpos</key>
+			<integer>790</integer>
+			<key>ypos</key>
+			<integer>1940</integer>
 		</dict>
 		<key>D7444218-1C7E-4EE7-8413-40E054F7D0A6</key>
 		<dict>
