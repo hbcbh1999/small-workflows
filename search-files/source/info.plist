@@ -2415,7 +2415,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Search ulysses groups</string>
+				<string>Search Ulysses groups</string>
 				<key>types</key>
 				<array>
 					<string>com.soulmen.ulysses3.group</string>
