@@ -136,7 +136,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Nikita Voloboev &lt;nikita.voloboev@icloud.com&gt;</string>
+	<string>Nikita Voloboev</string>
 	<key>description</key>
 	<string>Checks if you can connect to the internet + more</string>
 	<key>disabled</key>
@@ -370,7 +370,9 @@ networksetup -setairportpower $INTERFACE on</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Details on how to effectively use the workflow are found in the GitHub repository of the workflow.
+
+Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
 		<key>03597F88-2DED-4596-AE88-9C619C9BB857</key>

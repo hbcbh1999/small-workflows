@@ -76,7 +76,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Nikita Voloboev &lt;nikita.voloboev@icloud.com&gt;</string>
+	<string>Nikita Voloboev</string>
 	<key>description</key>
 	<string>Go to any subreddit on Reddit</string>
 	<key>disabled</key>
@@ -216,7 +216,9 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
+
+Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
 		<key>05EBC522-8195-4564-9525-7FA0D4EA6340</key>

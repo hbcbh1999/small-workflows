@@ -36,7 +36,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Nikita Voloboev &lt;nikita.voloboev@icloud.com&gt;</string>
+	<string>Nikita Voloboev</string>
 	<key>description</key>
 	<string>Switch Dash profiles from Alfred</string>
 	<key>disabled</key>
@@ -48,13 +48,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>switch</string>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>868EAE91-22E4-4969-B78E-9BE4F13FB88B</string>
+			<string>F4FC387A-6A8C-4D96-A24D-8F246A74E01F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -90,25 +96,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
+				<key>triggerid</key>
+				<string>switch</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>F4FC387A-6A8C-4D96-A24D-8F246A74E01F</string>
+			<string>868EAE91-22E4-4969-B78E-9BE4F13FB88B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
+
+Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
 		<key>6ADBFE54-0F5D-4D4D-BA01-424EDE75EC3B</key>

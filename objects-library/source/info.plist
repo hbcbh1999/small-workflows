@@ -9,7 +9,7 @@
 	<key>connections</key>
 	<dict/>
 	<key>createdby</key>
-	<string>Nikita Voloboev &lt;nikita.voloboev@icloud.com&gt;</string>
+	<string>Nikita Voloboev</string>
 	<key>description</key>
 	<string></string>
 	<key>disabled</key>
@@ -201,7 +201,9 @@ fi</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
+
+Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
 		<key>152630B4-2C52-48E2-96DF-AF9F58F2514A</key>
