@@ -422,7 +422,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Nikita Voloboev &lt;nikita.voloboev@icloud.com&gt;</string>
+	<string>Nikita Voloboev</string>
 	<key>description</key>
 	<string>Make quick searches on websites</string>
 	<key>disabled</key>
@@ -1259,7 +1259,9 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
+
+Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
 		<key>05FF6367-EE22-4B61-BFE1-D7CEBBC7C071</key>
