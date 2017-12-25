@@ -1015,7 +1015,9 @@ git push</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
+
+Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
 		<key>07A5D086-E0C7-4E5C-92C4-BE2526CE3B33</key>

@@ -12,13 +12,13 @@
 		<array/>
 	</dict>
 	<key>createdby</key>
-	<string>Nikita Voloboev &lt;nikita.voloboev@icloud.com&gt;</string>
+	<string>Nikita Voloboev</string>
 	<key>description</key>
 	<string>Run things</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Usefil utilities</string>
+	<string>Useful utilities</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -54,7 +54,9 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
+
+Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
 		<key>4F203672-A680-4E38-9F00-8E2C0380DD82</key>
