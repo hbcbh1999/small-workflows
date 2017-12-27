@@ -278,13 +278,13 @@ tell application "System Events"	if frontmost of process "iTerm2" is false then
 				<integer>102</integer>
 				<key>script</key>
 				<string>cd "$1"
-open -a "Sublime Text" readme.md</string>
+/usr/local/bin/subl readme.md</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
