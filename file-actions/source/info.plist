@@ -590,7 +590,7 @@ tell application "System Events"	if frontmost of process "iTerm2" is false then
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/file-actions/source/info.plist"
 readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/file-actions/Useful%20file%20actions.alfredworkflow"
 readonly download_type='direct'
-readonly frequency_check='4'
+readonly frequency_check='0'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {
@@ -1249,7 +1249,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.2</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

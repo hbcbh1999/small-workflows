@@ -21,6 +21,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>3D5EFEB3-5C3E-49F3-9AB0-B6BEA80EDEAE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A498E0E7-C6B7-4E93-9898-83DFED65F521</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>42736838-B89C-45EB-8076-8BCB6F44C6CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A498E0E7-C6B7-4E93-9898-83DFED65F521</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5057395B-BBF8-4DC5-B5A2-654FA359196D</key>
 		<array>
 			<dict>
@@ -39,16 +65,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>3D5EFEB3-5C3E-49F3-9AB0-B6BEA80EDEAE</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>A498E0E7-C6B7-4E93-9898-83DFED65F521</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -97,6 +113,35 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Downloads (Alfred workflows)","arg":"~\/Downloads\/*.alfredworkflow"},{"title":"Play (Everything)","arg":"~\/play\/*"},{"title":"Downloads (KM macros)","arg":"~\/Downloads\/*.kmmacros"}]</string>
+				<key>keyword</key>
+				<string>clean</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Things inside () shows what will be trashed</string>
+				<key>title</key>
+				<string>Clean folders of things</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>73CA7F02-2273-405C-9D47-726815AA4385</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -120,37 +165,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"Downloads (Alfred workflows)","arg":"~\/Downloads\/*.alfredworkflow"},{"title":"Play (Everything)","arg":"~\/play\/*"},{"title":"Downloads (KM macros)","arg":"~\/Downloads\/*.kmmacros"}]</string>
-				<key>keyword</key>
-				<string>clean</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string>things inside () shows what will be trashed</string>
-				<key>title</key>
-				<string>Clean folders of things</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>73CA7F02-2273-405C-9D47-726815AA4385</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>triggerid</key>
-				<string>clean folders</string>
+				<string>clean</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -169,7 +185,7 @@
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/clean-folders/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/$clean-folders/clean-folders.alfredworkflow"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/clean-folders/Clean%folders%20.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 
@@ -345,9 +361,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>3D5EFEB3-5C3E-49F3-9AB0-B6BEA80EDEAE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>350</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>60</integer>
 		</dict>
 		<key>42736838-B89C-45EB-8076-8BCB6F44C6CE</key>
 		<dict>
@@ -379,9 +395,9 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>580</integer>
 			<key>ypos</key>
-			<integer>140</integer>
+			<integer>150</integer>
 		</dict>
 		<key>D46423F8-CE62-4912-A854-DBCC0741CF03</key>
 		<dict>

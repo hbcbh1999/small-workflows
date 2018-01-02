@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>nikivi.commit.folders.v2</string>
+	<string>nikivi.commit.folders</string>
 	<key>category</key>
 	<string>Mine</string>
 	<key>connections</key>
