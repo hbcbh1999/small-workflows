@@ -162,18 +162,7 @@
 			</dict>
 		</array>
 		<key>8FD571AA-B7AD-420A-ADD2-477B4C6B7849</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>ED77192C-95ED-47F2-B0B0-AF10EC13B890</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>A44E0D1A-50FE-445B-B409-2913F533BAC1</key>
 		<array>
 			<dict>
@@ -1163,7 +1152,7 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>8FD571AA-B7AD-420A-ADD2-477B4C6B7849</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1010</integer>
+			<integer>1140</integer>
 			<key>ypos</key>
 			<integer>350</integer>
 		</dict>
@@ -1270,7 +1259,7 @@ By default it is ✨ but change it to what you like</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>1100</integer>
+			<integer>1240</integer>
 			<key>ypos</key>
 			<integer>320</integer>
 		</dict>

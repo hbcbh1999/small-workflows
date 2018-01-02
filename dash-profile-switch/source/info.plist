@@ -35,18 +35,7 @@
 			</dict>
 		</array>
 		<key>F4FC387A-6A8C-4D96-A24D-8F246A74E01F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>16B12FA9-2C39-4AEC-BED4-88CC57332CA4</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 	</dict>
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
@@ -224,7 +213,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>530</integer>
+			<integer>570</integer>
 			<key>ypos</key>
 			<integer>20</integer>
 		</dict>

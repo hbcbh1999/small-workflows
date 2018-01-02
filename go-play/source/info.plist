@@ -8,6 +8,19 @@
 	<string>Mine</string>
 	<key>connections</key>
 	<dict>
+		<key>8A0C6DCE-7A5E-4E1E-B841-576643197943</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8474618B-7176-421C-B7AB-601B83BAB4F3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>B62482BE-F9F8-4E81-BC4F-376931A2EEE9</key>
 		<array>
 			<dict>
@@ -44,6 +57,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>EDB86F6C-30F2-4E1A-8F2C-4BD241F5EFD1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8474618B-7176-421C-B7AB-601B83BAB4F3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
@@ -55,6 +81,108 @@
 	<string>Go Play</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>Copied link</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>81E69D82-0504-4F92-A607-C88110E69C64</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>41</integer>
+				<key>hotmod</key>
+				<integer>393216</integer>
+				<key>hotstring</key>
+				<string>:</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>B9409AD1-C53F-48CB-84BB-632CAF2A75CF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>https://play.golang.org/p/{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>8A0C6DCE-7A5E-4E1E-B841-576643197943</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import sys
+import urllib
+from urllib2 import Request, urlopen
+
+query = sys.argv[1]
+
+url = 'https://play.golang.org/share'
+
+request = Request(url, query)
+json = urlopen(request).read().decode()
+sys.stdout.write(json)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B62482BE-F9F8-4E81-BC4F-376931A2EEE9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -147,106 +275,12 @@ fi</string>
 			<integer>2</integer>
 		</dict>
 		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string>Copied link</string>
-			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
-			<string>81E69D82-0504-4F92-A607-C88110E69C64</string>
+			<string>8474618B-7176-421C-B7AB-601B83BAB4F3</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>41</integer>
-				<key>hotmod</key>
-				<integer>393216</integer>
-				<key>hotstring</key>
-				<string>:</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>B9409AD1-C53F-48CB-84BB-632CAF2A75CF</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>import sys
-import urllib
-from urllib2 import Request, urlopen
-
-query = sys.argv[1]
-
-url = 'https://play.golang.org/share'
-
-request = Request(url, query)
-json = urlopen(request).read().decode()
-sys.stdout.write(json)</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>3</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>B62482BE-F9F8-4E81-BC4F-376931A2EEE9</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>https://play.golang.org/p/{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>8A0C6DCE-7A5E-4E1E-B841-576643197943</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -294,18 +328,25 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>81E69D82-0504-4F92-A607-C88110E69C64</key>
 		<dict>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>430</integer>
 			<key>ypos</key>
-			<integer>150</integer>
+			<integer>40</integer>
+		</dict>
+		<key>8474618B-7176-421C-B7AB-601B83BAB4F3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>610</integer>
+			<key>ypos</key>
+			<integer>270</integer>
 		</dict>
 		<key>8A0C6DCE-7A5E-4E1E-B841-576643197943</key>
 		<dict>
 			<key>note</key>
 			<string>Official Go playground</string>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>430</integer>
 			<key>ypos</key>
-			<integer>270</integer>
+			<integer>160</integer>
 		</dict>
 		<key>B62482BE-F9F8-4E81-BC4F-376931A2EEE9</key>
 		<dict>
@@ -333,9 +374,9 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>Open the playground in the browser</string>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>430</integer>
 			<key>ypos</key>
-			<integer>550</integer>
+			<integer>440</integer>
 		</dict>
 		<key>E9E8BFEF-668E-418B-9122-64DB2A78DFAC</key>
 		<dict>
@@ -344,18 +385,18 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>710</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>240</integer>
 		</dict>
 		<key>EDB86F6C-30F2-4E1A-8F2C-4BD241F5EFD1</key>
 		<dict>
 			<key>note</key>
 			<string>Go play space</string>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>430</integer>
 			<key>ypos</key>
-			<integer>410</integer>
+			<integer>300</integer>
 		</dict>
 	</dict>
 	<key>version</key>
