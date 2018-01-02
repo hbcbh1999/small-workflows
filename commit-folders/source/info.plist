@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>nikivi.commit.folders</string>
+	<string>nikivi.commit.folders.v2</string>
 	<key>category</key>
 	<string>Mine</string>
 	<key>connections</key>
@@ -375,7 +375,7 @@
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/commit-folders/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/$commit-folders/commit-folders.alfredworkflow"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/commit-folders/commit-folders.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 
