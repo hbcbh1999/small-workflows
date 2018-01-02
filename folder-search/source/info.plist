@@ -97,18 +97,7 @@
 			</dict>
 		</array>
 		<key>DE8E07A5-AB5D-4DDF-BE31-C4723642C05C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>32C1304F-4BF8-43BE-8163-49EE025637F8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>F22A1096-062D-4C05-A1C1-CF8D63389B78</key>
 		<array/>
 	</dict>
@@ -272,6 +261,19 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>search</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>C34E01D2-E55A-4908-8A98-3DE22A77AA48</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>anchorfields</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -342,19 +344,6 @@ fi</string>
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
 			<string>CAD232B5-6B26-4DB8-B878-BD157C8296F0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>search</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>C34E01D2-E55A-4908-8A98-3DE22A77AA48</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -489,9 +478,9 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>590</integer>
+			<integer>610</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>130</integer>
 		</dict>
 		<key>6A4E18A0-FDC8-4BA3-93B0-32B605CC24A9</key>
 		<dict>

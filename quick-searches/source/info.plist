@@ -54,6 +54,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>361061D4-A7FF-4AFA-9405-B5E62E78806F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2A1F7FF8-4C04-417D-800D-B0426E7532E4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>37ED8832-1FD5-46E1-8AE2-59AF11022A93</key>
 		<array>
 			<dict>
@@ -116,6 +129,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>5A45D754-7842-48A9-915B-6D0B3334E4A2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>361061D4-A7FF-4AFA-9405-B5E62E78806F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5C047B1D-0786-40C7-AC25-6D05BBC62D05</key>
 		<array>
 			<dict>
@@ -143,9 +169,31 @@
 			</dict>
 		</array>
 		<key>62F4DBBA-509D-4866-91C1-E2192737DE13</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>361061D4-A7FF-4AFA-9405-B5E62E78806F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6781FB4A-4DF7-4935-9792-95005AE85220</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>361061D4-A7FF-4AFA-9405-B5E62E78806F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6E2F5D28-3C24-4A0E-868B-B7E8458130D9</key>
 		<array>
 			<dict>
@@ -302,6 +350,19 @@
 		</array>
 		<key>B05BB7FD-F32E-467B-B304-4D43E152045B</key>
 		<array/>
+		<key>BC7E2BE7-98F0-4284-83DE-E8BE2223A36C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>361061D4-A7FF-4AFA-9405-B5E62E78806F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C9A9C868-A7D4-475C-AF70-68A4A5D9B7D4</key>
 		<array>
 			<dict>
@@ -632,78 +693,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://github.com/search?utf8=✓&amp;q={query}&amp;type=Repositories&amp;ref=searchresults&amp;o=desc&amp;s=updated</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>886D7311-A63A-4898-87AF-0D5CB50E00B0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://github.com/search?utf8=%E2%9C%93&amp;q={query}&amp;type=Repositories&amp;ref=searchresults</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>6781FB4A-4DF7-4935-9792-95005AE85220</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>search github</string>
-				<key>subtext</key>
-				<string>⌥ = most stars</string>
-				<key>text</key>
-				<string>Best match | ⌃ = Latest | ⌘ = Top users</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>DA3436F6-9BAC-4AB4-8656-75C9AA080B70</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>github</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>EA4A9780-2386-4000-A5E5-499DDAE20769</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -791,6 +780,86 @@ fi</string>
 			<string>2A1F7FF8-4C04-417D-800D-B0426E7532E4</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>361061D4-A7FF-4AFA-9405-B5E62E78806F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://github.com/search?utf8=✓&amp;q={query}&amp;type=Repositories&amp;ref=searchresults&amp;o=desc&amp;s=updated</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>886D7311-A63A-4898-87AF-0D5CB50E00B0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://github.com/search?utf8=%E2%9C%93&amp;q={query}&amp;type=Repositories&amp;ref=searchresults</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6781FB4A-4DF7-4935-9792-95005AE85220</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>search github</string>
+				<key>subtext</key>
+				<string>⌥ = most stars</string>
+				<key>text</key>
+				<string>Best match | ⌃ = Latest | ⌘ = Top users</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DA3436F6-9BAC-4AB4-8656-75C9AA080B70</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>github</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>EA4A9780-2386-4000-A5E5-499DDAE20769</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1418,9 +1487,16 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>650</integer>
+			<integer>820</integer>
 			<key>ypos</key>
-			<integer>1010</integer>
+			<integer>680</integer>
+		</dict>
+		<key>361061D4-A7FF-4AFA-9405-B5E62E78806F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>730</integer>
+			<key>ypos</key>
+			<integer>710</integer>
 		</dict>
 		<key>372E77E2-384E-43C3-BD73-4BB5A7C20217</key>
 		<dict>
