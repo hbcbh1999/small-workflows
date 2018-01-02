@@ -272,6 +272,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D9DB0423-C9D9-424C-9E54-B6F616E02908</key>
+		<array/>
 		<key>DB13C94B-3493-4D8D-A330-7BE5A8B600FA</key>
 		<array>
 			<dict>
@@ -375,7 +377,7 @@
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/commit-folders/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/commit-folders/commit-folders.alfredworkflow"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/commit-folders/Commit%20folders.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 
@@ -1229,7 +1231,7 @@ By default it is ✨ but change it to what you like</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
