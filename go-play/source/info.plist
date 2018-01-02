@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0EC960E3-BDFD-4C79-B76E-512F06470E85</string>
+				<string>E9E8BFEF-668E-418B-9122-64DB2A78DFAC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -75,7 +75,7 @@
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/go-play/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/$go-play/go-play.alfredworkflow"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/go-play/Go%20Play.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 
@@ -152,7 +152,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>0EC960E3-BDFD-4C79-B76E-512F06470E85</string>
+			<string>E9E8BFEF-668E-418B-9122-64DB2A78DFAC</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -261,6 +261,23 @@ sys.stdout.write(json)</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>https://goplay.space/#{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>EDB86F6C-30F2-4E1A-8F2C-4BD241F5EFD1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -277,23 +294,6 @@ sys.stdout.write(json)</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>https://goplay.space/#{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>EDB86F6C-30F2-4E1A-8F2C-4BD241F5EFD1</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
@@ -301,17 +301,6 @@ sys.stdout.write(json)</string>
 Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
-		<key>0EC960E3-BDFD-4C79-B76E-512F06470E85</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
-			<key>note</key>
-			<string>OneUpdater</string>
-			<key>xpos</key>
-			<integer>440</integer>
-			<key>ypos</key>
-			<integer>10</integer>
-		</dict>
 		<key>81E69D82-0504-4F92-A607-C88110E69C64</key>
 		<dict>
 			<key>xpos</key>
@@ -352,11 +341,22 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>BCD45A73-C5A2-4B36-BBB8-DD6CE2D94511</key>
 		<dict>
 			<key>note</key>
-			<string>Can also open the playground in the browser if you wish</string>
+			<string>Open the playground in the browser</string>
 			<key>xpos</key>
 			<integer>440</integer>
 			<key>ypos</key>
-			<integer>410</integer>
+			<integer>550</integer>
+		</dict>
+		<key>E9E8BFEF-668E-418B-9122-64DB2A78DFAC</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>20</integer>
 		</dict>
 		<key>EDB86F6C-30F2-4E1A-8F2C-4BD241F5EFD1</key>
 		<dict>
@@ -365,7 +365,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>440</integer>
 			<key>ypos</key>
-			<integer>580</integer>
+			<integer>410</integer>
 		</dict>
 	</dict>
 	<key>version</key>

@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8409A5C0-B3F0-4AD2-A7BF-F2D36C3ADFBE</string>
+				<string>58E90CE3-EDBD-4C4E-8054-50AB0EE6D4C1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -84,7 +84,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8409A5C0-B3F0-4AD2-A7BF-F2D36C3ADFBE</string>
+				<string>58E90CE3-EDBD-4C4E-8054-50AB0EE6D4C1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -130,7 +130,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CDA43ED3-631B-4E9C-8F6D-87519AA66311</string>
+				<string>A19307BB-668D-4FC8-9F98-19BF57B96A1D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -143,7 +143,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8409A5C0-B3F0-4AD2-A7BF-F2D36C3ADFBE</string>
+				<string>58E90CE3-EDBD-4C4E-8054-50AB0EE6D4C1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -180,9 +180,47 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Imgur album downloader</string>
+	<string>Imgur album download</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>imgd</string>
+				<key>subtext</key>
+				<string>Imgur album must be open in your frontmost tab</string>
+				<key>text</key>
+				<string>Download Imgur album to Desktop</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BD4203BA-9B48-4BBF-B4C7-BD2EB9D139FD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+tell application "Safari" to return URL of front document
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>95446AB9-64FB-4BCF-8818-917C5120DCF0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -193,7 +231,7 @@
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/imgur-album-download/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/$imgur-album-download/imgur-album-download.alfredworkflow"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/imgur-album-download/Imgur%20album%20download.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 
@@ -270,68 +308,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>8409A5C0-B3F0-4AD2-A7BF-F2D36C3ADFBE</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>imgd</string>
-				<key>subtext</key>
-				<string>Imgur album must be open in your frontmost tab</string>
-				<key>text</key>
-				<string>Download Imgur album to Desktop</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>BD4203BA-9B48-4BBF-B4C7-BD2EB9D139FD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-tell application "Safari" to return URL of front document
-end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>95446AB9-64FB-4BCF-8818-917C5120DCF0</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>python imguralbum.py {query} ~/Desktop</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>A19307BB-668D-4FC8-9F98-19BF57B96A1D</string>
+			<string>58E90CE3-EDBD-4C4E-8054-50AB0EE6D4C1</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -385,6 +362,29 @@ end alfred_script</string>
 			<string>CDA43ED3-631B-4E9C-8F6D-87519AA66311</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>python imguralbum.py {query} ~/Desktop</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A19307BB-668D-4FC8-9F98-19BF57B96A1D</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -469,7 +469,7 @@ end alfred_script</string>
 Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
-		<key>8409A5C0-B3F0-4AD2-A7BF-F2D36C3ADFBE</key>
+		<key>58E90CE3-EDBD-4C4E-8054-50AB0EE6D4C1</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
@@ -478,14 +478,14 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>540</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>40</integer>
 		</dict>
 		<key>885DE6F9-0F81-4D2F-9336-9AC9769E014D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>630</integer>
+			<integer>650</integer>
 			<key>ypos</key>
-			<integer>420</integer>
+			<integer>430</integer>
 		</dict>
 		<key>95446AB9-64FB-4BCF-8818-917C5120DCF0</key>
 		<dict>
@@ -503,9 +503,9 @@ Post any issues and feature requests you have there. 💜</string>
 
 You can change the location inside the script</string>
 			<key>xpos</key>
-			<integer>700</integer>
+			<integer>650</integer>
 			<key>ypos</key>
-			<integer>40</integer>
+			<integer>240</integer>
 		</dict>
 		<key>AF76F468-6D6A-43D4-BFE8-FB7D3FE35031</key>
 		<dict>
@@ -535,18 +535,18 @@ You can change the location inside the script</string>
 		<key>CDA43ED3-631B-4E9C-8F6D-87519AA66311</key>
 		<dict>
 			<key>xpos</key>
-			<integer>900</integer>
+			<integer>810</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>240</integer>
 		</dict>
 		<key>DBB4A5B4-F355-4828-BB8E-C481ACB2F414</key>
 		<dict>
 			<key>note</key>
 			<string>Check for Imgur album link</string>
 			<key>xpos</key>
-			<integer>550</integer>
+			<integer>570</integer>
 			<key>ypos</key>
-			<integer>450</integer>
+			<integer>460</integer>
 		</dict>
 		<key>F53331FC-9DC6-45CD-9E6E-CDAC716D006B</key>
 		<dict>
@@ -555,7 +555,7 @@ You can change the location inside the script</string>
 			<key>xpos</key>
 			<integer>550</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>270</integer>
 		</dict>
 		<key>FC040415-296D-4947-90F6-66724368FAC1</key>
 		<dict>

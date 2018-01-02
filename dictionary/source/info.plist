@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.nikivi.utilities</string>
+	<string>nikivi.dictionary.lookup</string>
 	<key>category</key>
 	<string>Mine</string>
 	<key>connections</key>
 	<dict>
-		<key>4F203672-A680-4E38-9F00-8E2C0380DD82</key>
+		<key>5F5C6A87-B882-40D9-9D56-BD9AE04E8847</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C1520DB9-E42A-4CD8-AA28-1FACC292B62A</string>
+				<string>AC2D5677-23D7-4D96-9C5C-91A64046E399</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,19 +21,56 @@
 				<false/>
 			</dict>
 		</array>
-		<key>C1520DB9-E42A-4CD8-AA28-1FACC292B62A</key>
-		<array/>
+		<key>A63C8F0C-FDB8-4782-A7A8-18473BE14F93</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE1B1FD8-E462-4AA2-8D1A-5585550A4FE9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AC2D5677-23D7-4D96-9C5C-91A64046E399</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A63C8F0C-FDB8-4782-A7A8-18473BE14F93</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
 	<key>description</key>
-	<string>Run things</string>
+	<string>Access dictionary with a hotkey</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Useful utilities</string>
+	<string>Dictionary</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>search</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>5F5C6A87-B882-40D9-9D56-BD9AE04E8847</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -43,8 +80,8 @@
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/utilities/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/utilities/Useful%utilities.alfredworkflow"
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/dictionary-search/source/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/dictionary-search/Dictionary.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 
@@ -121,46 +158,47 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>3DEA7699-F5F6-4211-BFFD-D1ECB002760F</string>
+			<string>CE1B1FD8-E462-4AA2-8D1A-5585550A4FE9</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>1</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
+				<key>browser</key>
 				<string></string>
-				<key>hotkey</key>
-				<integer>13</integer>
-				<key>hotmod</key>
-				<integer>1310720</integer>
-				<key>hotstring</key>
-				<string>W</string>
-				<key>leftcursor</key>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>dict://{query}</string>
+				<key>utf8</key>
 				<true/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>4F203672-A680-4E38-9F00-8E2C0380DD82</string>
+			<string>A63C8F0C-FDB8-4782-A7A8-18473BE14F93</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict>
+				<key>keyword</key>
+				<string>dictionary</string>
+				<key>language</key>
+				<string>en</string>
+				<key>showallwords</key>
+				<false/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search dictionary</string>
+			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
+			<string>alfred.workflow.input.dictionaryfilter</string>
 			<key>uid</key>
-			<string>C1520DB9-E42A-4CD8-AA28-1FACC292B62A</string>
+			<string>AC2D5677-23D7-4D96-9C5C-91A64046E399</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -171,34 +209,41 @@ fi</string>
 Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
-		<key>3DEA7699-F5F6-4211-BFFD-D1ECB002760F</key>
+		<key>5F5C6A87-B882-40D9-9D56-BD9AE04E8847</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>A63C8F0C-FDB8-4782-A7A8-18473BE14F93</key>
+		<dict>
+			<key>xpos</key>
+			<integer>340</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>AC2D5677-23D7-4D96-9C5C-91A64046E399</key>
+		<dict>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>CE1B1FD8-E462-4AA2-8D1A-5585550A4FE9</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>510</integer>
 			<key>ypos</key>
-			<integer>20</integer>
-		</dict>
-		<key>4F203672-A680-4E38-9F00-8E2C0380DD82</key>
-		<dict>
-			<key>xpos</key>
-			<integer>30</integer>
-			<key>ypos</key>
-			<integer>20</integer>
-		</dict>
-		<key>C1520DB9-E42A-4CD8-AA28-1FACC292B62A</key>
-		<dict>
-			<key>xpos</key>
-			<integer>180</integer>
-			<key>ypos</key>
-			<integer>50</integer>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

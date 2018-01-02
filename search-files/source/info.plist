@@ -58,7 +58,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2D38C39B-BC95-44F0-A92D-E0CAAC6B359E</string>
+				<string>2DA3C1E7-A901-4BFE-BCEB-2028A05A3749</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1080,7 +1080,7 @@
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-files/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/vitorgalvao/alfred-workflows/master/$search-files/search-files.alfredworkflow"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-files/Search%20files.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 
@@ -1157,7 +1157,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>2D38C39B-BC95-44F0-A92D-E0CAAC6B359E</string>
+			<string>2DA3C1E7-A901-4BFE-BCEB-2028A05A3749</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -3044,7 +3044,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>460</integer>
 		</dict>
-		<key>2D38C39B-BC95-44F0-A92D-E0CAAC6B359E</key>
+		<key>2DA3C1E7-A901-4BFE-BCEB-2028A05A3749</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>

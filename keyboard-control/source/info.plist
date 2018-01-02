@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.nikivi.utilities</string>
+	<string>nikivi.keyboard.control</string>
 	<key>category</key>
 	<string>Mine</string>
 	<key>connections</key>
 	<dict>
-		<key>4F203672-A680-4E38-9F00-8E2C0380DD82</key>
+		<key>3825F01E-7B32-4F71-B79A-162795A24AC4</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C1520DB9-E42A-4CD8-AA28-1FACC292B62A</string>
+				<string>076502C9-678F-4E56-A384-A50D57926479</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,19 +21,100 @@
 				<false/>
 			</dict>
 		</array>
-		<key>C1520DB9-E42A-4CD8-AA28-1FACC292B62A</key>
-		<array/>
+		<key>7687AC5C-DE35-4C78-9E41-5FF75184D786</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B7A7E01E-6143-4DED-AD8C-18C456B9EAB1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B7A7E01E-6143-4DED-AD8C-18C456B9EAB1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>076502C9-678F-4E56-A384-A50D57926479</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CCBD80AE-EA69-424C-8ABA-295BB477354E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3825F01E-7B32-4F71-B79A-162795A24AC4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
 	<key>description</key>
-	<string>Run things</string>
+	<string></string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Useful utilities</string>
+	<string>Keyboard control</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>sudo kextunload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3825F01E-7B32-4F71-B79A-162795A24AC4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>keyoff</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Turn keyboard off</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CCBD80AE-EA69-424C-8ABA-295BB477354E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -43,8 +124,8 @@
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/utilities/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/utilities/Useful%utilities.alfredworkflow"
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/keyboard-control/source/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/keyboard-control/Keyboard%20control.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 
@@ -121,80 +202,97 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>3DEA7699-F5F6-4211-BFFD-D1ECB002760F</string>
+			<string>076502C9-678F-4E56-A384-A50D57926479</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>1</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>keyon</string>
+				<key>subtext</key>
 				<string></string>
-				<key>hotkey</key>
-				<integer>13</integer>
-				<key>hotmod</key>
-				<integer>1310720</integer>
-				<key>hotstring</key>
-				<string>W</string>
-				<key>leftcursor</key>
-				<true/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
+				<key>text</key>
+				<string>Turn keyboard on</string>
+				<key>withspace</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>4F203672-A680-4E38-9F00-8E2C0380DD82</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>C1520DB9-E42A-4CD8-AA28-1FACC292B62A</string>
+			<string>7687AC5C-DE35-4C78-9E41-5FF75184D786</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>sudo kextload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B7A7E01E-6143-4DED-AD8C-18C456B9EAB1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
-
-Post any issues and feature requests you have there. 💜</string>
+	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>3DEA7699-F5F6-4211-BFFD-D1ECB002760F</key>
+		<key>076502C9-678F-4E56-A384-A50D57926479</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>12</integer>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>400</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>80</integer>
 		</dict>
-		<key>4F203672-A680-4E38-9F00-8E2C0380DD82</key>
+		<key>3825F01E-7B32-4F71-B79A-162795A24AC4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>10</integer>
 		</dict>
-		<key>C1520DB9-E42A-4CD8-AA28-1FACC292B62A</key>
+		<key>7687AC5C-DE35-4C78-9E41-5FF75184D786</key>
 		<dict>
 			<key>xpos</key>
-			<integer>180</integer>
+			<integer>10</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>170</integer>
+		</dict>
+		<key>B7A7E01E-6143-4DED-AD8C-18C456B9EAB1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>190</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
+		<key>CCBD80AE-EA69-424C-8ABA-295BB477354E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>version</key>
