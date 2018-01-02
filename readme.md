@@ -12,12 +12,12 @@
 - [Keyboard control](keyboard-control) - Turn your keboard on and off.
 - [Focus](focus)- Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 - [Dictionary](dictionary) - Search through dictionary.
-- [Useful utilities](utilities) - Only has one utilty, to search selected text in Alfred.
+- [Useful utilities](useful-utilities) - Only has one utilty, to search selected text in Alfred.
 - [Search for Content](search-for-content) - Two actions to search through the insides of PDF and MindNode documents.
-- [Months numbers](months-numbers) - Search for a month and copy the month number to your clipboard.
-- [WiFi Tools](/wifi) - Check wifi connection / Restart wifi / Toggle it on/off.
-- [Imgur album Download](imgur-download) - Download Imgur Album currently open in your browser to location you specify.
-- [Karabiner XML Reload](karabiner-reload) - Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
+- [Month numbers](month-numbers) - Search for a month and copy the month number to your clipboard.
+- [WiFi Tools](wifi-tools) - Check wifi connection / Restart wifi / Toggle it on/off.
+- [Imgur Download](imgur-download) - Download Imgur album currently open in your browser to location you specify.
+- [Karabiner Reload](karabiner-reload) - Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
 - [Clean Folders](clean-folders) - Trash items from Desktop and clean certain folders like removing .alfredworkflows from ~/Downloads.
 - [Folder Search](folder-search) - Search folders from Alfred and open them in Finder/iTerm/Editor.
 - [Quick Searches](quick-searches) - Searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.

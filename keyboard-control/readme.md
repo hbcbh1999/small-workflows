@@ -1,2 +1,2 @@
-# Keyboard turn on/off - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/keyboard-on-off/Keyboard%20turn%20on:off.alfredworkflow?raw=true) 
+# Keyboard control - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/keyboard-control/Keyboard%20control.alfredworkflow?raw=true)
 > Turn your keboard on and off.

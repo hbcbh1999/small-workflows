@@ -1,4 +1,4 @@
-# WiFi Tools - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/wifi/WiFi.alfredworkflow?raw=true)
+# WiFi Tools - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/wifi-tools/WiFi%20tools.alfredworkflow?raw=true)
 > Check wifi connection / Restart wifi / Toggle it on/off.
 
 It can:

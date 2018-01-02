@@ -35,7 +35,18 @@
 			</dict>
 		</array>
 		<key>5905194B-A180-4688-842E-6D0ABF8B057D</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6B55C53E-DD3D-4D82-AA0E-D8991CD6DD88</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>8E98779F-B168-4C7A-8932-995FA52E59A2</key>
 		<array>
 			<dict>
@@ -53,11 +64,11 @@
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
 	<key>description</key>
-	<string>Karabiner utilities</string>
+	<string>Reload Karabiner XML</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Karabiner</string>
+	<string>Karabiner reload</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -127,7 +138,7 @@
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/karabiner-reload/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/karabiner-reload/Karabiner.alfredworkflow"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/karabiner-reload/Karabiner%20reload.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 

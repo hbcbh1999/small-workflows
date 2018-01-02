@@ -8,10 +8,45 @@
 	<string>Mine</string>
 	<key>connections</key>
 	<dict>
+		<key>03597F88-2DED-4596-AE88-9C619C9BB857</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>43B64EC5-FE85-42BF-86C3-D9C131827A98</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>244C9EFF-C0F9-4FA7-BE86-AB0B62D02317</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>43B64EC5-FE85-42BF-86C3-D9C131827A98</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>43B64EC5-FE85-42BF-86C3-D9C131827A98</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>784CD9C9-3674-4819-B25F-032B8D6F3AF5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>57284CBF-8EA2-402B-8348-F34F919BA81A</key>
 		<array>
 			<dict>
@@ -154,9 +189,30 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>WiFi</string>
+	<string>WiFi tools</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>D5F6A6DF-2C1E-4781-B28C-6A480C99C3D6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -184,27 +240,6 @@ fi</string>
 			<string>57284CBF-8EA2-402B-8348-F34F919BA81A</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string></string>
-				<key>title</key>
-				<string>{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>D5F6A6DF-2C1E-4781-B28C-6A480C99C3D6</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -304,8 +339,8 @@ end alfred_script</string>
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/wifi/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/wifi/WiFi.alfredworkflow"
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/wifi-tools/source/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/wifi-tools/WiFi%20tools.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 

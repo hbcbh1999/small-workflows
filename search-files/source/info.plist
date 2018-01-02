@@ -54,18 +54,10 @@
 				<false/>
 			</dict>
 		</array>
+		<key>10D71985-2823-4A60-917F-87BDA74D371C</key>
+		<array/>
 		<key>11056781-A496-4C13-9D5B-3CB45EA3CAE4</key>
 		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>2DA3C1E7-A901-4BFE-BCEB-2028A05A3749</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>11F87331-4CA5-42CF-AD9A-219EAC43CEA7</string>
@@ -77,6 +69,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>135124AA-95D5-4A10-9638-067E23028E0D</key>
+		<array/>
 		<key>1383B5DA-0525-498E-AAB8-150E5D35E1AD</key>
 		<array>
 			<dict>
@@ -203,6 +197,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>2B28745F-BD75-465E-8E0C-6360A106B7D3</key>
+		<array/>
 		<key>4B48B259-81B0-43BF-A520-5CEE3B2236DE</key>
 		<array>
 			<dict>
@@ -257,6 +253,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>5DB41AFC-A356-4249-892A-68E246E9D7CC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2DA3C1E7-A901-4BFE-BCEB-2028A05A3749</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6370D5BD-C1C2-4A63-8E93-B2AC32C8CAC9</key>
 		<array>
 			<dict>
@@ -275,6 +284,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>ED39D7BE-401A-41F6-80A1-776DB01C0E28</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>697F0623-BE00-4FB1-B872-61A20D4B6F53</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5DB41AFC-A356-4249-892A-68E246E9D7CC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -427,6 +449,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>90D62A51-3FD3-4169-9372-5CE82BA0DEFE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5DB41AFC-A356-4249-892A-68E246E9D7CC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>94DE3578-77A3-4835-ADCE-69795B671BF0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5DB41AFC-A356-4249-892A-68E246E9D7CC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>9713D5D3-F2B6-4B3D-BE5C-2A9C97984F2C</key>
 		<array>
 			<dict>
@@ -529,6 +577,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>9E40EEE0-7F7E-48EE-87BE-4701F8B28DA4</key>
+		<array/>
 		<key>A610F5EB-3851-4AB9-A34A-B9BDAF64F64B</key>
 		<array>
 			<dict>
@@ -663,11 +713,26 @@
 				<false/>
 			</dict>
 		</array>
+		<key>DA795FD7-609F-42D7-A8C1-B48F8DAA4D5E</key>
+		<array/>
 		<key>DD7511BF-53AD-4FD6-866D-6FBA21806009</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>04B7255A-49E1-423B-AE98-319E3B944069</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E1827A97-E97E-4721-BCA8-0C0ADA466A3C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5DB41AFC-A356-4249-892A-68E246E9D7CC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -848,6 +913,8 @@
 		</array>
 		<key>F481CB40-5F73-4B5D-81E2-6C1CC8738DF9</key>
 		<array/>
+		<key>F622FD20-8EFF-47D0-A0ED-DE9F60AD3303</key>
+		<array/>
 		<key>F652ECF0-D147-45D4-B048-C666637BB84E</key>
 		<array>
 			<dict>
@@ -969,6 +1036,105 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-files/source/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-files/Search%20files.alfredworkflow"
+readonly download_type='direct'
+readonly frequency_check='4'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  readonly local notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2DA3C1E7-A901-4BFE-BCEB-2028A05A3749</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>5DB41AFC-A356-4249-892A-68E246E9D7CC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
@@ -1076,88 +1242,20 @@
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>0</integer>
+				<integer>102</integer>
 				<key>script</key>
-				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-files/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-files/Search%20files.alfredworkflow"
-readonly download_type='direct'
-readonly frequency_check='4'
-
-# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
-function abort {
-  echo "${1}" &gt;&amp;2
-  exit 1
-}
-
-function url_exists {
-  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
-}
-
-function notification {
-  readonly local notificator="$(find . -type d -name 'Notificator.app')"
-  if [[ -n "${notificator}" ]]; then
-    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
-    return
-  fi
-
-  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
-  if [[ -n "${terminal_notifier}" ]]; then
-    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
-    return
-  fi
-
-  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
-}
-
-# Local sanity checks
-readonly local_info_plist='info.plist'
-readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
-
-[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
-[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
-[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
-
-# Check for updates
-if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
-  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
-
-  readonly tmp_file="$(mktemp)"
-  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
-  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
-
-  if [[ "${local_version}" == "${remote_version}" ]]; then
-    touch "${local_info_plist}" # Reset timer by touching local file
-    exit 0
-  fi
-
-  if [[ "${download_type}" == 'page' ]]; then
-    notification 'Opening download page…'
-    open "${workflow_url}"
-    exit 0
-  fi
-
-  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
-
-  if url_exists "${download_url}"; then
-    notification 'Downloading and installing…'
-    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
-    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
-  else
-    abort "'workflow_url' (${download_url}) appears to not be reachable."
-  fi
-fi</string>
+				<string>mv "$1" ~/.Trash</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>2DA3C1E7-A901-4BFE-BCEB-2028A05A3749</string>
+			<string>11F87331-4CA5-42CF-AD9A-219EAC43CEA7</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -1268,6 +1366,31 @@ fi</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>11056781-A496-4C13-9D5B-3CB45EA3CAE4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E0B00032-AC63-487D-9637-FB56E38B46F6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
 			<key>config</key>
 			<dict>
 				<key>concurrently</key>
@@ -1275,28 +1398,31 @@ fi</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv "$1" ~/.Trash</string>
+				<string># Extract file name from a given path removing prefixes.
+# i.e. Given /Users/nikivi/Documents/books/b. daniel kahneman - thinking, fast and slow.pdf
+# =&gt; daniel kahneman - thinking, fast and slow.pdf
+
+# Get path to file
+file="$1"
+
+# Get file name from given path
+file=$(basename "$file" .pdf)
+
+# Remove dotted prefix if it exists (b. name =&gt; name)
+echo -n ${file#?. }</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>11F87331-4CA5-42CF-AD9A-219EAC43CEA7</string>
+			<string>E1849ACF-9B60-425C-881C-FCA639BD9ACF</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>11056781-A496-4C13-9D5B-3CB45EA3CAE4</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1401,57 +1527,6 @@ fi</string>
 			<string>8D09B042-C813-409A-AD8D-A266C95CD5DE</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>E0B00032-AC63-487D-9637-FB56E38B46F6</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string># Extract file name from a given path removing prefixes.
-# i.e. Given /Users/nikivi/Documents/books/b. daniel kahneman - thinking, fast and slow.pdf
-# =&gt; daniel kahneman - thinking, fast and slow.pdf
-
-# Get path to file
-file="$1"
-
-# Get file name from given path
-file=$(basename "$file" .pdf)
-
-# Remove dotted prefix if it exists (b. name =&gt; name)
-echo -n ${file#?. }</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E1849ACF-9B60-425C-881C-FCA639BD9ACF</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>type</key>
@@ -2954,18 +3029,18 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>11056781-A496-4C13-9D5B-3CB45EA3CAE4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>820</integer>
+			<integer>770</integer>
 			<key>ypos</key>
-			<integer>390</integer>
+			<integer>320</integer>
 		</dict>
 		<key>11F87331-4CA5-42CF-AD9A-219EAC43CEA7</key>
 		<dict>
 			<key>note</key>
 			<string>Trash the file</string>
 			<key>xpos</key>
-			<integer>900</integer>
+			<integer>850</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>290</integer>
 		</dict>
 		<key>135124AA-95D5-4A10-9638-067E23028E0D</key>
 		<dict>
@@ -2991,9 +3066,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>16EC7338-CE7B-4C56-99A8-41363D1DB4C9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>820</integer>
+			<integer>770</integer>
 			<key>ypos</key>
-			<integer>540</integer>
+			<integer>470</integer>
 		</dict>
 		<key>17360B10-3B59-4E14-A43D-D426631B0E0D</key>
 		<dict>
@@ -3051,9 +3126,9 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>900</integer>
+			<integer>840</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>50</integer>
 		</dict>
 		<key>4B48B259-81B0-43BF-A520-5CEE3B2236DE</key>
 		<dict>
@@ -3096,6 +3171,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>990</integer>
+		</dict>
+		<key>5DB41AFC-A356-4249-892A-68E246E9D7CC</key>
+		<dict>
+			<key>xpos</key>
+			<integer>760</integer>
+			<key>ypos</key>
+			<integer>80</integer>
 		</dict>
 		<key>6370D5BD-C1C2-4A63-8E93-B2AC32C8CAC9</key>
 		<dict>
@@ -3317,9 +3399,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>E0B00032-AC63-487D-9637-FB56E38B46F6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1070</integer>
+			<integer>1020</integer>
 			<key>ypos</key>
-			<integer>510</integer>
+			<integer>440</integer>
 		</dict>
 		<key>E1827A97-E97E-4721-BCA8-0C0ADA466A3C</key>
 		<dict>
@@ -3333,9 +3415,9 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>Extract file name (cutting the prefix)</string>
 			<key>xpos</key>
-			<integer>900</integer>
+			<integer>850</integer>
 			<key>ypos</key>
-			<integer>510</integer>
+			<integer>440</integer>
 		</dict>
 		<key>E38EC5CE-AEAC-4D81-BD34-723C8981F613</key>
 		<dict>
