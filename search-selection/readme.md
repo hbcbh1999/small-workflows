@@ -1,4 +1,4 @@
-# Search Selected Text on the Web - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/search-selection/Search%20web%20with%20selection.alfredworkflow?raw=true)
+# Search selection - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/search-selection/Search%20selection.alfredworkflow?raw=true)
 > Search selected text on various websites with hotkeys.
 
 You can customise the hotkeys to ones you like. To make things easier for myself, I call the hotkeys from [Karabiner](https://nikitavoloboev.gitbooks.io/knowledge/content/macOS/apps/karabiner/Karabiner.html) with my custom modifier keys which you can take a look [here](https://github.com/nikitavoloboev/dotfiles) for.

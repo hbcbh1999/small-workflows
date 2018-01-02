@@ -330,7 +330,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Search web with selection</string>
+	<string>Search selection</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -485,7 +485,7 @@
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-selection/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-selection/Search%20web%20with%20selection.alfredworkflow"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-selection/Search%20selection.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='4'
 
