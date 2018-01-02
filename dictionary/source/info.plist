@@ -22,18 +22,7 @@
 			</dict>
 		</array>
 		<key>A63C8F0C-FDB8-4782-A7A8-18473BE14F93</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CE1B1FD8-E462-4AA2-8D1A-5585550A4FE9</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>AC2D5677-23D7-4D96-9C5C-91A64046E399</key>
 		<array>
 			<dict>
@@ -68,6 +57,46 @@
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>5F5C6A87-B882-40D9-9D56-BD9AE04E8847</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>keyword</key>
+				<string>dictionary</string>
+				<key>language</key>
+				<string>en</string>
+				<key>showallwords</key>
+				<false/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search dictionary</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.dictionaryfilter</string>
+			<key>uid</key>
+			<string>AC2D5677-23D7-4D96-9C5C-91A64046E399</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>dict://{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A63C8F0C-FDB8-4782-A7A8-18473BE14F93</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -161,46 +190,6 @@ fi</string>
 			<string>CE1B1FD8-E462-4AA2-8D1A-5585550A4FE9</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>dict://{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>A63C8F0C-FDB8-4782-A7A8-18473BE14F93</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>keyword</key>
-				<string>dictionary</string>
-				<key>language</key>
-				<string>en</string>
-				<key>showallwords</key>
-				<false/>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Search dictionary</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.dictionaryfilter</string>
-			<key>uid</key>
-			<string>AC2D5677-23D7-4D96-9C5C-91A64046E399</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>

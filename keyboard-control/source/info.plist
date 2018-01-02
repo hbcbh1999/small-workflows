@@ -22,18 +22,7 @@
 			</dict>
 		</array>
 		<key>4FE6E7B5-9FDE-43AF-A7F7-1B51BE8D8620</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>076502C9-678F-4E56-A384-A50D57926479</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>7687AC5C-DE35-4C78-9E41-5FF75184D786</key>
 		<array>
 			<dict>
@@ -87,6 +76,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>keyoff</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Turn keyboard off</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CCBD80AE-EA69-424C-8ABA-295BB477354E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -106,27 +116,6 @@
 			<string>3825F01E-7B32-4F71-B79A-162795A24AC4</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>keyoff</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Turn keyboard off</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>CCBD80AE-EA69-424C-8ABA-295BB477354E</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>

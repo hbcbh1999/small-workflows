@@ -8,11 +8,13 @@
 	<string>Mine</string>
 	<key>connections</key>
 	<dict>
+		<key>4C407FE1-006F-4843-A567-2EBC53DE1292</key>
+		<array/>
 		<key>95446AB9-64FB-4BCF-8818-917C5120DCF0</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>58E90CE3-EDBD-4C4E-8054-50AB0EE6D4C1</string>
+				<string>4C407FE1-006F-4843-A567-2EBC53DE1292</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -84,7 +86,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>58E90CE3-EDBD-4C4E-8054-50AB0EE6D4C1</string>
+				<string>4C407FE1-006F-4843-A567-2EBC53DE1292</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -143,7 +145,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>58E90CE3-EDBD-4C4E-8054-50AB0EE6D4C1</string>
+				<string>4C407FE1-006F-4843-A567-2EBC53DE1292</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -313,6 +315,14 @@ fi</string>
 			<integer>2</integer>
 		</dict>
 		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>4C407FE1-006F-4843-A567-2EBC53DE1292</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>config</key>
 			<dict>
 				<key>applescript</key>
@@ -469,6 +479,13 @@ end alfred_script</string>
 Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
+		<key>4C407FE1-006F-4843-A567-2EBC53DE1292</key>
+		<dict>
+			<key>xpos</key>
+			<integer>510</integer>
+			<key>ypos</key>
+			<integer>70</integer>
+		</dict>
 		<key>58E90CE3-EDBD-4C4E-8054-50AB0EE6D4C1</key>
 		<dict>
 			<key>colorindex</key>
@@ -476,7 +493,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>540</integer>
+			<integer>600</integer>
 			<key>ypos</key>
 			<integer>40</integer>
 		</dict>

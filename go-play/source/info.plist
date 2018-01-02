@@ -12,16 +12,6 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E9E8BFEF-668E-418B-9122-64DB2A78DFAC</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>81E69D82-0504-4F92-A607-C88110E69C64</string>
 				<key>modifiers</key>
 				<integer>0</integer>

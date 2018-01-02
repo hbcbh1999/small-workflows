@@ -390,7 +390,7 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>0A44CD3F-A568-48AE-814C-F4B9338024C4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>290</integer>
+			<integer>320</integer>
 			<key>ypos</key>
 			<integer>140</integer>
 		</dict>
@@ -401,7 +401,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater (GitHub release)</string>
 			<key>xpos</key>
-			<integer>120</integer>
+			<integer>150</integer>
 			<key>ypos</key>
 			<integer>180</integer>
 		</dict>
@@ -426,7 +426,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>This one actually updates this workflow in case I add some new objects :)</string>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>390</integer>
 			<key>ypos</key>
 			<integer>110</integer>
 		</dict>
@@ -437,7 +437,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>120</integer>
+			<integer>150</integer>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>

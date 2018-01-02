@@ -45,18 +45,7 @@
 			</dict>
 		</array>
 		<key>593A7218-EA63-4807-92B5-62977944BB5C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DFF78986-22C5-4BA5-B239-F70B8DD1B486</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>90C653B5-ABF9-4658-82F1-DB0EE4925691</key>
 		<array>
 			<dict>
@@ -420,7 +409,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>710</integer>
+			<integer>720</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>

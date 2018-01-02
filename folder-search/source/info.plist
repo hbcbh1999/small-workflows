@@ -134,30 +134,6 @@
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>tell application "iTerm"	if exists window 1 then		tell current window			tell current session to write text "cd {query}"		end tell	else		create window with default profile		tell current window			tell current session to write text "cd {query}"		end tell	end ifend tell
-tell application "System Events"	if frontmost of process "iTerm2" is false then key code 13 using {option down, control down, shift down, command down}end tell</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>F22A1096-062D-4C05-A1C1-CF8D63389B78</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
@@ -246,6 +222,30 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>tell application "iTerm"	if exists window 1 then		tell current window			tell current session to write text "cd {query}"		end tell	else		create window with default profile		tell current window			tell current session to write text "cd {query}"		end tell	end ifend tell
+tell application "System Events"	if frontmost of process "iTerm2" is false then key code 13 using {option down, control down, shift down, command down}end tell</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F22A1096-062D-4C05-A1C1-CF8D63389B78</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>openwith</key>
 				<string></string>
 				<key>sourcefile</key>
@@ -257,19 +257,6 @@ fi</string>
 			<string>DE8E07A5-AB5D-4DDF-BE31-C4723642C05C</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>search</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>C34E01D2-E55A-4908-8A98-3DE22A77AA48</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -344,6 +331,19 @@ fi</string>
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
 			<string>CAD232B5-6B26-4DB8-B878-BD157C8296F0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>search</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>C34E01D2-E55A-4908-8A98-3DE22A77AA48</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
