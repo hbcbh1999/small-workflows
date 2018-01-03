@@ -8,6 +8,8 @@
 	<string>Mine</string>
 	<key>connections</key>
 	<dict>
+		<key>8474618B-7176-421C-B7AB-601B83BAB4F3</key>
+		<array/>
 		<key>8A0C6DCE-7A5E-4E1E-B841-576643197943</key>
 		<array>
 			<dict>
@@ -195,7 +197,7 @@ sys.stdout.write(json)</string>
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/go-play/source/info.plist"
 readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/go-play/Go%20Play.alfredworkflow"
 readonly download_type='direct'
-readonly frequency_check='4'
+readonly frequency_check='7'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {

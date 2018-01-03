@@ -129,7 +129,7 @@
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/karabiner-reload/source/info.plist"
 readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/karabiner-reload/Karabiner%20reload.alfredworkflow"
 readonly download_type='direct'
-readonly frequency_check='4'
+readonly frequency_check='7'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {

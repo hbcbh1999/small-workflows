@@ -903,18 +903,7 @@
 		<key>F481CB40-5F73-4B5D-81E2-6C1CC8738DF9</key>
 		<array/>
 		<key>F622FD20-8EFF-47D0-A0ED-DE9F60AD3303</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5DB41AFC-A356-4249-892A-68E246E9D7CC</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>F652ECF0-D147-45D4-B048-C666637BB84E</key>
 		<array>
 			<dict>
@@ -1045,7 +1034,7 @@
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-files/source/info.plist"
 readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-files/Search%20files.alfredworkflow"
 readonly download_type='direct'
-readonly frequency_check='4'
+readonly frequency_check='7'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {
