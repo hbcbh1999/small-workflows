@@ -74,18 +74,7 @@
 			</dict>
 		</array>
 		<key>237B73E3-34B1-4219-A931-904504531BA1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>1A6F260B-D51D-4E14-80AE-876E69833BF8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>3A020D59-FE40-4328-A767-B5725A876915</key>
 		<array>
 			<dict>
@@ -382,7 +371,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Useful file actions</string>
+	<string>File actions</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -425,9 +414,9 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>cp -r {query} ~/Desktop</string>
+				<string>cp -r "$@" ~/Desktop</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -465,9 +454,9 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv {query} /Users/nikivi/Music/iTunes/Automatically\ Add\ to\ iTunes.localized</string>
+				<string>mv "$@" "/Users/nikivi/Music/iTunes/Automatically Add to iTunes.localized"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -505,9 +494,9 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv {query} /Applications</string>
+				<string>mv "$@" /Applications</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -588,9 +577,9 @@ tell application "System Events"	if frontmost of process "iTerm2" is false then
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/file-actions/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/file-actions/Useful%20file%20actions.alfredworkflow"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/file-actions/File%20actions.alfredworkflow"
 readonly download_type='direct'
-readonly frequency_check='0'
+readonly frequency_check='7'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {
@@ -702,9 +691,9 @@ fi</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv {query} ~/Desktop</string>
+				<string>mv "$@" ~/Desktop</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -990,9 +979,9 @@ done</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv {query}</string>
+				<string>mv "$@"</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -1046,7 +1035,7 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>154A17D2-E75A-4031-AFEF-E9D12A6C4BF0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>190</integer>
 			<key>ypos</key>
 			<integer>820</integer>
 		</dict>
@@ -1071,7 +1060,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>550</integer>
+			<integer>580</integer>
 			<key>ypos</key>
 			<integer>550</integer>
 		</dict>
@@ -1229,7 +1218,7 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>CEEED62C-6361-4AE4-A89B-80D0EC11AA6A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>20</integer>
+			<integer>10</integer>
 			<key>ypos</key>
 			<integer>820</integer>
 		</dict>
@@ -1249,7 +1238,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.0.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
