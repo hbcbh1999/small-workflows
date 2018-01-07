@@ -1202,7 +1202,7 @@ fi</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search playground</string>
+				<string>splay</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -1301,7 +1301,7 @@ fi</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search sketch</string>
+				<string>sketch</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -1466,7 +1466,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search latex files</string>
+				<string>latex</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -1606,7 +1606,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search paw</string>
+				<string>paw</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -1682,7 +1682,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search numbers</string>
+				<string>numbers</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -1801,7 +1801,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search pdf</string>
+				<string>pdf</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -1903,7 +1903,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search pages</string>
+				<string>pages</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -2007,7 +2007,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search mindnode</string>
+				<string>mindnode</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -2128,7 +2128,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<true/>
 				<key>keyword</key>
-				<string>search library</string>
+				<string>library</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -2206,7 +2206,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search epub</string>
+				<string>epub</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -2310,7 +2310,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search soulver</string>
+				<string>soulver</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -2574,7 +2574,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search ulysses groups</string>
+				<string>ulysgroup</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -2823,7 +2823,7 @@ echo -n ${file#?. }</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>search ulysses sheets</string>
+				<string>ulysses</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -3508,7 +3508,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

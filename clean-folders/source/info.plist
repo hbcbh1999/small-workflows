@@ -122,7 +122,7 @@
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Downloads (Alfred workflows)","arg":"~\/Downloads\/*.alfredworkflow"},{"title":"Play (Everything)","arg":"~\/play\/*"},{"title":"Downloads (KM macros)","arg":"~\/Downloads\/*.kmmacros"}]</string>
+				<string>[{"title":"Downloads (Alfred workflows)","arg":"~\/Downloads\/*.alfredworkflow"},{"title":"Play (Everything)","arg":"~\/src\/play\/*"},{"title":"Downloads (KM macros)","arg":"~\/Downloads\/*.kmmacros"}]</string>
 				<key>keyword</key>
 				<string>clean</string>
 				<key>runningsubtext</key>
