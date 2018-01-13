@@ -9,7 +9,18 @@
 	<key>connections</key>
 	<dict>
 		<key>4C407FE1-006F-4843-A567-2EBC53DE1292</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>58E90CE3-EDBD-4C4E-8054-50AB0EE6D4C1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>95446AB9-64FB-4BCF-8818-917C5120DCF0</key>
 		<array>
 			<dict>
