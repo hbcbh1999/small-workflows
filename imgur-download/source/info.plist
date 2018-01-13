@@ -32,16 +32,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>DBB4A5B4-F355-4828-BB8E-C481ACB2F414</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>A19307BB-668D-4FC8-9F98-19BF57B96A1D</key>
 		<array>
@@ -104,29 +94,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>DBB4A5B4-F355-4828-BB8E-C481ACB2F414</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>DBB4A5B4-F355-4828-BB8E-C481ACB2F414</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>885DE6F9-0F81-4D2F-9336-9AC9769E014D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>F53331FC-9DC6-45CD-9E6E-CDAC716D006B</key>
 		<array>
@@ -156,16 +123,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>F53331FC-9DC6-45CD-9E6E-CDAC716D006B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>DBB4A5B4-F355-4828-BB8E-C481ACB2F414</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -404,7 +361,7 @@ end alfred_script</string>
 				<key>matchcasesensitive</key>
 				<false/>
 				<key>matchmode</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>matchstring</key>
 				<string>^https:\/\/imgur.com\/a\/</string>
 			</dict>
@@ -450,25 +407,6 @@ end alfred_script</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>885DE6F9-0F81-4D2F-9336-9AC9769E014D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>inputstring</key>
-				<string>{query}</string>
-				<key>matchcasesensitive</key>
-				<false/>
-				<key>matchmode</key>
-				<integer>1</integer>
-				<key>matchstring</key>
-				<string>^https:\/\/imgur.com\/a\/</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.filter</string>
-			<key>uid</key>
-			<string>DBB4A5B4-F355-4828-BB8E-C481ACB2F414</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -555,15 +493,6 @@ You can change the location inside the script</string>
 			<integer>810</integer>
 			<key>ypos</key>
 			<integer>240</integer>
-		</dict>
-		<key>DBB4A5B4-F355-4828-BB8E-C481ACB2F414</key>
-		<dict>
-			<key>note</key>
-			<string>Check for Imgur album link</string>
-			<key>xpos</key>
-			<integer>570</integer>
-			<key>ypos</key>
-			<integer>460</integer>
 		</dict>
 		<key>F53331FC-9DC6-45CD-9E6E-CDAC716D006B</key>
 		<dict>
