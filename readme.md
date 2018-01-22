@@ -10,7 +10,7 @@
 - [Search Files](search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
 - [Objects library](objects-library) - Useful premade objects for workflows.
 - [Keyboard control](keyboard-control) - Turn your keboard on and off.
-- [Focus](focus)- Start [Focus](https://heyfocus.com) blocking for some time that you specify.
+- [Focus](focus) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 - [Dictionary](dictionary) - Search through dictionary.
 - [Useful utilities](useful-utilities) - Only has one utilty, to search selected text in Alfred.
 - [Search for Content](search-for-content) - Two actions to search through the insides of PDF and MindNode documents.
