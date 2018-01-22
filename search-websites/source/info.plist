@@ -55,7 +55,18 @@
 			</dict>
 		</array>
 		<key>361061D4-A7FF-4AFA-9405-B5E62E78806F</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2A1F7FF8-4C04-417D-800D-B0426E7532E4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>37ED8832-1FD5-46E1-8AE2-59AF11022A93</key>
 		<array>
 			<dict>
@@ -241,6 +252,46 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8BDE6E12-EFBA-4408-9C99-04CE6AFCF808</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C39058CF-7B73-48BB-9017-7DF0B5992F5A</string>
+				<key>modifiers</key>
+				<integer>8388608</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F3C20E3B-6DCF-4EB0-BA69-6694FC2509CF</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>24249E87-BDBE-4F65-A00F-16D4B0E90959</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>8A688D74-CC43-463D-80C0-3B9EAD5B32A0</key>
 		<array>
@@ -366,6 +417,36 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B9477422-86E3-4CC1-9038-7DC4989C0D43</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>16BB5E60-1A1D-491F-BCFD-12665E5A8625</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D1DAA5C9-0742-414A-BFE6-FAF562697920</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>CC04B1AC-9393-400A-AC1F-FEF72002E5BC</key>
 		<array>
@@ -458,6 +539,36 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>159BC66B-2548-414B-8707-F0B166B18481</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>21D55F76-8BB1-461D-9160-FFB92C8340F8</string>
+				<key>modifiers</key>
+				<integer>8388608</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A552701-634E-48C6-8E5C-546157CC5EC2</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>DFF246BE-F932-4FCE-B59B-2E1A50EE7463</key>
 		<array>
@@ -520,19 +631,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>godoc</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>409BE6BD-FB40-4B7A-861D-5B1BACFA8279</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -546,6 +644,19 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>5A45D754-7842-48A9-915B-6D0B3334E4A2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>godoc</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>409BE6BD-FB40-4B7A-861D-5B1BACFA8279</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -609,19 +720,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>idope</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>DFF246BE-F932-4FCE-B59B-2E1A50EE7463</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -637,6 +735,19 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>37ED8832-1FD5-46E1-8AE2-59AF11022A93</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>idope</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>DFF246BE-F932-4FCE-B59B-2E1A50EE7463</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -876,6 +987,25 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
+				<string>https://medium.com/search?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>F5CF8DE4-77F0-4293-B1BA-1A2A757D7C61</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
 				<string>https://www.reddit.com/search?q={query}&amp;sort=relevance&amp;t=month</string>
 				<key>utf8</key>
 				<true/>
@@ -929,6 +1059,25 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
+				<string>https://medium.com/search/users?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>B9477422-86E3-4CC1-9038-7DC4989C0D43</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
 				<string>https://www.reddit.com/search?q={query}&amp;sort=relevance&amp;t=all</string>
 				<key>utf8</key>
 				<true/>
@@ -937,6 +1086,59 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>62F4DBBA-509D-4866-91C1-E2192737DE13</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>medium</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>5C047B1D-0786-40C7-AC25-6D05BBC62D05</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>smedium</string>
+				<key>subtext</key>
+				<string>⌥ = Tags</string>
+				<key>text</key>
+				<string>Stories | ⌃ = People | ⌘ = Publications</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CBC50E38-D305-4BC6-BF89-0F106E3FA461</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://medium.com/search/publications?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>16BB5E60-1A1D-491F-BCFD-12665E5A8625</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -964,6 +1166,19 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>triggerid</key>
+				<string>google maps</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>9D3316F3-A7F4-4300-A8EC-B20B686EBF1F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -983,13 +1198,19 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>google maps</string>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://medium.com/search/tags?q={query}</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>9D3316F3-A7F4-4300-A8EC-B20B686EBF1F</string>
+			<string>D1DAA5C9-0742-414A-BFE6-FAF562697920</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1009,6 +1230,19 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>B05BB7FD-F32E-467B-B304-4D43E152045B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>stack</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A8A7FD11-3F7C-461F-BFD8-7F4CFDADE35A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1037,12 +1271,52 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>stack</string>
+				<string>wolfram</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>A8A7FD11-3F7C-461F-BFD8-7F4CFDADE35A</string>
+			<string>05FF6367-EE22-4B61-BFE1-D7CEBBC7C071</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://www.wolframalpha.com/input/?i={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>ADB18313-8DED-498E-ADC0-C2D128CE7A17</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>swolfram</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Wolfram Alpha</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>6E2F5D28-3C24-4A0E-868B-B7E8458130D9</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1092,6 +1366,44 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
+				<string>https://hn.algolia.com/?%20%7B%20%7B%20%20settings.style%20=%3D%3D%20%22experimental%22%20%3F%20%22experimental%22%20:%20%22%22%20%7D%7D&amp;sort=byPopularity&amp;prefix&amp;page=0&amp;dateRange=all&amp;type=story&amp;query={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>843BE009-7DA3-4EBB-B555-52BEA844CCDE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://hn.algolia.com/?%20%7B%20%7B%20%20settings.style%20=%3D%3D%20%22experimental%22%20%3F%20%22experimental%22%20:%20%22%22%20%7D%7D&amp;sort=byPopularity&amp;prefix&amp;page=0&amp;dateRange=pastMonth&amp;type=story&amp;query={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7B8F682D-595D-4329-99CE-669D3BAB8F18</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
 				<string>https://twitter.com/search?q={query}&amp;src=typd</string>
 				<key>utf8</key>
 				<true/>
@@ -1100,6 +1412,19 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>DA7015F8-1031-45ED-86E2-1D8122CDD0B6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>twitter</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>CDA1C5D0-AACF-40DB-8B75-E85E6C8B3F32</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1127,13 +1452,53 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>shackernews</string>
+				<key>subtext</key>
+				<string>⌥ = Most recent | FN = Past year</string>
+				<key>text</key>
+				<string>All time | ⌃ = Past month | ⌘ = Past week</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DDA6D61F-E6A8-44D4-BE6E-81B10508AEC1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>triggerid</key>
-				<string>twitter</string>
+				<string>HN</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>CDA1C5D0-AACF-40DB-8B75-E85E6C8B3F32</string>
+			<string>4A453FD7-CC4E-4EAB-81B6-831CDB114C2C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://hn.algolia.com/?%20%7B%20%7B%20%20settings.style%20=%3D%3D%20%22experimental%22%20%3F%20%22experimental%22%20:%20%22%22%20%7D%7D&amp;sort=byPopularity&amp;prefix&amp;page=0&amp;dateRange=pastWeek&amp;type=story&amp;query={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>159BC66B-2548-414B-8707-F0B166B18481</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1164,6 +1529,25 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
+				<string>https://hn.algolia.com/?%20%7B%20%7B%20%20settings.style%20=%3D%3D%20%22experimental%22%20%3F%20%22experimental%22%20:%20%22%22%20%7D%7D&amp;sort=byPopularity&amp;prefix&amp;page=0&amp;dateRange=pastYear&amp;type=story&amp;query={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>21D55F76-8BB1-461D-9160-FFB92C8340F8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
 				<string>https://twitter.com/search?f=users&amp;vertical=default&amp;q={query}&amp;src=typd</string>
 				<key>utf8</key>
 				<true/>
@@ -1172,6 +1556,25 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>D97ED206-F992-44DF-B4AF-93549F59F2D8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://hn.algolia.com/?%20%7B%20%7B%20%20settings.style%20=%3D%3D%20%22experimental%22%20%3F%20%22experimental%22%20:%20%22%22%20%7D%7D&amp;sort=byDate&amp;prefix&amp;page=0&amp;dateRange=all&amp;type=story&amp;query={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>0A552701-634E-48C6-8E5C-546157CC5EC2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1200,11 +1603,11 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>smygitbook</string>
+				<string>snikitagitbook</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>My Gitbook wiki</string>
+				<string>Nikita's Gitbook wiki</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1219,97 +1622,12 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>my wiki</string>
+				<string>gitbook wiki</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>CC04B1AC-9393-400A-AC1F-FEF72002E5BC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>HN</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>4A453FD7-CC4E-4EAB-81B6-831CDB114C2C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://hn.algolia.com/?%20%7B%20%7B%20%20settings.style%20=%3D%3D%20%22experimental%22%20%3F%20%22experimental%22%20:%20%22%22%20%7D%7D&amp;sort=byPopularity&amp;prefix&amp;page=0&amp;dateRange=all&amp;type=story&amp;query={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>843BE009-7DA3-4EBB-B555-52BEA844CCDE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>shackernews</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>All time | ⌃ = Latest</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>DDA6D61F-E6A8-44D4-BE6E-81B10508AEC1</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://hn.algolia.com/?%20%7B%20%7B%20%20settings.style%20=%3D%3D%20%22experimental%22%20%3F%20%22experimental%22%20:%20%22%22%20%7D%7D&amp;sort=byPopularity&amp;prefix&amp;page=0&amp;dateRange=all&amp;&amp;dateRange=pastMonth&amp;type=story&amp;query={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>7B8F682D-595D-4329-99CE-669D3BAB8F18</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>quora</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>40BC8AF2-F2A7-4F39-A3CE-413C0EC4E3C5</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1335,14 +1653,46 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.quora.com/search?q={query}&amp;type=question</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>8BDE6E12-EFBA-4408-9C99-04CE6AFCF808</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>quora</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>40BC8AF2-F2A7-4F39-A3CE-413C0EC4E3C5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>squora</string>
 				<key>subtext</key>
-				<string></string>
+				<string>⌥ = Topics | FN = Answers</string>
 				<key>text</key>
-				<string>Quora</string>
+				<string>Quora | ⌃ = Questions | ⌘ = Profiles</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1356,21 +1706,19 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>smedium</string>
-				<key>subtext</key>
+				<key>browser</key>
 				<string></string>
-				<key>text</key>
-				<string>Medium</string>
-				<key>withspace</key>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.quora.com/search?q={query}&amp;type=answer</string>
+				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>CBC50E38-D305-4BC6-BF89-0F106E3FA461</string>
+			<string>C39058CF-7B73-48BB-9017-7DF0B5992F5A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1382,27 +1730,14 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://medium.com/search?q={query}</string>
+				<string>https://www.quora.com/search?q={query}&amp;type=profile</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>F5CF8DE4-77F0-4293-B1BA-1A2A757D7C61</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>medium</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>5C047B1D-0786-40C7-AC25-6D05BBC62D05</string>
+			<string>F3C20E3B-6DCF-4EB0-BA69-6694FC2509CF</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1414,48 +1749,14 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>http://www.wolframalpha.com/input/?i={query}</string>
+				<string>https://www.quora.com/search?q={query}&amp;type=topic</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>ADB18313-8DED-498E-ADC0-C2D128CE7A17</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>wolfram</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>05FF6367-EE22-4B61-BFE1-D7CEBBC7C071</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>swolfram</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Wolfram Alpha</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>6E2F5D28-3C24-4A0E-868B-B7E8458130D9</string>
+			<string>24249E87-BDBE-4F65-A00F-16D4B0E90959</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1469,9 +1770,30 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>05FF6367-EE22-4B61-BFE1-D7CEBBC7C071</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>560</integer>
 			<key>ypos</key>
-			<integer>3050</integer>
+			<integer>1690</integer>
+		</dict>
+		<key>0A552701-634E-48C6-8E5C-546157CC5EC2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>900</integer>
+			<key>ypos</key>
+			<integer>2350</integer>
+		</dict>
+		<key>159BC66B-2548-414B-8707-F0B166B18481</key>
+		<dict>
+			<key>xpos</key>
+			<integer>910</integer>
+			<key>ypos</key>
+			<integer>2090</integer>
+		</dict>
+		<key>16BB5E60-1A1D-491F-BCFD-12665E5A8625</key>
+		<dict>
+			<key>xpos</key>
+			<integer>940</integer>
+			<key>ypos</key>
+			<integer>1410</integer>
 		</dict>
 		<key>183DC403-68C6-40B5-AB94-C8EFE9C7E43B</key>
 		<dict>
@@ -1479,6 +1801,20 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>180</integer>
 			<key>ypos</key>
 			<integer>10</integer>
+		</dict>
+		<key>21D55F76-8BB1-461D-9160-FFB92C8340F8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>900</integer>
+			<key>ypos</key>
+			<integer>2220</integer>
+		</dict>
+		<key>24249E87-BDBE-4F65-A00F-16D4B0E90959</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>2980</integer>
 		</dict>
 		<key>2785BB06-07D9-43BC-8F7B-8EC54D369976</key>
 		<dict>
@@ -1536,9 +1872,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>40BC8AF2-F2A7-4F39-A3CE-413C0EC4E3C5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>2780</integer>
+			<integer>2630</integer>
 		</dict>
 		<key>497D428D-44EB-4F12-A89E-43220E8730AA</key>
 		<dict>
@@ -1550,9 +1886,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>4A453FD7-CC4E-4EAB-81B6-831CDB114C2C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>60</integer>
+			<integer>540</integer>
 			<key>ypos</key>
-			<integer>2530</integer>
+			<integer>2070</integer>
 		</dict>
 		<key>4C94DB07-8D10-432C-A785-37383D122BB9</key>
 		<dict>
@@ -1571,9 +1907,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>5C047B1D-0786-40C7-AC25-6D05BBC62D05</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>520</integer>
 			<key>ypos</key>
-			<integer>2920</integer>
+			<integer>1370</integer>
 		</dict>
 		<key>62CAD691-222B-46BF-872E-831400C666AA</key>
 		<dict>
@@ -1613,16 +1949,16 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>6E2F5D28-3C24-4A0E-868B-B7E8458130D9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>720</integer>
 			<key>ypos</key>
-			<integer>3050</integer>
+			<integer>1690</integer>
 		</dict>
 		<key>7B8F682D-595D-4329-99CE-669D3BAB8F18</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>910</integer>
 			<key>ypos</key>
-			<integer>2650</integer>
+			<integer>1970</integer>
 		</dict>
 		<key>7EE275C6-301E-4A93-B0A3-B0C6C9838FBB</key>
 		<dict>
@@ -1634,16 +1970,16 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>80BF4F73-C741-4BAD-8027-7AC28C522DFD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>210</integer>
 			<key>ypos</key>
-			<integer>2780</integer>
+			<integer>2630</integer>
 		</dict>
 		<key>843BE009-7DA3-4EBB-B555-52BEA844CCDE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>910</integer>
 			<key>ypos</key>
-			<integer>2530</integer>
+			<integer>1850</integer>
 		</dict>
 		<key>886D7311-A63A-4898-87AF-0D5CB50E00B0</key>
 		<dict>
@@ -1658,6 +1994,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>1230</integer>
+		</dict>
+		<key>8BDE6E12-EFBA-4408-9C99-04CE6AFCF808</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>2610</integer>
 		</dict>
 		<key>8DCEA3D5-DBB6-48C1-9972-B60DFDEF6231</key>
 		<dict>
@@ -1711,9 +2054,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>ADB18313-8DED-498E-ADC0-C2D128CE7A17</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>900</integer>
 			<key>ypos</key>
-			<integer>3050</integer>
+			<integer>1690</integer>
 		</dict>
 		<key>B05BB7FD-F32E-467B-B304-4D43E152045B</key>
 		<dict>
@@ -1722,12 +2065,26 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>1570</integer>
 		</dict>
+		<key>B9477422-86E3-4CC1-9038-7DC4989C0D43</key>
+		<dict>
+			<key>xpos</key>
+			<integer>940</integer>
+			<key>ypos</key>
+			<integer>1280</integer>
+		</dict>
 		<key>BC7E2BE7-98F0-4284-83DE-E8BE2223A36C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>550</integer>
 			<key>ypos</key>
-			<integer>2780</integer>
+			<integer>2480</integer>
+		</dict>
+		<key>C39058CF-7B73-48BB-9017-7DF0B5992F5A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>2730</integer>
 		</dict>
 		<key>C9A9C868-A7D4-475C-AF70-68A4A5D9B7D4</key>
 		<dict>
@@ -1739,9 +2096,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>CBC50E38-D305-4BC6-BF89-0F106E3FA461</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>680</integer>
 			<key>ypos</key>
-			<integer>2920</integer>
+			<integer>1370</integer>
 		</dict>
 		<key>CC04B1AC-9393-400A-AC1F-FEF72002E5BC</key>
 		<dict>
@@ -1763,6 +2120,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>370</integer>
 			<key>ypos</key>
 			<integer>670</integer>
+		</dict>
+		<key>D1DAA5C9-0742-414A-BFE6-FAF562697920</key>
+		<dict>
+			<key>xpos</key>
+			<integer>940</integer>
+			<key>ypos</key>
+			<integer>1530</integer>
 		</dict>
 		<key>D97ED206-F992-44DF-B4AF-93549F59F2D8</key>
 		<dict>
@@ -1788,9 +2152,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>DDA6D61F-E6A8-44D4-BE6E-81B10508AEC1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>220</integer>
+			<integer>700</integer>
 			<key>ypos</key>
-			<integer>2530</integer>
+			<integer>2070</integer>
 		</dict>
 		<key>DFF246BE-F932-4FCE-B59B-2E1A50EE7463</key>
 		<dict>
@@ -1806,12 +2170,19 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>920</integer>
 		</dict>
+		<key>F3C20E3B-6DCF-4EB0-BA69-6694FC2509CF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>2860</integer>
+		</dict>
 		<key>F5CF8DE4-77F0-4293-B1BA-1A2A757D7C61</key>
 		<dict>
 			<key>xpos</key>
-			<integer>370</integer>
+			<integer>940</integer>
 			<key>ypos</key>
-			<integer>2920</integer>
+			<integer>1160</integer>
 		</dict>
 		<key>FA001863-392A-4240-9E55-6283C586987C</key>
 		<dict>
