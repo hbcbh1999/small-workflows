@@ -35,18 +35,7 @@
 			</dict>
 		</array>
 		<key>F4FC387A-6A8C-4D96-A24D-8F246A74E01F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>16B12FA9-2C39-4AEC-BED4-88CC57332CA4</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 	</dict>
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
@@ -161,7 +150,7 @@ fi</string>
 				<key>items</key>
 				<string>[{"title":"Go","arg":"dash:\/\/go:"},{"title":"Web","arg":"dash:\/\/web:"},{"title":"Python","arg":"dash:\/\/python:"},{"title":"All","arg":"dash:\/\/all:"},{"title":"Haskell","arg":"dash:\/\/haskell:"},{"title":"React","arg":"dash:\/\/react:"},{"title":"Alfred","arg":"dash:\/\/alfred:"},{"title":"Java","arg":"dash:\/\/java:"},{"title":"Go CLI","arg":"dash:\/\/gocli:"},{"title":"Node.js","arg":"dash:\/\/nodejs:"}]</string>
 				<key>keyword</key>
-				<string>switch dash</string>
+				<string>dashprof</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
