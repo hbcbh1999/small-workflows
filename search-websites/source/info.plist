@@ -340,18 +340,7 @@
 		<key>B05BB7FD-F32E-467B-B304-4D43E152045B</key>
 		<array/>
 		<key>BC7E2BE7-98F0-4284-83DE-E8BE2223A36C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>361061D4-A7FF-4AFA-9405-B5E62E78806F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>C9A9C868-A7D4-475C-AF70-68A4A5D9B7D4</key>
 		<array>
 			<dict>
@@ -459,6 +448,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7B8F682D-595D-4329-99CE-669D3BAB8F18</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>DFF246BE-F932-4FCE-B59B-2E1A50EE7463</key>
 		<array>
@@ -494,7 +493,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Quick searches</string>
+	<string>Search websites</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -503,7 +502,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search godoc</string>
+				<string>sgodoc</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -626,7 +625,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search idope</string>
+				<string>sidope</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -688,8 +687,8 @@
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/quick-searches/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/quick-searches/Quick%20searches.alfredworkflow"
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-websites/source/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-websites/Search%20websites.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='7'
 
@@ -822,7 +821,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search github</string>
+				<string>sgithub</string>
 				<key>subtext</key>
 				<string>⌥ = most stars</string>
 				<key>text</key>
@@ -894,7 +893,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search reddit</string>
+				<string>sreddit</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -947,7 +946,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search google maps</string>
+				<string>sgooglemaps</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1019,7 +1018,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search stack</string>
+				<string>sstack</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1110,11 +1109,11 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search twitter</string>
+				<string>stwitter</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Twitter | ⌃ = Latest | ⌥ = Users</string>
+				<string>Top | ⌃ = Latest | ⌥ = Users</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1201,7 +1200,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search my gitbook</string>
+				<string>smygitbook</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1267,11 +1266,11 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search hacker news</string>
+				<string>shackernews</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Hacker news</string>
+				<string>All time | ⌃ = Latest</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1279,6 +1278,25 @@ fi</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>DDA6D61F-E6A8-44D4-BE6E-81B10508AEC1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://hn.algolia.com/?%20%7B%20%7B%20%20settings.style%20=%3D%3D%20%22experimental%22%20%3F%20%22experimental%22%20:%20%22%22%20%7D%7D&amp;sort=byPopularity&amp;prefix&amp;page=0&amp;dateRange=all&amp;&amp;dateRange=pastMonth&amp;type=story&amp;query={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7B8F682D-595D-4329-99CE-669D3BAB8F18</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1320,7 +1338,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search quora</string>
+				<string>squora</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1341,7 +1359,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search medium</string>
+				<string>smedium</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1426,7 +1444,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>search wolfram alpha</string>
+				<string>swolfram</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1451,9 +1469,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>05FF6367-EE22-4B61-BFE1-D7CEBBC7C071</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>40</integer>
 			<key>ypos</key>
-			<integer>2940</integer>
+			<integer>3050</integer>
 		</dict>
 		<key>183DC403-68C6-40B5-AB94-C8EFE9C7E43B</key>
 		<dict>
@@ -1518,9 +1536,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>40BC8AF2-F2A7-4F39-A3CE-413C0EC4E3C5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>40</integer>
 			<key>ypos</key>
-			<integer>2670</integer>
+			<integer>2780</integer>
 		</dict>
 		<key>497D428D-44EB-4F12-A89E-43220E8730AA</key>
 		<dict>
@@ -1553,9 +1571,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>5C047B1D-0786-40C7-AC25-6D05BBC62D05</key>
 		<dict>
 			<key>xpos</key>
-			<integer>60</integer>
+			<integer>50</integer>
 			<key>ypos</key>
-			<integer>2810</integer>
+			<integer>2920</integer>
 		</dict>
 		<key>62CAD691-222B-46BF-872E-831400C666AA</key>
 		<dict>
@@ -1595,9 +1613,16 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>6E2F5D28-3C24-4A0E-868B-B7E8458130D9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>2940</integer>
+			<integer>3050</integer>
+		</dict>
+		<key>7B8F682D-595D-4329-99CE-669D3BAB8F18</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>2650</integer>
 		</dict>
 		<key>7EE275C6-301E-4A93-B0A3-B0C6C9838FBB</key>
 		<dict>
@@ -1609,9 +1634,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>80BF4F73-C741-4BAD-8027-7AC28C522DFD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>2670</integer>
+			<integer>2780</integer>
 		</dict>
 		<key>843BE009-7DA3-4EBB-B555-52BEA844CCDE</key>
 		<dict>
@@ -1686,9 +1711,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>ADB18313-8DED-498E-ADC0-C2D128CE7A17</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<integer>2940</integer>
+			<integer>3050</integer>
 		</dict>
 		<key>B05BB7FD-F32E-467B-B304-4D43E152045B</key>
 		<dict>
@@ -1700,9 +1725,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>BC7E2BE7-98F0-4284-83DE-E8BE2223A36C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<integer>2670</integer>
+			<integer>2780</integer>
 		</dict>
 		<key>C9A9C868-A7D4-475C-AF70-68A4A5D9B7D4</key>
 		<dict>
@@ -1714,9 +1739,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>CBC50E38-D305-4BC6-BF89-0F106E3FA461</key>
 		<dict>
 			<key>xpos</key>
-			<integer>220</integer>
+			<integer>210</integer>
 			<key>ypos</key>
-			<integer>2810</integer>
+			<integer>2920</integer>
 		</dict>
 		<key>CC04B1AC-9393-400A-AC1F-FEF72002E5BC</key>
 		<dict>
@@ -1784,9 +1809,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>F5CF8DE4-77F0-4293-B1BA-1A2A757D7C61</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>370</integer>
 			<key>ypos</key>
-			<integer>2810</integer>
+			<integer>2920</integer>
 		</dict>
 		<key>FA001863-392A-4240-9E55-6283C586987C</key>
 		<dict>
@@ -1797,7 +1822,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.3</string>
+	<string>1.0.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

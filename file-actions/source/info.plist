@@ -75,6 +75,19 @@
 		</array>
 		<key>237B73E3-34B1-4219-A931-904504531BA1</key>
 		<array/>
+		<key>2BD3A8BE-D9BA-4B12-948C-E2632F3D67ED</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E1A2150D-74F6-4574-8790-8AD6AA652998</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>3A020D59-FE40-4328-A767-B5725A876915</key>
 		<array>
 			<dict>
@@ -1011,6 +1024,38 @@ done</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Marked 2.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>E1A2150D-74F6-4574-8790-8AD6AA652998</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<true/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Marked 2</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>2BD3A8BE-D9BA-4B12-948C-E2632F3D67ED</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
@@ -1070,6 +1115,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>470</integer>
 			<key>ypos</key>
 			<integer>580</integer>
+		</dict>
+		<key>2BD3A8BE-D9BA-4B12-948C-E2632F3D67ED</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>1640</integer>
 		</dict>
 		<key>3A020D59-FE40-4328-A767-B5725A876915</key>
 		<dict>
@@ -1235,6 +1287,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>210</integer>
 			<key>ypos</key>
 			<integer>1490</integer>
+		</dict>
+		<key>E1A2150D-74F6-4574-8790-8AD6AA652998</key>
+		<dict>
+			<key>xpos</key>
+			<integer>200</integer>
+			<key>ypos</key>
+			<integer>1640</integer>
 		</dict>
 	</dict>
 	<key>version</key>

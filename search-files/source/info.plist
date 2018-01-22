@@ -1474,7 +1474,7 @@ echo -n ${file#?. }</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>search LaTeX files</string>
+				<string>Search LaTeX files</string>
 				<key>types</key>
 				<array>
 					<string>public.tex</string>
