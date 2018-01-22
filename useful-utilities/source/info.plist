@@ -8,8 +8,19 @@
 	<string>Mine</string>
 	<key>connections</key>
 	<dict>
-		<key>4F203672-A680-4E38-9F00-8E2C0380DD82</key>
-		<array/>
+		<key>432BC856-0A4D-4BAB-B9D6-9C8C386C75D6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D9E9BC85-823E-4974-B595-8E95CC1A8F6D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
@@ -24,6 +35,58 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>:update utilities</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Update utilities workflow</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>432BC856-0A4D-4BAB-B9D6-9C8C386C75D6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>1</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>13</integer>
+				<key>hotmod</key>
+				<integer>1310720</integer>
+				<key>hotstring</key>
+				<string>W</string>
+				<key>leftcursor</key>
+				<true/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6402E710-5A01-4E8C-9EC5-6E26CFB6ECE9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -31,9 +94,9 @@
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/useful-utilities/source/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/useful-utilities/Useful%utilities.alfredworkflow"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/useful-utilities/Useful%20utilities.alfredworkflow"
 readonly download_type='direct'
-readonly frequency_check='7'
+readonly frequency_check='4'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {
@@ -108,38 +171,7 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>3DEA7699-F5F6-4211-BFFD-D1ECB002760F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>1</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>13</integer>
-				<key>hotmod</key>
-				<integer>1310720</integer>
-				<key>hotstring</key>
-				<string>W</string>
-				<key>leftcursor</key>
-				<true/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>4F203672-A680-4E38-9F00-8E2C0380DD82</string>
+			<string>D9E9BC85-823E-4974-B595-8E95CC1A8F6D</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -150,23 +182,32 @@ fi</string>
 Post any issues and feature requests you have there. 💜</string>
 	<key>uidata</key>
 	<dict>
-		<key>3DEA7699-F5F6-4211-BFFD-D1ECB002760F</key>
+		<key>432BC856-0A4D-4BAB-B9D6-9C8C386C75D6</key>
 		<dict>
-			<key>colorindex</key>
-			<integer>12</integer>
 			<key>note</key>
-			<string>OneUpdater</string>
+			<string>Type .update objects if you want to check if there is update available</string>
 			<key>xpos</key>
-			<integer>230</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>30</integer>
 		</dict>
-		<key>4F203672-A680-4E38-9F00-8E2C0380DD82</key>
+		<key>6402E710-5A01-4E8C-9EC5-6E26CFB6ECE9</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>30</integer>
+		</dict>
+		<key>D9E9BC85-823E-4974-B595-8E95CC1A8F6D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>Run :update utilities to update this workflow</string>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>30</integer>
 		</dict>
 	</dict>
 	<key>version</key>
