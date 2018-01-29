@@ -49,7 +49,9 @@ The links under wokrflow names will lead straight to the download of my augmente
   - I modified it so you can take a screenshot and immediately search that screenshot on Google
 
 ## Personal workflows
-Below is a list of workflows that were made for my own personal use and will most certainly not work on your systems unless you change many things in the workflow. You can take some inspiration or ideas from these workflows if you wish.
+Below is a list of workflows that were made for my own personal use and will most certainly not work on your systems unless you change many things in the workflow. 
+
+You can take some inspiration or ideas from these workflows if you wish.
 - [Manage wiki](https://github.com/nikitavoloboev/small-workflows/blob/master/personal/Manage%20wiki.alfredworkflow?raw=true) - I use it to manage editing and extending my [knowledge](https://github.com/nikitavoloboev/knowledge) wiki.
 
 ## Contributing
