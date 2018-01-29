@@ -319,42 +319,42 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>470</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>10</integer>
 		</dict>
 		<key>1482B57B-388E-4944-AFF6-8BAD3BFB68BB</key>
 		<dict>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
-			<integer>230</integer>
+			<integer>210</integer>
 		</dict>
 		<key>32C3B89F-AF22-4FEE-B6C4-18042F842F35</key>
 		<dict>
 			<key>xpos</key>
 			<integer>470</integer>
 			<key>ypos</key>
-			<integer>540</integer>
+			<integer>520</integer>
 		</dict>
 		<key>893325FF-CA33-4918-A831-39E8E704B4B7</key>
 		<dict>
 			<key>xpos</key>
 			<integer>470</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>270</integer>
 		</dict>
 		<key>91D6FD5D-9A2D-41FF-A714-5D5A25161817</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>230</integer>
+			<integer>210</integer>
 		</dict>
 		<key>C471EC9A-ACA5-45EC-BCE5-3A8090DE294B</key>
 		<dict>
 			<key>xpos</key>
 			<integer>470</integer>
 			<key>ypos</key>
-			<integer>410</integer>
+			<integer>390</integer>
 		</dict>
 		<key>C64D30BD-0C81-4B35-B4B4-517E8C1BC175</key>
 		<dict>
@@ -365,14 +365,14 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>660</integer>
 			<key>ypos</key>
-			<integer>30</integer>
+			<integer>10</integer>
 		</dict>
 		<key>F09FDBA1-A245-4099-88C1-4CD44A3AC864</key>
 		<dict>
 			<key>xpos</key>
 			<integer>470</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>140</integer>
 		</dict>
 	</dict>
 	<key>version</key>
