@@ -4,6 +4,7 @@
 ## Contents
 - [My Workflows](#my-workflows)
 - [Workflow Augmentations](#workflow-augmentations)
+- [Personal workflows](#personal-workflows)
 - [Contributing](#contributing)
 
 ## My Workflows
@@ -29,8 +30,7 @@
 - [Dash Profile Switcher](dash-profile-switch) - Search through your custom [Dash](https://kapeli.com/dash) profiles.
 
 ## Workflow Augmentations
-> Workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me). Credit goes to the authors of these awesome workflows.
-
+Workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me). Credit goes to the authors of these awesome workflows. The links under wokrflow names will lead straight to the download of my augmented workflow. Take a look at the original workflows first though, it will most probably work for you well.
 - [GitHub Jump](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/GitHub%20jump.alfredworkflow?raw=true) (Credit to [Lachlan Donald](https://github.com/lox)) ([Original](https://github.com/lox/alfred-github-jump)) - Quickly jump to a GitHub repository page.
   - I added many modifiers to do different things such as go directly to issues of the workflow, pull requests of it or even clone the repo to a specified directory.
   - I use this workflow many many times a day and it saved me a lot of time.
@@ -45,6 +45,10 @@
 
 - [Similar image search](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Google%20similar%20images.alfredworkflow?raw=true) (Credit to [Dean Jackson](https://github.com/deanishe)) ([Original](https://github.com/deanishe/alfred-similar-image-search)) - Google Image searches based on local files.
   - I modified it so you can take a screenshot and immediately search that screenshot on Google
+
+## Personal workflows
+Below is a list of workflows that are meant for my own personal use and will most certainly not work on your systems unless you change many things in the workflow. You can take some inspiration or ideas from these workflows if you wish.
+- [Manage wiki](https://github.com/nikitavoloboev/small-workflows/blob/master/personal/Manage%20wiki.alfredworkflow?raw=true) - I use it to manage editing and extending my [knowledge](https://github.com/nikitavoloboev/knowledge) wiki.
 
 ## Contributing
 [Suggestions](https://github.com/nikitavoloboev/small-workflows/issues) and pull requests are highly encouraged!
