@@ -73,11 +73,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>237B73E3-34B1-4219-A931-904504531BA1</key>
+		<key>210C0038-86C7-4781-9F6E-5A81F859E877</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1A6F260B-D51D-4E14-80AE-876E69833BF8</string>
+				<string>946E99E2-C444-466F-AFD7-46900FAD5FA5</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -86,6 +86,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>237B73E3-34B1-4219-A931-904504531BA1</key>
+		<array/>
 		<key>2BD3A8BE-D9BA-4B12-948C-E2632F3D67ED</key>
 		<array>
 			<dict>
@@ -473,6 +475,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>acceptsmulti</key>
+				<true/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Add to iTunes</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>A409F4C0-E91C-475F-B62C-754FCBCE18A8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -492,23 +511,6 @@
 			<string>A589A108-2655-409C-8908-9ABF7E7EFABE</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Add to iTunes</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>A409F4C0-E91C-475F-B62C-754FCBCE18A8</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -553,6 +555,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>acceptsmulti</key>
+				<true/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>cd to iTerm</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>CA7377D2-2480-45DD-A0E4-1AAB5F4A910A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -573,23 +592,6 @@ tell application "System Events"	if frontmost of process "iTerm2" is false then
 			<string>4290BC9F-6810-4834-A8BB-757BB3448500</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>cd to iTerm</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>CA7377D2-2480-45DD-A0E4-1AAB5F4A910A</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -808,6 +810,21 @@ done</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string>/Applications/Photos.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>A8CDF209-EBA6-4DC3-AB50-FEE7100F67BD</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>acceptsmulti</key>
 				<true/>
 				<key>filetypes</key>
@@ -825,21 +842,6 @@ done</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string>/Applications/Photos.app</string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>A8CDF209-EBA6-4DC3-AB50-FEE7100F67BD</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>subtext</key>
@@ -853,25 +855,6 @@ done</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>D0C89E5B-422E-477E-B31D-93703C3E37B8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array>
-					<string>public.folder</string>
-				</array>
-				<key>name</key>
-				<string>Create file in folder</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>C962B8D4-9135-48ED-814C-6305DAE82873</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -901,6 +884,25 @@ done</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>acceptsmulti</key>
+				<true/>
+				<key>filetypes</key>
+				<array>
+					<string>public.folder</string>
+				</array>
+				<key>name</key>
+				<string>Create file in folder</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>C962B8D4-9135-48ED-814C-6305DAE82873</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>variables</key>
@@ -919,19 +921,19 @@ done</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>create folder named {query}</string>
-				<key>withspace</key>
+				<key>acceptsmulti</key>
 				<true/>
+				<key>filetypes</key>
+				<array>
+					<string>public.folder</string>
+				</array>
+				<key>name</key>
+				<string>Create folder in folder</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.action</string>
 			<key>uid</key>
-			<string>4F0EB3EF-4FC7-4661-96DA-63AD9CC2D8D8</string>
+			<string>4C7533DD-F6F2-4D2E-B3F7-2BCFA50D49A7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -961,19 +963,19 @@ done</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>acceptsmulti</key>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>create folder named {query}</string>
+				<key>withspace</key>
 				<true/>
-				<key>filetypes</key>
-				<array>
-					<string>public.folder</string>
-				</array>
-				<key>name</key>
-				<string>Create folder in folder</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>4C7533DD-F6F2-4D2E-B3F7-2BCFA50D49A7</string>
+			<string>4F0EB3EF-4FC7-4661-96DA-63AD9CC2D8D8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -992,6 +994,23 @@ done</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>4734A1CE-71AC-4EF4-B023-1650DD4E44A6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<true/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Move To (and replace)...</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>930F6517-A862-40B1-B0B9-0FF1C4C333E9</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1026,12 +1045,12 @@ done</string>
 				<key>filetypes</key>
 				<array/>
 				<key>name</key>
-				<string>Move To (and replace)...</string>
+				<string>KM</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.action</string>
 			<key>uid</key>
-			<string>930F6517-A862-40B1-B0B9-0FF1C4C333E9</string>
+			<string>210C0038-86C7-4781-9F6E-5A81F859E877</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1039,14 +1058,14 @@ done</string>
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Marked 2.app</string>
+				<string>/Applications/Keyboard Maestro.app</string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>E1A2150D-74F6-4574-8790-8AD6AA652998</string>
+			<string>946E99E2-C444-466F-AFD7-46900FAD5FA5</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -1066,6 +1085,21 @@ done</string>
 			<string>2BD3A8BE-D9BA-4B12-948C-E2632F3D67ED</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Marked 2.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>E1A2150D-74F6-4574-8790-8AD6AA652998</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -1119,6 +1153,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>580</integer>
 			<key>ypos</key>
 			<integer>550</integer>
+		</dict>
+		<key>210C0038-86C7-4781-9F6E-5A81F859E877</key>
+		<dict>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>1620</integer>
 		</dict>
 		<key>237B73E3-34B1-4219-A931-904504531BA1</key>
 		<dict>
@@ -1193,6 +1234,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>20</integer>
 			<key>ypos</key>
 			<integer>1490</integer>
+		</dict>
+		<key>946E99E2-C444-466F-AFD7-46900FAD5FA5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>570</integer>
+			<key>ypos</key>
+			<integer>1620</integer>
 		</dict>
 		<key>9798DA32-2509-4F25-A509-EB1B490F1B9B</key>
 		<dict>
@@ -1308,7 +1356,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.4</string>
+	<string>1.0.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
