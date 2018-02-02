@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>nikivi.file.actions</string>
+	<string>nikivi.file.actions.2</string>
 	<key>category</key>
 	<string>Mine</string>
 	<key>connections</key>
@@ -73,11 +73,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>210C0038-86C7-4781-9F6E-5A81F859E877</key>
+		<key>237B73E3-34B1-4219-A931-904504531BA1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>946E99E2-C444-466F-AFD7-46900FAD5FA5</string>
+				<string>1A6F260B-D51D-4E14-80AE-876E69833BF8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -86,8 +86,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>237B73E3-34B1-4219-A931-904504531BA1</key>
-		<array/>
 		<key>2BD3A8BE-D9BA-4B12-948C-E2632F3D67ED</key>
 		<array>
 			<dict>
@@ -1045,38 +1043,6 @@ done</string>
 				<key>filetypes</key>
 				<array/>
 				<key>name</key>
-				<string>KM</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>210C0038-86C7-4781-9F6E-5A81F859E877</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string>/Applications/Keyboard Maestro.app</string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>946E99E2-C444-466F-AFD7-46900FAD5FA5</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
 				<string>Marked 2</string>
 			</dict>
 			<key>type</key>
@@ -1154,13 +1120,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>550</integer>
 		</dict>
-		<key>210C0038-86C7-4781-9F6E-5A81F859E877</key>
-		<dict>
-			<key>xpos</key>
-			<integer>390</integer>
-			<key>ypos</key>
-			<integer>1620</integer>
-		</dict>
 		<key>237B73E3-34B1-4219-A931-904504531BA1</key>
 		<dict>
 			<key>xpos</key>
@@ -1234,13 +1193,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>20</integer>
 			<key>ypos</key>
 			<integer>1490</integer>
-		</dict>
-		<key>946E99E2-C444-466F-AFD7-46900FAD5FA5</key>
-		<dict>
-			<key>xpos</key>
-			<integer>570</integer>
-			<key>ypos</key>
-			<integer>1620</integer>
 		</dict>
 		<key>9798DA32-2509-4F25-A509-EB1B490F1B9B</key>
 		<dict>
