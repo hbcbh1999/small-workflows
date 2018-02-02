@@ -48,7 +48,7 @@ The links under wokrflow names will lead straight to the download of my augmente
 - [Similar image search](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Google%20similar%20images.alfredworkflow?raw=true) (Credit to [Dean Jackson](https://github.com/deanishe)) ([Original](https://github.com/deanishe/alfred-similar-image-search)) - Google Image searches based on local files.
   - I modified it so you can take a screenshot and immediately search that screenshot on Google
 
-- [Recent Downloads](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Recent%20Downloads.alfredworkflow?raw=true) (Credit to [Dajun Duan](https://github.com/ddjfreedom)) ([Original](https://github.com/ddjfreedom/recent-downloads-alfred-v2)) - View `~/Downloads` folder from Alfred and action on contents of it
+- [Recent Downloads](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Recent%20Downloads.alfredworkflow?raw=true) (Credit to [Dajun Duan](https://github.com/ddjfreedom)) ([Original](https://github.com/ddjfreedom/recent-downloads-alfred-v2)) - View `~/Downloads` folder from Alfred and action on contents of it.
 	- I modified it by adding few actions like opening the path in iTerm. Or opening the file/folder in VS Code.
 
 ## Personal workflows
