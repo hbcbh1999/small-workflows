@@ -1,4 +1,4 @@
-# Local host - [Download]()
-> Open port at local host that you specify
+# Local host - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/local-host/Local%20host.alfredworkflow?raw=true)
+> Open port that you specify at local host.
 
-![](https://i.imgur.com/SAeLDFV.png)
+![](https://i.imgur.com/tybOKPN.png)
