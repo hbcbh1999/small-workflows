@@ -28,6 +28,7 @@
 - [Go play](go-play) - Create [Go Playground](https://play.golang.org) from selected Go code for sharing.
 - [Commit Folders](commit-folders) - Search folders and commit changes inside the folders with commit message you like.
 - [Dash Profile Switcher](dash-profile-switch) - Search through your custom [Dash](https://kapeli.com/dash) profiles.
+- [Local host](local-host) - Open port at local host that you specify.
 
 ## Workflow Augmentations
 Below are workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me). Credit goes to the authors of these awesome workflows.
