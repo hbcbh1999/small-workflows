@@ -2,3 +2,5 @@
 > Download Imgur Album currently open in your browser to location you specify.
 
 Uses [imgur-album-downloader](https://github.com/alexgisby/imgur-album-downloader) script, MIT licensed.
+
+![](https://i.imgur.com/MXPcIrk.png)

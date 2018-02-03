@@ -4,3 +4,5 @@
 Currently contains only [Vitor's](https://github.com/vitorgalvao) [OneUpdater](https://github.com/vitorgalvao/alfred-workflows/tree/master/OneUpdater).
 
 I use this workflow to quickly copy useful premade objects to my workflows.
+
+![](https://i.imgur.com/VYrTQfi.png)

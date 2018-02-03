@@ -5,3 +5,5 @@ It can:
 1. **Check wifi** - It pings Google.com and if there is no response, you are offline and you get notification on the top.
 2. **Restart wifi** - Turns the wifi on and off.
 3. **Toggle wifi on/off** - If on, will turn it off, if off will turn it on.
+
+![](https://i.imgur.com/HgSUSnH.png)

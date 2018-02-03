@@ -2,3 +2,5 @@
 > Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
 
 I use it to quickly iterate on Karabiner.
+
+![](https://i.imgur.com/ZHmWxRQ.png)

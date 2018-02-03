@@ -12,5 +12,4 @@ And then you can call these triggers using this URL scheme: `dash://go:`
 
 Where you can change `go` to the trigger you set. This workflow simply lets you create a [list filter](https://www.alfredapp.com/help/workflows/inputs/list-filter/) to search and call these URL scheme for you. Adapt it to how you like it.
 
-
-
+![](https://i.imgur.com/wyqtfCM.png)
