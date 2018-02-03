@@ -70,25 +70,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string>com.google.Chrome</string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>http://localhost:{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>DCC9376D-FA56-4ECB-9A9E-713A0B50412D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -180,6 +161,25 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string>com.google.Chrome</string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://localhost:{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>DCC9376D-FA56-4ECB-9A9E-713A0B50412D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>triggerid</key>
 				<string>localhost</string>
 			</dict>
@@ -196,7 +196,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>host</string>
+				<string>port</string>
 				<key>subtext</key>
 				<string>⌃ = Safari | ⌘ = Firefox</string>
 				<key>text</key>
