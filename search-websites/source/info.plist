@@ -444,6 +444,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>C72C5C3C-4962-4D28-A7CA-43F271CCFEE1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EA56BE8E-1B06-49AD-99A3-14B9866FEBB2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C9A9C868-A7D4-475C-AF70-68A4A5D9B7D4</key>
 		<array>
 			<dict>
@@ -703,6 +716,29 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>DA3436F6-9BAC-4AB4-8656-75C9AA080B70</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EA56BE8E-1B06-49AD-99A3-14B9866FEBB2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AEAA2594-0491-4305-B9F4-7326D2F2BA94</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>14DB1259-6106-4445-8EC5-E09746A23D34</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -2118,6 +2154,78 @@ fi</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>sdribble</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Popular | ⌃ - recent</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EA56BE8E-1B06-49AD-99A3-14B9866FEBB2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://dribbble.com/search?q={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>AEAA2594-0491-4305-B9F4-7326D2F2BA94</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>dribble</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>C72C5C3C-4962-4D28-A7CA-43F271CCFEE1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://dribbble.com/search?q={query}&amp;s=latest</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>14DB1259-6106-4445-8EC5-E09746A23D34</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
@@ -2138,6 +2246,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>970</integer>
 			<key>ypos</key>
 			<integer>2210</integer>
+		</dict>
+		<key>14DB1259-6106-4445-8EC5-E09746A23D34</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>3670</integer>
 		</dict>
 		<key>159BC66B-2548-414B-8707-F0B166B18481</key>
 		<dict>
@@ -2216,7 +2331,7 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>361061D4-A7FF-4AFA-9405-B5E62E78806F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>730</integer>
+			<integer>720</integer>
 			<key>ypos</key>
 			<integer>710</integer>
 		</dict>
@@ -2493,6 +2608,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>1560</integer>
 		</dict>
+		<key>AEAA2594-0491-4305-B9F4-7326D2F2BA94</key>
+		<dict>
+			<key>xpos</key>
+			<integer>360</integer>
+			<key>ypos</key>
+			<integer>3540</integer>
+		</dict>
 		<key>B05BB7FD-F32E-467B-B304-4D43E152045B</key>
 		<dict>
 			<key>xpos</key>
@@ -2527,6 +2649,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>1030</integer>
 			<key>ypos</key>
 			<integer>3160</integer>
+		</dict>
+		<key>C72C5C3C-4962-4D28-A7CA-43F271CCFEE1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>3540</integer>
 		</dict>
 		<key>C9A9C868-A7D4-475C-AF70-68A4A5D9B7D4</key>
 		<dict>
@@ -2619,6 +2748,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>560</integer>
 		</dict>
+		<key>EA56BE8E-1B06-49AD-99A3-14B9866FEBB2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>180</integer>
+			<key>ypos</key>
+			<integer>3540</integer>
+		</dict>
 		<key>F3C20E3B-6DCF-4EB0-BA69-6694FC2509CF</key>
 		<dict>
 			<key>xpos</key>
@@ -2642,7 +2778,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.5</string>
+	<string>1.0.6</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
