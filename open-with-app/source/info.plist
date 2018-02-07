@@ -341,7 +341,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Marked 2.app</string>
+				<string>/Applications/Pixelmator.app</string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
@@ -435,7 +435,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
