@@ -233,6 +233,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>C53B6DB0-DCDD-4708-85B7-37AAAC2B4C63</key>
+		<array/>
 		<key>C596A401-A78A-4266-8945-2B191BB8CBF6</key>
 		<array>
 			<dict>
@@ -290,6 +292,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>C596A401-A78A-4266-8945-2B191BB8CBF6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D608E32C-8F25-448A-869A-EB7AF460B7DA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>237B73E3-34B1-4219-A931-904504531BA1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -365,6 +380,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>acceptsmulti</key>
+				<true/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Add to iTunes</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>A409F4C0-E91C-475F-B62C-754FCBCE18A8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -384,23 +416,6 @@
 			<string>A589A108-2655-409C-8908-9ABF7E7EFABE</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Add to iTunes</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>A409F4C0-E91C-475F-B62C-754FCBCE18A8</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -895,6 +910,49 @@ done</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<true/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Copy insdes to...</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>C53B6DB0-DCDD-4708-85B7-37AAAC2B4C63</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>find 
+
+
+files=( "$1"/* )</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D608E32C-8F25-448A-869A-EB7AF460B7DA</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
@@ -1050,6 +1108,15 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>540</integer>
 		</dict>
+		<key>C53B6DB0-DCDD-4708-85B7-37AAAC2B4C63</key>
+		<dict>
+			<key>note</key>
+			<string>TODO: doesn't work</string>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>1360</integer>
+		</dict>
 		<key>C596A401-A78A-4266-8945-2B191BB8CBF6</key>
 		<dict>
 			<key>xpos</key>
@@ -1084,6 +1151,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>270</integer>
 			<key>ypos</key>
 			<integer>960</integer>
+		</dict>
+		<key>D608E32C-8F25-448A-869A-EB7AF460B7DA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>210</integer>
+			<key>ypos</key>
+			<integer>1360</integer>
 		</dict>
 		<key>DCB98517-D2EA-4302-8DC2-02DD295CF5F8</key>
 		<dict>
