@@ -4,7 +4,7 @@
 ## Why use this?
 I use this workflow to create (or update) a file named `todo` that I place in `~/app/hammerspoon/` directory.
 
-I then execute this function from Hammersoon:
+I then execute this function from [Hammersoon](https://github.com/Hammerspoon/hammerspoon):
 ```Lua
 function showTodoTask ()
 hs.alert.show( ( hs.execute("~/app/hammerspoon/todo") ) )
