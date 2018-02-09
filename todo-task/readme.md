@@ -1,5 +1,5 @@
-# New TODO task - Download
-> Write a task and save it to small file. Can then have Bitbar or Hammerspoon show contents of file.
+# New TODO task - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/todo-task/New%20todo%20task.alfredworkflow?raw=true)
+> Write a task and save it to small file. Can then have Bitbar or Hammerspoon show contents of the task.
 
 ## Why use this?
 I use this workflow to create (or update) a file named `todo` that I place in `~/app/hammerspoon/` directory.
@@ -26,6 +26,5 @@ You should change this folder before running the workflow and you can do it by d
 And then changing the folder here:
 
 ![](https://i.imgur.com/agl6XXD.png)
-
 
 Default folder is `~/app/hammerspoon` which most certainly won't work for you as you won't have this folder. So change it to where you want the `todo` file to live!

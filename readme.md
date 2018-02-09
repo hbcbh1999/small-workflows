@@ -30,6 +30,7 @@
 - [Dash Profile Switcher](dash-profile-switch) - Search through your custom [Dash](https://kapeli.com/dash) profiles.
 - [Local host](local-host) - Open port that you specify at local host.
 - [Open with app](open-with-app) - File actions to quickly open file/folder in the application without going to `Open with...` menu.
+- [Todo task](todo-task) - Write a task and save it to small file. Can then have Bitbar or Hammerspoon show contents of the task.
 
 ## Workflow Augmentations
 Below are workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me). Credit goes to the authors of these awesome workflows.
