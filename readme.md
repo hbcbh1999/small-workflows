@@ -35,8 +35,8 @@
 ## Workflow Augmentations
 Below are workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me). Credit goes to the authors of these awesome workflows.
 
-The links under wokrflow names will lead straight to the download of my augmented workflow. Take a look at the original workflows first though, it will most probably work for you well.
-- [GitHub Jump](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/GitHub%20jump.alfredworkflow?raw=true) (Credit to [Lachlan Donald](https://github.com/lox)) ([Original](https://github.com/lox/alfred-github-jump)) - Quickly jump to a GitHub repository page.
+Take a look at the original workflows first, it will most probably work for you well.
+- GitHub Jump - ([Modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/GitHub%20jump.alfredworkflow?raw=true)) ([Original](https://github.com/lox/alfred-github-jump)) (Credit to [Lachlan Donald](https://github.com/lox)) - Quickly jump to a GitHub repository page.
   - I added many modifiers to do different things such as go directly to issues of the workflow, pull requests of it or even clone the repo to a specified directory.
   - I use this workflow many many times a day and it saved me a lot of time.
 - [Dash Search with custom hotkeys](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Dash.alfredworkflow?raw=true) (Credit to [Bogdan Popescu](https://github.com/Kapeli)) ([Original](https://github.com/Kapeli/Dash-Alfred-Workflow)) - Search Dash docs.
