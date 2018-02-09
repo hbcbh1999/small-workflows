@@ -33,7 +33,9 @@
 - [Todo task](todo-task) - Write a task and save it to small file. Can then have Bitbar or Hammerspoon show contents of the task.
 
 ## Workflow Augmentations
-Below are workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me). Credit goes to the authors of these awesome workflows.
+Below are workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me).
+
+I often propose these changes to the workflow author so that the change is merged but sometimes the author does not want to accept the change so I am left with my own fork until then. Credit goes to the authors of these awesome workflows
 
 Take a look at the original workflows first, it will most probably work for you well.
 
