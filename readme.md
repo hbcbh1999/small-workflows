@@ -61,7 +61,7 @@ You can take some inspiration or ideas from these workflows if you wish.
 - [Manage wiki](https://github.com/nikitavoloboev/small-workflows/blob/master/personal/Manage%20wiki.alfredworkflow?raw=true) - I use it to manage editing and extending my [knowledge](https://github.com/nikitavoloboev/knowledge) wiki.
 
 ## Contributing
-[Suggestions](https://github.com/nikitavoloboev/small-workflows/issues) and pull requests are highly encouraged!
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
