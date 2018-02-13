@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.search-the-web</string>
 	<key>category</key>
-	<string>Mine</string>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>05FF6367-EE22-4B61-BFE1-D7CEBBC7C071</key>
@@ -55,7 +55,18 @@
 			</dict>
 		</array>
 		<key>361061D4-A7FF-4AFA-9405-B5E62E78806F</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2A1F7FF8-4C04-417D-800D-B0426E7532E4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>37ED8832-1FD5-46E1-8AE2-59AF11022A93</key>
 		<array>
 			<dict>
@@ -1032,6 +1043,8 @@ fi</string>
 			<integer>2</integer>
 		</dict>
 		<dict>
+			<key>config</key>
+			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
@@ -1161,7 +1174,7 @@ fi</string>
 				<key>keyword</key>
 				<string>sreddit</string>
 				<key>subtext</key>
-				<string>⌥ = New | FN = Top</string>
+				<string>⌥ = New | FN = Top</string>
 				<key>text</key>
 				<string>All time | ⌃  = Month | ⌘ = This week</string>
 				<key>withspace</key>
