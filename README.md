@@ -1,4 +1,4 @@
-# Small Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
+# Small Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows#amazing-alfred-workflows--) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
 > Small [Alfred](https://www.alfredapp.com/) workflows I use that don't warrant a GitHub repository of their own
 
 - [My Workflows](#my-workflows)
@@ -60,7 +60,7 @@ You can take some inspiration or ideas from these workflows if you wish.
 - [Manage wiki](https://github.com/nikitavoloboev/small-workflows/blob/master/personal/Manage%20wiki.alfredworkflow?raw=true) - I use it to manage editing and extending my [knowledge](https://github.com/nikitavoloboev/knowledge) wiki.
 
 ## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [contribution guidelines](CONTRIBUTING.md#contributing).
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
