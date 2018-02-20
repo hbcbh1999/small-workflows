@@ -227,7 +227,7 @@ fi</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>tell application "iTerm"	if exists window 1 then		tell current window			tell current session to write text "cd {query}"		end tell	else		create window with default profile		tell current window			tell current session to write text "cd {query}"		end tell	end ifend tell
+				<string>tell application "iTerm"	if exists window 1 then		tell current window			tell current session to write text "cd \"{query}\""		end tell	else		create window with default profile		tell current window			tell current session to write text "cd \"{query}\""		end tell	end ifend tell
 tell application "System Events"	if frontmost of process "iTerm2" is false then key code 13 using {option down, control down, shift down, command down}end tell</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -371,7 +371,7 @@ tell application "System Events"	if frontmost of process "iTerm2" is false then
 				<integer>102</integer>
 				<key>script</key>
 				<string>cd "$1"
-/usr/local/bin/subl readme.md</string>
+/usr/local/bin/subl README.md</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -546,7 +546,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.1.4</string>
+	<string>1.1.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
