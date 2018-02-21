@@ -9,18 +9,7 @@
 	<key>connections</key>
 	<dict>
 		<key>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B6A4F1AB-CFED-47B3-8BE3-7FE2595A3737</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</key>
 		<array>
 			<dict>
@@ -91,39 +80,6 @@
 			<string>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string># cd to to the folder where `todo` file lives. Change this so it works for you!
-cd ~/app/hammerspoon
-
-# Remove the file
-rm -rf todo 
-
-# Write the TODO task to the file
-echo -e '#!/bin/bash\n\necho' $1 &gt; todo
-
-# Make it executable so you can show the TODO task in BitBar or Hammerspoon
-chmod a+x ~/app/hammerspoon/todo</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -213,6 +169,39 @@ fi</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>B6A4F1AB-CFED-47B3-8BE3-7FE2595A3737</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># cd to to the folder where `todo` file lives. Change this so it works for you!
+cd ~/app/hammerspoon
+
+# Remove the file
+rm -rf todo 
+
+# Write the TODO task to the file
+echo -e '#!/bin/bash\n\necho' $1 &gt; todo
+
+# Make it executable so you can show the TODO task in BitBar or Hammerspoon
+chmod a+x ~/app/hammerspoon/todo</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>

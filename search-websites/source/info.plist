@@ -457,19 +457,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>C9A9C868-A7D4-475C-AF70-68A4A5D9B7D4</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>633FD1B6-782B-4C1E-8AF7-981B1030CC5A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>CBC50E38-D305-4BC6-BF89-0F106E3FA461</key>
 		<array>
 			<dict>
@@ -507,19 +494,6 @@
 				<string>D1DAA5C9-0742-414A-BFE6-FAF562697920</string>
 				<key>modifiers</key>
 				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>CC04B1AC-9393-400A-AC1F-FEF72002E5BC</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>C9A9C868-A7D4-475C-AF70-68A4A5D9B7D4</string>
-				<key>modifiers</key>
-				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -764,7 +738,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>sgodoc</string>
+				<string>godoc</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -893,7 +867,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>sgithub</string>
+				<string>github</string>
 				<key>subtext</key>
 				<string>⌥ = Most stars | FN = Most forks</string>
 				<key>text</key>
@@ -1159,7 +1133,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>sreddit</string>
+				<string>reddit</string>
 				<key>subtext</key>
 				<string>⌥ = New | FN = Top</string>
 				<key>text</key>
@@ -1206,7 +1180,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>smedium</string>
+				<string>medium</string>
 				<key>subtext</key>
 				<string>⌥ = Tags</string>
 				<key>text</key>
@@ -1354,7 +1328,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>swolfram</string>
+				<string>wolrfram</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1394,7 +1368,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>sgooglemaps</string>
+				<string>googlemaps</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1485,7 +1459,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>shackernews</string>
+				<string>hackernews</string>
 				<key>subtext</key>
 				<string>⌥ = Past month | FN = Past year</string>
 				<key>text</key>
@@ -1532,7 +1506,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>sstack</string>
+				<string>stack</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1699,7 +1673,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>stwitter</string>
+				<string>twitter</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1758,7 +1732,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>slobsters</string>
+				<string>lobsters</string>
 				<key>subtext</key>
 				<string>⌥ = Comments (Highest) | FN = Stories (Highest)</string>
 				<key>text</key>
@@ -1851,59 +1825,6 @@ fi</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://nikitavoloboev.gitbooks.io/knowledge/content/?q={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>633FD1B6-782B-4C1E-8AF7-981B1030CC5A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>snikitagitbook</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Nikita's Gitbook wiki</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C9A9C868-A7D4-475C-AF70-68A4A5D9B7D4</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>triggerid</key>
-				<string>gitbook wiki</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>CC04B1AC-9393-400A-AC1F-FEF72002E5BC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
 				<string>https://lobste.rs/search?utf8=✓&amp;q={query}&amp;what=comments&amp;order=points</string>
 				<key>utf8</key>
 				<true/>
@@ -1978,7 +1899,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>sidope</string>
+				<string>idope</string>
 				<key>subtext</key>
 				<string>⌥ = Books</string>
 				<key>text</key>
@@ -2063,7 +1984,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>squora</string>
+				<string>quora</string>
 				<key>subtext</key>
 				<string>⌥ = Topics | FN = Answers</string>
 				<key>text</key>
@@ -2160,7 +2081,7 @@ fi</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>sdribble</string>
+				<string>dribble</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -2447,13 +2368,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>1140</integer>
 		</dict>
-		<key>633FD1B6-782B-4C1E-8AF7-981B1030CC5A</key>
-		<dict>
-			<key>xpos</key>
-			<integer>350</integer>
-			<key>ypos</key>
-			<integer>2730</integer>
-		</dict>
 		<key>638584DD-4A90-4E9E-85B6-DB79347A21D4</key>
 		<dict>
 			<key>xpos</key>
@@ -2657,26 +2571,12 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>3540</integer>
 		</dict>
-		<key>C9A9C868-A7D4-475C-AF70-68A4A5D9B7D4</key>
-		<dict>
-			<key>xpos</key>
-			<integer>190</integer>
-			<key>ypos</key>
-			<integer>2730</integer>
-		</dict>
 		<key>CBC50E38-D305-4BC6-BF89-0F106E3FA461</key>
 		<dict>
 			<key>xpos</key>
 			<integer>700</integer>
 			<key>ypos</key>
 			<integer>1240</integer>
-		</dict>
-		<key>CC04B1AC-9393-400A-AC1F-FEF72002E5BC</key>
-		<dict>
-			<key>xpos</key>
-			<integer>30</integer>
-			<key>ypos</key>
-			<integer>2730</integer>
 		</dict>
 		<key>CDA1C5D0-AACF-40DB-8B75-E85E6C8B3F32</key>
 		<dict>
@@ -2778,7 +2678,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.6</string>
+	<string>1.0.7</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

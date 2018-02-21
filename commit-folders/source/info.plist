@@ -162,7 +162,18 @@
 			</dict>
 		</array>
 		<key>8FD571AA-B7AD-420A-ADD2-477B4C6B7849</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ED77192C-95ED-47F2-B0B0-AF10EC13B890</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>A44E0D1A-50FE-445B-B409-2913F533BAC1</key>
 		<array>
 			<dict>
@@ -785,7 +796,7 @@ fi</string>
 				<key>script</key>
 				<string>cd "$path"
 git add .
-git commit -m "✨"
+git commit -m "Update"
 git push</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -967,7 +978,7 @@ git push</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>cd "$path"
-git add readme.md
+git add README.md
 git commit -m {query}
 git push</string>
 				<key>scriptargtype</key>
@@ -1212,9 +1223,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>D001F3A4-EECF-4C85-8908-52F6E8225EC1</key>
 		<dict>
 			<key>note</key>
-			<string>Commits folder with predefined commit 
+			<string>Commits folder with predefined commit.
 
-By default it is ✨ but change it to what you like</string>
+By default "Update". Change it to what you want!</string>
 			<key>xpos</key>
 			<integer>830</integer>
 			<key>ypos</key>
@@ -1272,7 +1283,7 @@ By default it is ✨ but change it to what you like</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.3</string>
+	<string>1.0.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

@@ -259,7 +259,7 @@
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>smindnodecontent</string>
+				<string>mindcont</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -269,7 +269,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Search MindNode contents</string>
+				<string>Search MindNode files contents</string>
 				<key>types</key>
 				<array>
 					<string>com.mindnode.mindnode.mindmap</string>
@@ -469,7 +469,7 @@ fi</string>
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>spdfcontent</string>
+				<string>pdfcont</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
@@ -477,7 +477,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Search PDF contents</string>
+				<string>Search PDF files contents</string>
 				<key>types</key>
 				<array>
 					<string>com.adobe.pdf</string>
@@ -779,7 +779,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev</string>
 </dict>
