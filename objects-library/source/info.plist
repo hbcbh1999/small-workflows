@@ -63,27 +63,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>:update objects</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Update objects library</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>7297183B-DE54-4648-9312-E569CA765C8C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -262,6 +241,27 @@ fi</string>
 			<string>8CA99B9E-8D90-4B62-816C-0F7CF7F42AFE</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>:update objects</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Update objects library</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7297183B-DE54-4648-9312-E569CA765C8C</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>type</key>
