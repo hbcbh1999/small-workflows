@@ -6,6 +6,8 @@ Thank you for wanting to make the workflows better. You can:
 ## Improving the workflows
 If you wish that a workflow did something that it currently doesn't do or perhaps it does something wrong and you wish it was fixed, you can open an [issue](../../issues/new) saying what it is you want fixed or added. Alternatively, you can make the change yourself in the workflow, then export the workflow with something like [transfer.sh](https://transfer.sh) and I can take a look at it and add the changes.
 
+If you are interested in making your own workflows, I wrote about how I make and update these workflows [here](https://wiki.nikitavoloboev.xyz/macOS/apps/alfred/making-workflows.html).
+
 ## Submitting a Pull Request
 Please go through [existing issues](../../issues/) and [pull requests](../../pulls/) to check if somebody else is already working on the issue.
 
