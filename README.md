@@ -38,20 +38,22 @@ I often propose these changes to the workflow author so that the change is merge
 
 Take a look at the original workflows first, it will most probably work for you well.
 
-- GitHub Jump - ([Modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/GitHub%20jump.alfredworkflow?raw=true)) ([Original](https://github.com/lox/alfred-github-jump)) - Quickly jump to a GitHub repository page.
+- [GitHub Jump](https://github.com/lox/alfred-github-jump) - Quickly jump to a GitHub repository page. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/GitHub%20jump.alfredworkflow?raw=true))
   - I added many modifiers to do different things such as go directly to issues of the workflow, pull requests of it or even clone the repo to a specified directory.
   - I use this workflow many many times a day and it saved me a lot of time.
-- Dash Search with custom hotkeys -  ([Modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Dash.alfredworkflow?raw=true)) ([Original](https://github.com/Kapeli/Dash-Alfred-Workflow)) - Search Dash docs.
+- [Dash Search with custom hotkeys](https://github.com/Kapeli/Dash-Alfred-Workflow) - Search Dash docs. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Dash.alfredworkflow?raw=true))
   - I extended it with many custom hotkeys to super quickly search a specific docset in [Dash](https://kapeli.com/dash).
-- Alfred Workflow Directory - ([Modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Workflow%20directory.alfredworkflow?raw=true)) ([Original](https://github.com/jeeftor/AlfredWorkflowDirectory)) - Quckly open any Alfred Workflow directory in your Terminal, Finder.
+- [Alfred Workflow Directory](https://github.com/jeeftor/AlfredWorkflowDirectory) - Quckly open any Alfred Workflow directory in your Terminal, Finder. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Workflow%20directory.alfredworkflow?raw=true))
   - I changed it so that by default it will cd to the workflow in my current iTerm tab but also it can export workflow to `~/Desktop` (you can change location) or it will open the workflow with an editor (VS Code or Sublime in my case).
-- Directory watches - ([Modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Directory%20watches.alfredworkflow?raw=true)) ([Original](https://github.com/vitorgalvao/alfred-workflows/tree/master/RecentDownloads)) - Search insides of directories and action on things.
+- [Directory watches](https://github.com/vitorgalvao/alfred-workflows/tree/master/RecentDownloads) - Search insides of directories and action on things. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Directory%20watches.alfredworkflow?raw=true))
   - I modified a script he once shared to quickly see insides of various directories and action on items of them to do various things opening the path in iTerm or moving the file somewhere.
   - Be careful though as it contains some actions that you must certainly not want but I kept them there in case you find it interesting and adapt it to your own needs.
-- Similar image search - ([Modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Google%20similar%20images.alfredworkflow?raw=true)) ([Original](https://github.com/deanishe/alfred-similar-image-search)) - Google Image searches based on local files.
+- [Similar image search](https://github.com/deanishe/alfred-similar-image-search) - Google Image searches based on local files. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Google%20similar%20images.alfredworkflow?raw=true))
   - I modified it so you can take a screenshot and immediately search that screenshot on Google
-- Recent Downloads - ([Modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Recent%20Downloads.alfredworkflow?raw=true)) ([Original](https://github.com/ddjfreedom/recent-downloads-alfred-v2)) - View `~/Downloads` folder from Alfred and action on contents of it.
+- [Recent Downloads](https://github.com/ddjfreedom/recent-downloads-alfred-v2) - View `~/Downloads` folder from Alfred and action on contents of it. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Recent%20Downloads.alfredworkflow?raw=true))
 	- I modified it by adding few actions like opening the path in iTerm. Or opening the file/folder in VS Code.
+- [Repos](https://github.com/deanishe/alfred-repos) - Browse, search and open Git repositories in Alfred. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Git%20Repos.alfredworkflow?raw=true))
+	- I modified it to make it so that I can open a `new GitHub release` from a modifier keypress. I use it often to release updates for my workflows.
 
 ## Personal workflows
 Below is a list of workflows that were made for my own personal use and will most certainly not work on your systems unless you change many things in the workflow.
