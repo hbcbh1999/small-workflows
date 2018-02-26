@@ -1,4 +1,4 @@
-# Small Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows#amazing-alfred-workflows-) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
+# Small Workflows [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
 > Small [Alfred](https://www.alfredapp.com/) workflows I use that don't warrant a GitHub repository of their own
 
 - [My Workflows](#my-workflows)
@@ -7,29 +7,29 @@
 - [Contributing](#contributing)
 
 ## My Workflows
-- [Search Files](search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
-- [Objects library](objects-library) - Useful premade objects for workflows.
-- [Keyboard control](keyboard-control) - Turn your keboard on and off.
-- [Focus](focus) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
-- [Dictionary](dictionary) - Search through dictionary.
-- [Useful utilities](useful-utilities) - Only has one utilty, to search selected text in Alfred.
-- [Search for Content](search-for-content) - Two actions to search through the insides of PDF and MindNode documents.
-- [Month numbers](month-numbers) - Search for a month and copy the month number to your clipboard.
-- [WiFi Tools](wifi-tools) - Check wifi connection / Restart wifi / Toggle it on/off.
-- [Imgur Download](imgur-download) - Download Imgur album currently open in your browser to location you specify.
-- [Karabiner Reload](karabiner-reload) - Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
-- [Clean Folders](clean-folders) - Trash items from Desktop and clean certain folders like removing .alfredworkflows from ~/Downloads.
-- [Folder Search](folder-search) - Search folders from Alfred and open them in Finder/iTerm/Editor.
-- [Search websites](search-websites) - Searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
-- [File Actions](file-actions) - Various file actions I made to operate on files and folders.
-- [Search selection](search-selection) - Search selected text on various websites with hotkeys.
-- [Go to Subreddit](goto-subreddit) - Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
-- [Go play](go-play) - Create [Go Playground](https://play.golang.org) from selected Go code for sharing.
-- [Commit Folders](commit-folders) - Search folders and commit changes inside the folders with commit message you like.
-- [Dash Profile Switcher](dash-profile-switch) - Search through your custom [Dash](https://kapeli.com/dash) profiles.
-- [Local host](local-host) - Open port that you specify at local host.
-- [Open with app](open-with-app) - File actions to quickly open file/folder in the application without going to `Open with...` menu.
-- [Todo task](todo-task) - Write a task and save it to small file. Can then have Bitbar or Hammerspoon show contents of the task.
+- [Search Files](search-files#readme) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
+- [Objects library](objects-library#readme) - Useful premade objects for workflows.
+- [Keyboard control](keyboard-control#readme) - Turn your keboard on and off.
+- [Focus](focus#readme) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
+- [Dictionary](dictionary#readme) - Search through dictionary.
+- [Useful utilities](useful-utilities#readme) - Only has one utilty, to search selected text in Alfred.
+- [Search for Content](search-for-content#readme) - Two actions to search through the insides of PDF and MindNode documents.
+- [Month numbers](month-numbers#readme) - Search for a month and copy the month number to your clipboard.
+- [WiFi Tools](wifi-tools#readme) - Check wifi connection / Restart wifi / Toggle it on/off.
+- [Imgur Download](imgur-download#readme) - Download Imgur album currently open in your browser to location you specify.
+- [Karabiner Reload](karabiner-reload#readme) - Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
+- [Clean Folders](clean-folders#readme) - Trash items from Desktop and clean certain folders like removing .alfredworkflows from ~/Downloads.
+- [Folder Search](folder-search#readme) - Search folders from Alfred and open them in Finder/iTerm/Editor.
+- [Search websites](search-websites#readme) - Searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
+- [File Actions](file-actions#readme) - Various file actions I made to operate on files and folders.
+- [Search selection](search-selection#readme) - Search selected text on various websites with hotkeys.
+- [Go to Subreddit](goto-subreddit#readme) - Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
+- [Go play](go-play#readme) - Create [Go Playground](https://play.golang.org) from selected Go code for sharing.
+- [Commit Folders](commit-folders#readme) - Search folders and commit changes inside the folders with commit message you like.
+- [Dash Profile Switcher](dash-profile-switch#readme) - Search through your custom [Dash](https://kapeli.com/dash) profiles.
+- [Local host](local-host#readme) - Open port that you specify at local host.
+- [Open with app](open-with-app#readme) - File actions to quickly open file/folder in the application without going to `Open with...` menu.
+- [Todo task](todo-task#readme) - Write a task and save it to small file. Can then have Bitbar or Hammerspoon show contents of the task.
 
 ## Workflow Augmentations
 Below are workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me).
@@ -62,7 +62,7 @@ You can take some inspiration or ideas from these workflows if you wish.
 - [Manage wiki](https://github.com/nikitavoloboev/small-workflows/blob/master/personal/Manage%20wiki.alfredworkflow?raw=true) - I use it to manage editing and extending my [knowledge](https://github.com/nikitavoloboev/knowledge) wiki.
 
 ## Contributing
-See [contribution guidelines](CONTRIBUTING.md#contributing).
+See [contribution guidelines](CONTRIBUTING.md#readme).
 
 ## Thank you 💜
 You can support what I do on [Patreon](https://www.patreon.com/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.

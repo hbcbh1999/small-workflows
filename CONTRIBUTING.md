@@ -1,5 +1,5 @@
-# Contributing
-Thank you for wanting to make the workflows better. You can:
+# Contributing to Small Workflows
+There are many ways you can contribute. You can:
 - Make suggestions and file bugs in [Issues](../../issues/).
 - Fix issues and add features to any of the workflows with [Pull Requests](../../pulls/).
 

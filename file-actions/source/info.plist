@@ -140,8 +140,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>930F6517-A862-40B1-B0B9-0FF1C4C333E9</key>
-		<array/>
 		<key>9798DA32-2509-4F25-A509-EB1B490F1B9B</key>
 		<array>
 			<dict>
@@ -233,8 +231,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>C53B6DB0-DCDD-4708-85B7-37AAAC2B4C63</key>
-		<array/>
 		<key>C596A401-A78A-4266-8945-2B191BB8CBF6</key>
 		<array>
 			<dict>
@@ -292,32 +288,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>C596A401-A78A-4266-8945-2B191BB8CBF6</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>D608E32C-8F25-448A-869A-EB7AF460B7DA</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>237B73E3-34B1-4219-A931-904504531BA1</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>DCB98517-D2EA-4302-8DC2-02DD295CF5F8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>237B73E3-34B1-4219-A931-904504531BA1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -870,89 +840,6 @@ done</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>mv "$@"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>DCB98517-D2EA-4302-8DC2-02DD295CF5F8</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Move To... (and replace)</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>930F6517-A862-40B1-B0B9-0FF1C4C333E9</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Copy insdes to...</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>C53B6DB0-DCDD-4708-85B7-37AAAC2B4C63</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>find 
-
-
-files=( "$1"/* )</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>D608E32C-8F25-448A-869A-EB7AF460B7DA</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to effectively use this workflow are found in the GitHub repository attached to this workflow.
@@ -1050,15 +937,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
-		<key>930F6517-A862-40B1-B0B9-0FF1C4C333E9</key>
-		<dict>
-			<key>note</key>
-			<string>TODO: doesn't work</string>
-			<key>xpos</key>
-			<integer>20</integer>
-			<key>ypos</key>
-			<integer>1220</integer>
-		</dict>
 		<key>9798DA32-2509-4F25-A509-EB1B490F1B9B</key>
 		<dict>
 			<key>xpos</key>
@@ -1108,15 +986,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>540</integer>
 		</dict>
-		<key>C53B6DB0-DCDD-4708-85B7-37AAAC2B4C63</key>
-		<dict>
-			<key>note</key>
-			<string>TODO: doesn't work</string>
-			<key>xpos</key>
-			<integer>20</integer>
-			<key>ypos</key>
-			<integer>1360</integer>
-		</dict>
 		<key>C596A401-A78A-4266-8945-2B191BB8CBF6</key>
 		<dict>
 			<key>xpos</key>
@@ -1152,23 +1021,9 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>960</integer>
 		</dict>
-		<key>D608E32C-8F25-448A-869A-EB7AF460B7DA</key>
-		<dict>
-			<key>xpos</key>
-			<integer>210</integer>
-			<key>ypos</key>
-			<integer>1360</integer>
-		</dict>
-		<key>DCB98517-D2EA-4302-8DC2-02DD295CF5F8</key>
-		<dict>
-			<key>xpos</key>
-			<integer>210</integer>
-			<key>ypos</key>
-			<integer>1220</integer>
-		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.7</string>
+	<string>1.0.8</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

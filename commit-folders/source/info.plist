@@ -162,18 +162,7 @@
 			</dict>
 		</array>
 		<key>8FD571AA-B7AD-420A-ADD2-477B4C6B7849</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>ED77192C-95ED-47F2-B0B0-AF10EC13B890</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>A44E0D1A-50FE-445B-B409-2913F533BAC1</key>
 		<array>
 			<dict>
@@ -363,9 +352,9 @@
 				<key>destinationuid</key>
 				<string>5F66104E-45BF-42DC-9923-ECE0693683A7</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>✨ Commit all</string>
+				<string>Commit all with `Update`</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -1283,7 +1272,7 @@ By default "Update". Change it to what you want!</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.4</string>
+	<string>1.0.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

@@ -9,7 +9,18 @@
 	<key>connections</key>
 	<dict>
 		<key>05EBC522-8195-4564-9525-7FA0D4EA6340</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C64D30BD-0C81-4B35-B4B4-517E8C1BC175</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1482B57B-388E-4944-AFF6-8BAD3BFB68BB</key>
 		<array>
 			<dict>
@@ -26,7 +37,7 @@
 				<key>destinationuid</key>
 				<string>F09FDBA1-A245-4099-88C1-4CD44A3AC864</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>New</string>
 				<key>vitoclose</key>
@@ -36,7 +47,7 @@
 				<key>destinationuid</key>
 				<string>893325FF-CA33-4918-A831-39E8E704B4B7</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Top (all)</string>
 				<key>vitoclose</key>
@@ -237,7 +248,7 @@ fi</string>
 				<key>keyword</key>
 				<string>sub</string>
 				<key>subtext</key>
-				<string>⌃ = new | ⌘ = top (all) | ⌥ = top (week) | fn = top (month)</string>
+				<string>⌘ = New | ⌃ = Top (all) | ⌥ = Top (week) | fn = Top (month)</string>
 				<key>text</key>
 				<string>Go to {query} subreddit</string>
 				<key>withspace</key>
@@ -376,7 +387,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.3</string>
+	<string>1.0.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

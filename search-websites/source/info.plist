@@ -37,7 +37,7 @@
 				<key>destinationuid</key>
 				<string>372E77E2-384E-43C3-BD73-4BB5A7C20217</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -47,7 +47,7 @@
 				<key>destinationuid</key>
 				<string>97284051-75B8-4F64-BA98-C093E359B395</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -72,7 +72,7 @@
 				<key>destinationuid</key>
 				<string>FA001863-392A-4240-9E55-6283C586987C</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -82,7 +82,7 @@
 				<key>destinationuid</key>
 				<string>5E4FDE0C-DCC0-40D4-B548-364FE03E7151</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -232,7 +232,7 @@
 				<key>destinationuid</key>
 				<string>954F6FC8-475B-411C-B4DA-A7C5613349DE</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -242,7 +242,7 @@
 				<key>destinationuid</key>
 				<string>497D428D-44EB-4F12-A89E-43220E8730AA</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -265,7 +265,7 @@
 				<key>destinationuid</key>
 				<string>8BDE6E12-EFBA-4408-9C99-04CE6AFCF808</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -285,7 +285,7 @@
 				<key>destinationuid</key>
 				<string>F3C20E3B-6DCF-4EB0-BA69-6694FC2509CF</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -321,7 +321,7 @@
 				<key>destinationuid</key>
 				<string>8DF92B38-FB6E-4722-9F7C-BF5D3AD61652</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -341,7 +341,7 @@
 				<key>destinationuid</key>
 				<string>44273CCE-64E8-4058-957C-B70A4204796B</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -410,7 +410,7 @@
 				<key>destinationuid</key>
 				<string>4C94DB07-8D10-432C-A785-37383D122BB9</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -473,7 +473,7 @@
 				<key>destinationuid</key>
 				<string>B9477422-86E3-4CC1-9038-7DC4989C0D43</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -483,7 +483,7 @@
 				<key>destinationuid</key>
 				<string>16BB5E60-1A1D-491F-BCFD-12665E5A8625</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -529,7 +529,7 @@
 				<key>destinationuid</key>
 				<string>886D7311-A63A-4898-87AF-0D5CB50E00B0</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>latest</string>
 				<key>vitoclose</key>
@@ -549,7 +549,7 @@
 				<key>destinationuid</key>
 				<string>2785BB06-07D9-43BC-8F7B-8EC54D369976</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -592,7 +592,7 @@
 				<key>destinationuid</key>
 				<string>159BC66B-2548-414B-8707-F0B166B18481</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -612,7 +612,7 @@
 				<key>destinationuid</key>
 				<string>0A552701-634E-48C6-8E5C-546157CC5EC2</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -714,7 +714,7 @@
 				<key>destinationuid</key>
 				<string>14DB1259-6106-4445-8EC5-E09746A23D34</string>
 				<key>modifiers</key>
-				<integer>0</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -742,7 +742,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Godoc | ⌃ = GitHub (Go) | ⌘ = Gists (Go)</string>
+				<string>Godoc | ⌘ = GitHub (Go) | ⌃ = Gists (Go)</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -871,7 +871,7 @@
 				<key>subtext</key>
 				<string>⌥ = Most stars | FN = Most forks</string>
 				<key>text</key>
-				<string>Best match | ⌃ = Latest | ⌘ = Top users</string>
+				<string>Best match | ⌘ = Latest | ⌃ = Top users</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1137,7 +1137,7 @@ fi</string>
 				<key>subtext</key>
 				<string>⌥ = New | FN = Top</string>
 				<key>text</key>
-				<string>All time | ⌃  = Month | ⌘ = This week</string>
+				<string>All time | ⌘  = Month | ⌃ = This week</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1184,7 +1184,7 @@ fi</string>
 				<key>subtext</key>
 				<string>⌥ = Tags</string>
 				<key>text</key>
-				<string>Stories | ⌃ = People | ⌘ = Publications</string>
+				<string>Stories | ⌘ = People | ⌃ = Publications</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1463,7 +1463,7 @@ fi</string>
 				<key>subtext</key>
 				<string>⌥ = Past month | FN = Past year</string>
 				<key>text</key>
-				<string>All time | ⌃ = Most recent | ⌘ = Past week</string>
+				<string>All time | ⌘ = Most recent | ⌃ = Past week</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1510,7 +1510,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Stack | ⌃ = Newest | ⌘ = Most votes</string>
+				<string>Stack | ⌘ = Newest | ⌃ = Most votes</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1677,7 +1677,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Top | ⌃ = Latest | ⌥ = Users</string>
+				<string>Top | ⌘ = Latest | ⌥ = Users</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1736,7 +1736,7 @@ fi</string>
 				<key>subtext</key>
 				<string>⌥ = Comments (Highest) | FN = Stories (Highest)</string>
 				<key>text</key>
-				<string>Stories | ⌃ = Newest stories | ⌘ = Comments</string>
+				<string>Stories | ⌘ = Newest stories | ⌃ = Comments</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1903,7 +1903,7 @@ fi</string>
 				<key>subtext</key>
 				<string>⌥ = Books</string>
 				<key>text</key>
-				<string>Top seed | ⌃ = Most recent | ⌘ = Apps</string>
+				<string>Top seed | ⌘ = Most recent | ⌃ = Apps</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1988,7 +1988,7 @@ fi</string>
 				<key>subtext</key>
 				<string>⌥ = Topics | FN = Answers</string>
 				<key>text</key>
-				<string>Quora | ⌃ = Questions | ⌘ = Profiles</string>
+				<string>Quora | ⌘ = Questions | ⌃ = Profiles</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -2078,27 +2078,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>dribble</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Popular | ⌃ - recent</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>EA56BE8E-1B06-49AD-99A3-14B9866FEBB2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -2112,6 +2091,27 @@ fi</string>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>AEAA2594-0491-4305-B9F4-7326D2F2BA94</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dribble</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Popular | ⌘ - recent</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EA56BE8E-1B06-49AD-99A3-14B9866FEBB2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2171,9 +2171,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>14DB1259-6106-4445-8EC5-E09746A23D34</key>
 		<dict>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>420</integer>
 			<key>ypos</key>
-			<integer>3670</integer>
+			<integer>3650</integer>
 		</dict>
 		<key>159BC66B-2548-414B-8707-F0B166B18481</key>
 		<dict>
@@ -2525,9 +2525,9 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>AEAA2594-0491-4305-B9F4-7326D2F2BA94</key>
 		<dict>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>420</integer>
 			<key>ypos</key>
-			<integer>3540</integer>
+			<integer>3520</integer>
 		</dict>
 		<key>B05BB7FD-F32E-467B-B304-4D43E152045B</key>
 		<dict>
@@ -2678,7 +2678,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.7</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

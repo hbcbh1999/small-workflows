@@ -526,7 +526,7 @@
 				<key>destinationuid</key>
 				<string>7F8DB8C3-9FB8-495E-9D2B-259583053E11</string>
 				<key>modifiers</key>
-				<integer>8388608</integer>
+				<integer>524288</integer>
 				<key>modifiersubtext</key>
 				<string>Open in preview</string>
 				<key>vitoclose</key>
@@ -1365,57 +1365,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>E0B00032-AC63-487D-9637-FB56E38B46F6</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string># Extract file name from a given path removing prefixes.
-# i.e. Given /Users/nikivi/Documents/books/b. daniel kahneman - thinking, fast and slow.pdf
-# =&gt; daniel kahneman - thinking, fast and slow.pdf
-
-# Get path to file
-file="$1"
-
-# Get file name from given path
-file=$(basename "$file" .pdf)
-
-# Remove dotted prefix if it exists (b. name =&gt; name)
-echo -n ${file#?. }</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E1849ACF-9B60-425C-881C-FCA639BD9ACF</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>anchorfields</key>
 				<true/>
 				<key>argumenttrimmode</key>
@@ -1516,6 +1465,57 @@ echo -n ${file#?. }</string>
 			<string>8D09B042-C813-409A-AD8D-A266C95CD5DE</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E0B00032-AC63-487D-9637-FB56E38B46F6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Extract file name from a given path removing prefixes.
+# i.e. Given /Users/nikivi/Documents/books/b. daniel kahneman - thinking, fast and slow.pdf
+# =&gt; daniel kahneman - thinking, fast and slow.pdf
+
+# Get path to file
+file="$1"
+
+# Get file name from given path
+file=$(basename "$file" .pdf)
+
+# Remove dotted prefix if it exists (b. name =&gt; name)
+echo -n ${file#?. }</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E1849ACF-9B60-425C-881C-FCA639BD9ACF</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>type</key>
@@ -3057,7 +3057,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>770</integer>
 			<key>ypos</key>
-			<integer>470</integer>
+			<integer>540</integer>
 		</dict>
 		<key>17360B10-3B59-4E14-A43D-D426631B0E0D</key>
 		<dict>
@@ -3390,7 +3390,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>1020</integer>
 			<key>ypos</key>
-			<integer>440</integer>
+			<integer>510</integer>
 		</dict>
 		<key>E1827A97-E97E-4721-BCA8-0C0ADA466A3C</key>
 		<dict>
@@ -3406,7 +3406,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>850</integer>
 			<key>ypos</key>
-			<integer>440</integer>
+			<integer>510</integer>
 		</dict>
 		<key>E38EC5CE-AEAC-4D81-BD34-723C8981F613</key>
 		<dict>
@@ -3508,7 +3508,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.5</string>
+	<string>1.0.6</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

@@ -24,7 +24,7 @@
 				<key>destinationuid</key>
 				<string>D0BE0533-09B2-4A09-BBF9-7745BBCCA530</string>
 				<key>modifiers</key>
-				<integer>262144</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open in Chrome</string>
 				<key>vitoclose</key>
@@ -34,7 +34,7 @@
 				<key>destinationuid</key>
 				<string>BF48C5AD-B1FE-4E7B-AEAD-A05394A7082D</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Open in Firefox</string>
 				<key>vitoclose</key>
@@ -304,7 +304,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
