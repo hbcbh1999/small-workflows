@@ -2,3 +2,6 @@
 > A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) for various apps I use.
 
 ![](https://i.imgur.com/3sB165H.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

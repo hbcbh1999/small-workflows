@@ -2,3 +2,6 @@
 > File actions to quickly open file/folder in the application without going to `Open with...` menu
 
 ![](https://i.imgur.com/WsyaSkn.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

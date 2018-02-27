@@ -2,3 +2,6 @@
 > Search for a month and copy the month number to your clipboard.
 
 ![](https://i.imgur.com/HWiNG4e.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

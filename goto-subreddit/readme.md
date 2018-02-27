@@ -2,3 +2,6 @@
 > Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
 
 ![](https://i.imgur.com/8n88O2z.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

@@ -7,3 +7,6 @@ It can:
 3. **Toggle wifi on/off** - If on, will turn it off, if off will turn it on.
 
 ![](https://i.imgur.com/HgSUSnH.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

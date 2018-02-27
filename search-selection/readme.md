@@ -5,3 +5,6 @@ You can customise the hotkeys to ones you like. To make things easier for myself
 - I also heavily use [Web Searches workflow](https://github.com/nikitavoloboev/alfred-web-searches) to search selected text on a wider array of websites.
 
 ![](https://i.imgur.com/2n7XAYF.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

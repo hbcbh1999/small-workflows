@@ -6,3 +6,6 @@ Currently contains only [Vitor's](https://github.com/vitorgalvao) [OneUpdater](h
 I use this workflow to quickly copy useful premade objects to my workflows.
 
 ![](https://i.imgur.com/VYrTQfi.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

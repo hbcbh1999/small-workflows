@@ -30,6 +30,7 @@
 - [Local host](local-host#readme) - Open port that you specify at local host.
 - [Open with app](open-with-app#readme) - File actions to quickly open file/folder in the application without going to `Open with...` menu.
 - [Todo task](todo-task#readme) - Write a task and save it to small file. Can then have Bitbar or Hammerspoon show contents of the task.
+- [Birthday](birthday#readme) - See time passed since your birthday.
 
 ## Workflow Augmentations
 Below are workflows that were not made by me, I just augmented them in my own way to make them 'better' (for me).

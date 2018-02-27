@@ -2,3 +2,6 @@
 > Search through dictionary.
 
 ![](https://i.imgur.com/yPy8420.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

@@ -4,3 +4,6 @@
 I use it to quickly iterate on Karabiner.
 
 ![](https://i.imgur.com/ZHmWxRQ.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

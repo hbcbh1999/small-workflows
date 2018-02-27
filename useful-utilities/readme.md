@@ -2,3 +2,6 @@
 > Only has one utilty, to search selected text in Alfred.
 
 ![](https://i.imgur.com/7TIrBQh.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

@@ -2,3 +2,6 @@
 > Two actions to search through the inside PDF and MindNode documents.
 
 ![](https://i.imgur.com/odbuhrZ.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

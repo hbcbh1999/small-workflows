@@ -4,3 +4,6 @@
 I also add many modifier key options to scope my searches better.
 
 ![](https://i.imgur.com/ks4grwJ.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

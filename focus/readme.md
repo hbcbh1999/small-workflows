@@ -2,3 +2,6 @@
 > Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 
 ![](https://i.imgur.com/hcYdNyW.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

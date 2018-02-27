@@ -2,3 +2,6 @@
 > Turn your keboard on and off.
 
 ![](https://i.imgur.com/NsJJb2p.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

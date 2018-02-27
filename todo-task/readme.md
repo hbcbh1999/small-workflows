@@ -28,3 +28,6 @@ And then changing the folder here:
 ![](https://i.imgur.com/agl6XXD.png)
 
 Default folder is `~/app/hammerspoon` which most certainly won't work for you as you won't have this folder. So change it to where you want the `todo` file to live!
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

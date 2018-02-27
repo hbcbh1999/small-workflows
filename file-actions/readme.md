@@ -2,3 +2,6 @@
 > Various file actions I made to operate on files and folders.
 
 ![](https://i.imgur.com/VSba3nm.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).

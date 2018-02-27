@@ -12,3 +12,6 @@ For quickly editing README's of folders I use this [workflow](../folder-search) 
 There is also alternative action that will commit only the README file inside the folder with a commit message you write.
 
 ![](https://i.imgur.com/chzfkue.png)
+
+## Contributing
+See [contribution guidelines](../CONTRIBUTING.md#readme).
