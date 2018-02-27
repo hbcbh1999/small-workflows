@@ -16,7 +16,6 @@
 - [Search for Content](search-for-content#readme) - Two actions to search through the insides of PDF and MindNode documents.
 - [Month numbers](month-numbers#readme) - Search for a month and copy the month number to your clipboard.
 - [WiFi Tools](wifi-tools#readme) - Check wifi connection / Restart wifi / Toggle it on/off.
-- [Imgur Download](imgur-download#readme) - Download Imgur album currently open in your browser to location you specify.
 - [Karabiner Reload](karabiner-reload#readme) - Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.
 - [Clean Folders](clean-folders#readme) - Trash items from Desktop and clean certain folders like removing .alfredworkflows from ~/Downloads.
 - [Folder Search](folder-search#readme) - Search folders from Alfred and open them in Finder/iTerm/Editor.

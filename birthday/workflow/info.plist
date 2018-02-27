@@ -22,18 +22,7 @@
 			</dict>
 		</array>
 		<key>EA32160F-6A33-4317-9262-D5BD565E6F46</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>81156AF5-AC9D-44E9-ACA7-B55BB757E720</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 	</dict>
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
