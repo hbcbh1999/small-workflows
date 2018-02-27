@@ -1,4 +1,4 @@
-# Alfred Birthday - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/clean-folders/Birthday.alfredworkflow?raw=true)
+# Alfred Birthday - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/birthday/Birthday.alfredworkflow?raw=true)
 > See time passed since your birthday
 
 <img src="https://i.imgur.com/bMA9wTq.png" width="500" alt="img">
