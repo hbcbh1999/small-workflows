@@ -1,4 +1,4 @@
-# Alfred Birthday [![Workflows](https://img.shields.io/badge/More%20Workflows-🎩-purple.svg)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)](https://www.patreon.com/nikitavoloboev)
+# Alfred Birthday - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/clean-folders/Birthday.alfredworkflow?raw=true)
 > See time passed since your birthday
 
 <img src="https://i.imgur.com/bMA9wTq.png" width="500" alt="img">
@@ -12,4 +12,4 @@ Which you can open here:
 ![](https://i.imgur.com/Bwumi6L.png)
 
 ## Contributing
-See [contribution guidelines](../CONTRIBUTING.md#).
+See [contribution guidelines](../CONTRIBUTING.md#readme).
