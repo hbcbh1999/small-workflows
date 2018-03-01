@@ -268,19 +268,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>6430D177-9AAF-44FC-A844-D264D2D7ED0A</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>ED39D7BE-401A-41F6-80A1-776DB01C0E28</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>697F0623-BE00-4FB1-B872-61A20D4B6F53</key>
 		<array>
 			<dict>
@@ -743,19 +730,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E38EC5CE-AEAC-4D81-BD34-723C8981F613</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>6430D177-9AAF-44FC-A844-D264D2D7ED0A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>E5A08EF1-CBCE-46A5-9712-4CB6DC33292E</key>
 		<array>
 			<dict>
@@ -851,19 +825,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>ED39D7BE-401A-41F6-80A1-776DB01C0E28</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E8F71D2C-AA98-4D45-88EF-E86486440A4D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>F2FC4602-7565-408F-8B7D-3700E6A76BC2</key>
 		<array>
 			<dict>
@@ -905,18 +866,7 @@
 		<key>F622FD20-8EFF-47D0-A0ED-DE9F60AD3303</key>
 		<array/>
 		<key>F652ECF0-D147-45D4-B048-C666637BB84E</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E38EC5CE-AEAC-4D81-BD34-723C8981F613</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>F9A22CBF-54F6-4C09-8C49-BB1866BD79DB</key>
 		<array>
 			<dict>
@@ -2458,25 +2408,6 @@ echo -n ${file#?. }</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>3</string>
-				<key>keycode</key>
-				<integer>-1</integer>
-				<key>keymod</key>
-				<integer>1048576</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
-			<key>uid</key>
-			<string>E8F71D2C-AA98-4D45-88EF-E86486440A4D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>openwith</key>
 				<string>/Applications/Ulysses.app</string>
 				<key>sourcefile</key>
@@ -2488,25 +2419,6 @@ echo -n ${file#?. }</string>
 			<string>F652ECF0-D147-45D4-B048-C666637BB84E</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>⇥</string>
-				<key>keycode</key>
-				<integer>48</integer>
-				<key>keymod</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
-			<key>uid</key>
-			<string>6430D177-9AAF-44FC-A844-D264D2D7ED0A</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2580,6 +2492,7 @@ echo -n ${file#?. }</string>
 				<key>scopes</key>
 				<array>
 					<string>~/Library/Mobile Documents/X5AZV975AG~com~soulmen~ulysses3/Documents/Library/Groups-ulgroup</string>
+					<string>~/Library/Mobile Documents/X5AZV975AG~com~soulmen~ulysses3/Documents/Library/Unfiled-ulgroup</string>
 				</array>
 				<key>subtext</key>
 				<string></string>
@@ -2596,32 +2509,6 @@ echo -n ${file#?. }</string>
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
 			<string>78024F5D-3C7F-4A7A-B9D7-1FA3D15BB40C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>seconds</key>
-				<string>0.3</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
-			<key>uid</key>
-			<string>E38EC5CE-AEAC-4D81-BD34-723C8981F613</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>seconds</key>
-				<string>0.3</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
-			<key>uid</key>
-			<string>ED39D7BE-401A-41F6-80A1-776DB01C0E28</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2829,6 +2716,7 @@ echo -n ${file#?. }</string>
 				<key>scopes</key>
 				<array>
 					<string>~/Library/Mobile Documents/X5AZV975AG~com~soulmen~ulysses3/Documents/Library/Groups-ulgroup</string>
+					<string>~/Library/Mobile Documents/X5AZV975AG~com~soulmen~ulysses3/Documents/Library/Unfiled-ulgroup</string>
 				</array>
 				<key>subtext</key>
 				<string></string>
@@ -3175,13 +3063,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>2080</integer>
 		</dict>
-		<key>6430D177-9AAF-44FC-A844-D264D2D7ED0A</key>
-		<dict>
-			<key>xpos</key>
-			<integer>620</integer>
-			<key>ypos</key>
-			<integer>1780</integer>
-		</dict>
 		<key>697F0623-BE00-4FB1-B872-61A20D4B6F53</key>
 		<dict>
 			<key>xpos</key>
@@ -3408,26 +3289,12 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>510</integer>
 		</dict>
-		<key>E38EC5CE-AEAC-4D81-BD34-723C8981F613</key>
-		<dict>
-			<key>xpos</key>
-			<integer>550</integer>
-			<key>ypos</key>
-			<integer>1810</integer>
-		</dict>
 		<key>E5A08EF1-CBCE-46A5-9712-4CB6DC33292E</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>180</integer>
-		</dict>
-		<key>E8F71D2C-AA98-4D45-88EF-E86486440A4D</key>
-		<dict>
-			<key>xpos</key>
-			<integer>860</integer>
-			<key>ypos</key>
-			<integer>1780</integer>
 		</dict>
 		<key>E9C875FF-688D-4B28-B3CC-8782CE860703</key>
 		<dict>
@@ -3456,13 +3323,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>190</integer>
 			<key>ypos</key>
 			<integer>990</integer>
-		</dict>
-		<key>ED39D7BE-401A-41F6-80A1-776DB01C0E28</key>
-		<dict>
-			<key>xpos</key>
-			<integer>780</integer>
-			<key>ypos</key>
-			<integer>1810</integer>
 		</dict>
 		<key>F2FC4602-7565-408F-8B7D-3700E6A76BC2</key>
 		<dict>
@@ -3508,7 +3368,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.6</string>
+	<string>1.0.7</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>

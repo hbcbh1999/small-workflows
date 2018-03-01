@@ -62,7 +62,7 @@ You can take some inspiration or ideas from these workflows if you wish.
 - [Manage wiki](https://github.com/nikitavoloboev/small-workflows/blob/master/personal/Manage%20wiki.alfredworkflow?raw=true) - I use it to manage editing and extending my [knowledge](https://github.com/nikitavoloboev/knowledge) wiki.
 
 ## Other workflows
-You can view my other _bigger_ workflows [here](https://wiki.nikitavoloboev.xyz/sharing/my-github.html#alfred). And you can also view this [curated list of amazing workflows](https://github.com/learn-anything/alfred-workflows#readme).
+You can view my other _bigger_ workflows I made [here](https://wiki.nikitavoloboev.xyz/sharing/my-github.html#alfred). And you can also view this [curated list of amazing workflows](https://github.com/learn-anything/alfred-workflows#readme).
 
 ## Contributing
 See [contribution guidelines](CONTRIBUTING.md#readme).
