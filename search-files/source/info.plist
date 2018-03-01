@@ -254,7 +254,18 @@
 			</dict>
 		</array>
 		<key>5DB41AFC-A356-4249-892A-68E246E9D7CC</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2DA3C1E7-A901-4BFE-BCEB-2028A05A3749</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6370D5BD-C1C2-4A63-8E93-B2AC32C8CAC9</key>
 		<array>
 			<dict>
@@ -3368,7 +3379,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.7</string>
+	<string>1.0.8</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
