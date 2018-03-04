@@ -199,6 +199,19 @@
 		</array>
 		<key>2B28745F-BD75-465E-8E0C-6360A106B7D3</key>
 		<array/>
+		<key>3053E552-E0AE-4B7E-9967-8D50924ECA77</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E94EE62C-1166-4E2E-BC29-60A12EC07852</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4B48B259-81B0-43BF-A520-5CEE3B2236DE</key>
 		<array>
 			<dict>
@@ -254,18 +267,7 @@
 			</dict>
 		</array>
 		<key>5DB41AFC-A356-4249-892A-68E246E9D7CC</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>2DA3C1E7-A901-4BFE-BCEB-2028A05A3749</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>6370D5BD-C1C2-4A63-8E93-B2AC32C8CAC9</key>
 		<array>
 			<dict>
@@ -584,6 +586,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>4F4F99EB-EF81-4FDF-ABD1-4BCEC99DCB31</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AF20B922-2663-4446-B975-0919DEDA5777</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3053E552-E0AE-4B7E-9967-8D50924ECA77</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -2419,6 +2434,98 @@ echo -n ${file#?. }</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>numi</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search Numi files</string>
+				<key>types</key>
+				<array>
+					<string>dyn.ah62d4rv4ge8067prre</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>3053E552-E0AE-4B7E-9967-8D50924ECA77</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Numi.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>E94EE62C-1166-4E2E-BC29-60A12EC07852</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>numi</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>AF20B922-2663-4446-B975-0919DEDA5777</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>openwith</key>
 				<string>/Applications/Ulysses.app</string>
 				<key>sourcefile</key>
@@ -2949,7 +3056,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>570</integer>
 			<key>ypos</key>
-			<integer>2110</integer>
+			<integer>2270</integer>
 		</dict>
 		<key>16EC7338-CE7B-4C56-99A8-41363D1DB4C9</key>
 		<dict>
@@ -2963,7 +3070,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>400</integer>
 			<key>ypos</key>
-			<integer>2330</integer>
+			<integer>2490</integer>
 		</dict>
 		<key>1902B045-C808-430E-B42A-CC81CE14CAE7</key>
 		<dict>
@@ -2998,7 +3105,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>800</integer>
 			<key>ypos</key>
-			<integer>2110</integer>
+			<integer>2270</integer>
 		</dict>
 		<key>2B28745F-BD75-465E-8E0C-6360A106B7D3</key>
 		<dict>
@@ -3018,19 +3125,26 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
+		<key>3053E552-E0AE-4B7E-9967-8D50924ECA77</key>
+		<dict>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>1810</integer>
+		</dict>
 		<key>4B48B259-81B0-43BF-A520-5CEE3B2236DE</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>1780</integer>
+			<integer>1950</integer>
 		</dict>
 		<key>4F4F99EB-EF81-4FDF-ABD1-4BCEC99DCB31</key>
 		<dict>
 			<key>xpos</key>
 			<integer>600</integer>
 			<key>ypos</key>
-			<integer>1910</integer>
+			<integer>2080</integer>
 		</dict>
 		<key>50BBD5F7-F75D-4A8A-BEE7-9175CF0A9277</key>
 		<dict>
@@ -3044,14 +3158,14 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>790</integer>
 			<key>ypos</key>
-			<integer>2210</integer>
+			<integer>2370</integer>
 		</dict>
 		<key>58DA759B-1826-4109-B169-4717692DDF3C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>2100</integer>
+			<integer>2260</integer>
 		</dict>
 		<key>5A1A7DA4-7C17-4E7B-BBAB-371FAC981640</key>
 		<dict>
@@ -3072,7 +3186,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>640</integer>
 			<key>ypos</key>
-			<integer>2080</integer>
+			<integer>2240</integer>
 		</dict>
 		<key>697F0623-BE00-4FB1-B872-61A20D4B6F53</key>
 		<dict>
@@ -3100,7 +3214,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
-			<integer>1780</integer>
+			<integer>1950</integer>
 		</dict>
 		<key>79F6EA43-BAFD-4C44-A7CD-12C44A2CC9DB</key>
 		<dict>
@@ -3121,14 +3235,14 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>400</integer>
 			<key>ypos</key>
-			<integer>2200</integer>
+			<integer>2360</integer>
 		</dict>
 		<key>80B25E87-2DBA-485B-8C3D-CE6DE1F570FA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>630</integer>
 			<key>ypos</key>
-			<integer>2330</integer>
+			<integer>2490</integer>
 		</dict>
 		<key>879DE37A-69B1-442F-844D-124999D995D3</key>
 		<dict>
@@ -3163,7 +3277,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>370</integer>
 			<key>ypos</key>
-			<integer>1910</integer>
+			<integer>2080</integer>
 		</dict>
 		<key>983D785B-9B16-4F4B-A8E9-1E5B0174E9C9</key>
 		<dict>
@@ -3177,7 +3291,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
-			<integer>2100</integer>
+			<integer>2260</integer>
 		</dict>
 		<key>9BCF53A1-B4BD-45BA-9F0C-80F2871DC37B</key>
 		<dict>
@@ -3198,28 +3312,35 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>630</integer>
 			<key>ypos</key>
-			<integer>2210</integer>
+			<integer>2370</integer>
 		</dict>
 		<key>ABA93593-096C-4A33-B82C-0B29FDE246CA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>530</integer>
 			<key>ypos</key>
-			<integer>1940</integer>
+			<integer>2110</integer>
+		</dict>
+		<key>AF20B922-2663-4446-B975-0919DEDA5777</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>1810</integer>
 		</dict>
 		<key>B0807B90-5769-485D-9BBA-01649E13BCC9</key>
 		<dict>
 			<key>xpos</key>
 			<integer>860</integer>
 			<key>ypos</key>
-			<integer>1910</integer>
+			<integer>2080</integer>
 		</dict>
 		<key>B11AE420-B0F6-495A-AA99-870889A03206</key>
 		<dict>
 			<key>xpos</key>
 			<integer>550</integer>
 			<key>ypos</key>
-			<integer>2360</integer>
+			<integer>2520</integer>
 		</dict>
 		<key>B964994F-932B-476E-A943-CB2EC8B05062</key>
 		<dict>
@@ -3247,14 +3368,14 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>790</integer>
 			<key>ypos</key>
-			<integer>1940</integer>
+			<integer>2110</integer>
 		</dict>
 		<key>D7444218-1C7E-4EE7-8413-40E054F7D0A6</key>
 		<dict>
 			<key>xpos</key>
 			<integer>550</integer>
 			<key>ypos</key>
-			<integer>2230</integer>
+			<integer>2390</integer>
 		</dict>
 		<key>DA795FD7-609F-42D7-A8C1-B48F8DAA4D5E</key>
 		<dict>
@@ -3268,7 +3389,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>880</integer>
 			<key>ypos</key>
-			<integer>2080</integer>
+			<integer>2240</integer>
 		</dict>
 		<key>DD7511BF-53AD-4FD6-866D-6FBA21806009</key>
 		<dict>
@@ -3307,6 +3428,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>180</integer>
 		</dict>
+		<key>E94EE62C-1166-4E2E-BC29-60A12EC07852</key>
+		<dict>
+			<key>xpos</key>
+			<integer>370</integer>
+			<key>ypos</key>
+			<integer>1810</integer>
+		</dict>
 		<key>E9C875FF-688D-4B28-B3CC-8782CE860703</key>
 		<dict>
 			<key>xpos</key>
@@ -3340,7 +3468,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>410</integer>
 			<key>ypos</key>
-			<integer>2080</integer>
+			<integer>2240</integer>
 		</dict>
 		<key>F37F9D1D-B30E-42B4-A576-E3EA5B9F742E</key>
 		<dict>
@@ -3368,7 +3496,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>370</integer>
 			<key>ypos</key>
-			<integer>1780</integer>
+			<integer>1950</integer>
 		</dict>
 		<key>F9A22CBF-54F6-4C09-8C49-BB1866BD79DB</key>
 		<dict>
@@ -3379,7 +3507,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.8</string>
+	<string>1.0.9</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
