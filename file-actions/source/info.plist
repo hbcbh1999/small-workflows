@@ -315,9 +315,9 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>cp -r "$@" ~/Desktop</string>
+				<string>cp -r "{query}" ~/Desktop</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -372,9 +372,9 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv "$@" "/Users/nikivi/Music/iTunes/Automatically Add to iTunes.localized"</string>
+				<string>mv "{query}" ~/Music/iTunes/Automatically\ Add\ to\ iTunes.localized</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -395,9 +395,9 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv "$@" /Applications</string>
+				<string>mv "{query}" /Applications</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -592,9 +592,9 @@ fi</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>mv "$@" ~/Desktop</string>
+				<string>mv "{query}" ~/Desktop</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -632,12 +632,12 @@ fi</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>for var in "$@"
+				<string>for var in "{query}"
 do
 	mv "$var" ~/.Trash
 done</string>
 				<key>scriptargtype</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>type</key>
@@ -1023,7 +1023,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.8</string>
+	<string>1.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
