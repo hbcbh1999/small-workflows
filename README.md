@@ -14,7 +14,7 @@
 - [Focus](focus#readme) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 - [Dictionary](dictionary#readme) - Search through dictionary.
 - [Useful utilities](useful-utilities#readme) - Only has one utilty, to search selected text in Alfred.
-- [Search for Content](search-for-content#readme) - Two actions to search through the insides of PDF and MindNode documents.
+- [Search for Content](search-for-content#readme) - Actions to search through the insides of PDF and MindNode documents as well as contacts.
 - [Month numbers](month-numbers#readme) - Search for a month and copy the month number to your clipboard.
 - [WiFi Tools](wifi-tools#readme) - Check wifi connection / Restart wifi / Toggle it on/off.
 - [Karabiner Reload](karabiner-reload#readme) - Reload [Old Karabiner](https://github.com/tekezo/Karabiner) configuration.

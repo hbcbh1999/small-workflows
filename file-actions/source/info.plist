@@ -48,7 +48,18 @@
 			</dict>
 		</array>
 		<key>237B73E3-34B1-4219-A931-904504531BA1</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A6F260B-D51D-4E14-80AE-876E69833BF8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>3A020D59-FE40-4328-A767-B5725A876915</key>
 		<array>
 			<dict>
@@ -480,7 +491,7 @@ tell application "System Events"	if frontmost of process "iTerm2" is false then
 readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/file-actions/source/info.plist"
 readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/file-actions/File%20actions.alfredworkflow"
 readonly download_type='direct'
-readonly frequency_check='7'
+readonly frequency_check='0'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {
@@ -1023,7 +1034,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.0.8</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows</string>
 </dict>
