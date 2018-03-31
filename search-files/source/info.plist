@@ -1395,7 +1395,9 @@ fi</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
-				<array/>
+				<array>
+					<string>~/Documents</string>
+				</array>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
