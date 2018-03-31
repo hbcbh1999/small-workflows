@@ -148,7 +148,7 @@ fi</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Go","arg":"dash:\/\/go:"},{"title":"Web","arg":"dash:\/\/web:"},{"title":"Python","arg":"dash:\/\/python:"},{"title":"All","arg":"dash:\/\/all:"},{"title":"Haskell","arg":"dash:\/\/haskell:"},{"title":"React","arg":"dash:\/\/react:"},{"title":"Alfred","arg":"dash:\/\/alfred:"},{"title":"Java","arg":"dash:\/\/java:"},{"title":"Go CLI","arg":"dash:\/\/gocli:"},{"title":"Node.js","arg":"dash:\/\/nodejs:"},{"title":"Hammerspoon","arg":"dash:\/\/hammerspoon:"}]</string>
+				<string>[{"title":"Go","arg":"dash:\/\/go:"},{"title":"Web","arg":"dash:\/\/web:"},{"title":"Python","arg":"dash:\/\/python:"},{"title":"All","arg":"dash:\/\/all:"},{"title":"Haskell","arg":"dash:\/\/haskell:"},{"title":"React","arg":"dash:\/\/react:"},{"title":"Alfred","arg":"dash:\/\/alfred:"},{"title":"Java","arg":"dash:\/\/java:"},{"title":"Go CLI","arg":"dash:\/\/gocli:"},{"title":"Node.js","arg":"dash:\/\/nodejs:"},{"title":"Hammerspoon","arg":"dash:\/\/hammerspoon:"},{"title":"LaTeX","arg":"dash:\/\/latex:"}]</string>
 				<key>keyword</key>
 				<string>ds</string>
 				<key>runningsubtext</key>
